@@ -107,6 +107,15 @@ SKILLS = OrderedDict(
                 "IOCTL paths, DSE, PatchGuard, PiDDBCache, hostile drivers.",
             ),
         ),
+        (
+            "awesome-game-security-index",
+            (
+                None,
+                "Query the whole index on demand: 3434 curated game-security "
+                "links across 35 sections, with a JSON dataset and a query CLI "
+                "so an agent reads only the entries it needs.",
+            ),
+        ),
     ]
 )
 
@@ -283,16 +292,114 @@ def sub_link(grp, section: str, subsection: str) -> str:
     return f"../../docs/{base}.md"
 
 
+def query_skill_body(skill_name: str, purpose: str, coverage) -> list[str]:
+    """Body for the umbrella skill that queries the dataset instead of listing it.
+
+    The nine domain skills assume the agent reads docs pages. That works for
+    "what is in the Anti Cheat section" but not for "which projects hook
+    DirectX 12" — the agent would have to guess a page and read it whole. This
+    skill points at scripts/query.py, which answers from entries.jsonl and
+    returns bounded records with the page each one lives on.
+    """
+    return [
+        "---",
+        f"name: {skill_name}",
+        "description: >-",
+        "  Query a curated index of 3434 game-security research links (35 sections,",
+        "  267 subsections: cheat techniques, anti-cheat architecture, kernel security,",
+        "  DMA, graphics API hooking, mobile reversing, reverse-engineering tools,",
+        "  engine internals) without loading the dataset into context. Use this skill",
+        "  whenever the user asks where to find a project, paper, blog, source dump or",
+        "  tool about game hacking, game cheating, anti-cheat, memory scanning, DLL",
+        "  injection, kernel drivers, hypervisors, hooking, Frida, Magisk, Zygisk,",
+        "  IDA plugins, Unreal/Unity internals, VMP/Themida/OLLVM unpacking, or asks",
+        "  for a reading list, a resource list, or to search this repository's index.",
+        "---",
+        "",
+        f"# {skill_name}",
+        "",
+        purpose,
+        "",
+        "## Query, do not read",
+        "",
+        "`data/entries.jsonl` is 989 KB over 3439 records. Reading it whole costs a",
+        "context window and still does not answer a specific question. Use the CLI:",
+        "",
+        "```bash",
+        "python scripts/query.py --q <terms>          # all terms must match (AND)",
+        "python scripts/query.py --section \"Anti Cheat\"",
+        "python scripts/query.py --sub Frida --no-mirror",
+        "python scripts/query.py --host unknowncheats.me",
+        "python scripts/query.py --sections           # section/subsection map with counts",
+        "python scripts/query.py --stats              # dataset health and host spread",
+        "python scripts/query.py --q ida --json       # records instead of markdown",
+        "```",
+        "",
+        "Every hit prints the docs page and source README line that owns it, so a",
+        "follow-up read is one file open, not a search. Exit codes: `0` hit, `1` no",
+        "hit, `2` dataset missing.",
+        "",
+        "Both outputs are relative to the repository, not to your current directory:",
+        "`page:` names a file under `docs/` and `line:` names a line in",
+        "`upstream/README.md`. If this skill was installed standalone",
+        "(`scripts/install_skill.py`) those two paths are provenance rather than",
+        "something on disk here — cite the URL, and open the page at",
+        "`https://github.com/snnowskin/awesome-game-security/blob/main/<page>`.",
+        "When `query.py` lives inside a full checkout it finds `data/` on its own;",
+        "set `GS_INDEX_ROOT` only if the script was copied away from `data/`.",
+        "",
+        "Reading rules that keep the cost down:",
+        "",
+        "- Start with `--sections` when the vocabulary is unknown; the subsection",
+        "  names are the query terms that actually work.",
+        "- Prefer 2-3 narrow terms over one broad one (`--q \"vulkan overlay\"` beats",
+        "  `--q hook`).",
+        "- Add `--no-mirror` when the goal is to cite the original project: mirror",
+        "  entries point at `gmh5225/*` forks of somebody else's work.",
+        "- Raise `--limit` only after narrowing; the default 20 is deliberate.",
+        "",
+        "## README Coverage",
+        "",
+        "Section map with entry counts, derived at build time from `data/sections.json`:",
+        "",
+        *coverage,
+        "",
+        "## When to use a domain skill instead",
+        "",
+        "The nine siblings under `skills/` each open with a curated subsection list",
+        "for one domain. Reach for them when the question is already scoped",
+        "(`anti-cheat-systems`, `dma-attack-techniques`, `graphics-api-hooking`,",
+        "`mobile-security`, `windows-kernel-security`, `game-hacking-techniques`,",
+        "`reverse-engineering-tools`, `game-engine-resources`,",
+        "`awesome-game-security-overview`). Use this skill when the question spans",
+        "domains, when the exact term is unknown, or when you need counts and paths.",
+        "",
+        "## Source of truth",
+        "",
+        "- `data/entries.jsonl` — one JSON record per entry: url, title, desc, section,",
+        "  sub, host, owner, repo, is_mirror, source `line`",
+        "- `data/sections.json` — section and subsection tree",
+        "- `data/report.txt` — audit: duplicates removed, malformed lines, mirror share",
+        "- `docs/` — 272 rendered pages; open one only after `query.py` names it",
+        "",
+    ]
+
+
 def build_skills(root: Path, grp, sections):
     """Emit one SKILL.md per domain with derived README Coverage."""
     out = []
     for skill_name, (owner_section, purpose) in SKILLS.items():
         coverage = []
 
-        if skill_name == "awesome-game-security-overview":
+        if skill_name in ("awesome-game-security-overview", "awesome-game-security-index"):
             for sec in sections["sections"]:
-                if grp.get(sec["name"]):
-                    coverage.append(f"- [{sec['name']}](../../docs/{section_page(grp, sec['name'])})")
+                subs = grp.get(sec["name"])
+                if not subs:
+                    continue
+                total = sum(len(v) for v in subs.values())
+                link = f"../../docs/{section_page(grp, sec['name'])}"
+                label = section_page(grp, sec["name"])
+                coverage.append(f"- {sec['name']} ({total}) → [{label}]({link})")
         elif owner_section:
             subs = grp.get(owner_section, OrderedDict())
             coverage.append(
@@ -347,6 +454,8 @@ def build_skills(root: Path, grp, sections):
             "- `data/report.txt` — audit: duplicates, malformed lines, mirror share",
             "",
         ]
+        if skill_name == "awesome-game-security-index":
+            body = query_skill_body(skill_name, purpose, coverage)
         path = root / "skills" / skill_name / "SKILL.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         with io.open(path, "w", encoding="utf-8", newline="\n") as f:
@@ -423,18 +532,42 @@ def build_readme(root: Path, entries, sections, grp, report_text: str):
     lines.append("")
     lines.append("## Skills for AI agents")
     lines.append("")
-    lines.append("Nine skill packages under `skills/`. Each one's `README Coverage` block is")
+    lines.append("Ten skill packages under `skills/`. Each one's `README Coverage` block is")
     lines.append("generated from the dataset, so it always matches the index.")
     lines.append("")
+    lines.append("`awesome-game-security-index` is the entry point: it wraps `scripts/query.py`,")
+    lines.append("which answers a question from `data/entries.jsonl` and returns the docs page")
+    lines.append("and README line for each hit. The nine domain skills each open with the")
+    lines.append("subsection list for one area, for when the question is already scoped.")
+    lines.append("")
+    lines.append("The paths in every skill are repository-relative. Two ways to use them:")
+    lines.append("")
     lines.append("```bash")
-    lines.append("# install into a compatible agent")
-    lines.append("npx skills add <your-org>/awesome-game-security-index --skill anti-cheat-systems")
+    lines.append("# a) standalone: copy the skill plus its data into the agent's skills dir")
+    lines.append("python scripts/install_skill.py --target ~/.codex/skills")
+    lines.append("")
+    lines.append("# b) from the checkout: point the agent at the repo, set GS_INDEX_ROOT")
+    lines.append("export GS_INDEX_ROOT=/path/to/this/repo")
+    lines.append("```")
+    lines.append("")
+    lines.append("The installed copy is about 1 MB and carries its own `data/`, so it needs")
+    lines.append("no environment variable; rerun `install_skill.py` after a rebuild.")
+    lines.append("")
+    lines.append("```bash")
+    lines.append("# from a checkout of this repository")
+    lines.append("cp -r skills/awesome-game-security-index ~/.codex/skills/")
+    lines.append("# or, if the agent's installer understands this repository layout")
+    lines.append("npx skills add snnowskin/awesome-game-security --skill awesome-game-security-index")
     lines.append("```")
     lines.append("")
     lines.append("| Skill | Focus |")
     lines.append("|---|---|")
     for skill_name, (_, purpose) in SKILLS.items():
         lines.append(f"| [`{skill_name}`](skills/{skill_name}/SKILL.md) | {purpose} |")
+    lines.append("")
+    lines.append("The skills assume the checkout is reachable. Installing one elsewhere")
+    lines.append("requires `GS_INDEX_ROOT` pointing at this repository, because")
+    lines.append("`query.py` reads `data/` from it.")
     lines.append("")
     lines.append("## Rebuild")
     lines.append("")

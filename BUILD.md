@@ -22,11 +22,13 @@ python scripts/lint.py
 1. every URL in `data/entries.jsonl` is rendered exactly once across `docs/`
 2. no mirror link is rendered without the `` `mirror` `` tag
 3. every docs page has an inbound link
-4. all nine skills exist with a `README Coverage` block
+4. all ten skills exist with a `README Coverage` block and a `description:`
 5. no absolute local path leaked into generated files
 6. every relative `.md` link resolves to a real file, treating the target as
    relative to the *linking* page (so `docs/cheat/index.md` links `guide.md`,
    while `skills/<name>/SKILL.md` links `../../docs/cheat/guide.md`)
+7. the umbrella query skill's promised `scripts/query.py` exists and answers a
+   smoke query (`--q kernel --limit 1`), so a documented CLI cannot rot
 
 ## Pipeline
 
@@ -43,11 +45,42 @@ data/report.txt             audit: duplicates, malformed lines, mirror share
         ▼
 README.md                   landing page
 docs/*.md                   272 pages; sections over 400 entries split per subsection
-skills/*/SKILL.md           9 skills, coverage derived from sections.json
+skills/*/SKILL.md           10 skills: 9 domain + 1 query umbrella
         │
         │ scripts/lint.py
         ▼
 exit 0 or a list of violations
+```
+
+## Querying instead of reading
+
+`data/entries.jsonl` is 989 KB. Loading it to answer "which projects hook Vulkan"
+spends a context window on 3400 irrelevant rows. `scripts/query.py` filters it:
+
+```bash
+python scripts/query.py --sections                       # what vocabulary exists
+python scripts/query.py --q "vulkan overlay" --no-mirror  # AND over url/title/desc/repo
+python scripts/query.py --section "Anti Cheat" --sub DMA
+python scripts/query.py --stats
+```
+
+Each hit prints the docs page and source README line that owns it, so the next
+read is one file open. Exit codes: `0` hit, `1` no hit, `2` dataset missing.
+`skills/awesome-game-security-index/SKILL.md` documents this for agents, and
+pick 7 above keeps the promise honest.
+
+## Installing the skill
+
+`scripts/install_skill.py` copies `SKILL.md`, `scripts/query.py` and
+`data/{entries.jsonl,sections.json}` into the agent's skills directory as a
+self-contained ~1 MB tree. That is deliberate: a skill that only links back to
+this checkout breaks when the checkout moves, so the installed copy carries its
+own `data/` and `query.py` resolves its root to the skill directory. Rerun the
+installer after rebuilding the dataset — the copy is a snapshot.
+
+```
+python scripts/install_skill.py                        # $CODEX_HOME/skills, ~/.codex/skills, ~/.claude/skills
+python scripts/install_skill.py --target D:/skills --force
 ```
 
 ## Why the parse is shape-tolerant

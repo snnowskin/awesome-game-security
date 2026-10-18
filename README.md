@@ -67,12 +67,32 @@ A machine-readable index derived from [gmh5225/awesome-game-security](https://gi
 
 ## Skills for AI agents
 
-Nine skill packages under `skills/`. Each one's `README Coverage` block is
+Ten skill packages under `skills/`. Each one's `README Coverage` block is
 generated from the dataset, so it always matches the index.
 
+`awesome-game-security-index` is the entry point: it wraps `scripts/query.py`,
+which answers a question from `data/entries.jsonl` and returns the docs page
+and README line for each hit. The nine domain skills each open with the
+subsection list for one area, for when the question is already scoped.
+
+The paths in every skill are repository-relative. Two ways to use them:
+
 ```bash
-# install into a compatible agent
-npx skills add <your-org>/awesome-game-security-index --skill anti-cheat-systems
+# a) standalone: copy the skill plus its data into the agent's skills dir
+python scripts/install_skill.py --target ~/.codex/skills
+
+# b) from the checkout: point the agent at the repo, set GS_INDEX_ROOT
+export GS_INDEX_ROOT=/path/to/this/repo
+```
+
+The installed copy is about 1 MB and carries its own `data/`, so it needs
+no environment variable; rerun `install_skill.py` after a rebuild.
+
+```bash
+# from a checkout of this repository
+cp -r skills/awesome-game-security-index ~/.codex/skills/
+# or, if the agent's installer understands this repository layout
+npx skills add snnowskin/awesome-game-security --skill awesome-game-security-index
 ```
 
 | Skill | Focus |
@@ -86,6 +106,11 @@ npx skills add <your-org>/awesome-game-security-index --skill anti-cheat-systems
 | [`awesome-game-security-overview`](skills/awesome-game-security-overview/SKILL.md) | Repository taxonomy, category mapping, contribution guidance, and navigation across offensive and defensive topics. |
 | [`reverse-engineering-tools`](skills/reverse-engineering-tools/SKILL.md) | Reverse engineering protected games and anti-cheat components across user mode, kernel mode, debuggers, dumps. |
 | [`windows-kernel-security`](skills/windows-kernel-security/SKILL.md) | Windows kernel internals for game security: callbacks, MMVAD, IOCTL paths, DSE, PatchGuard, PiDDBCache, hostile drivers. |
+| [`awesome-game-security-index`](skills/awesome-game-security-index/SKILL.md) | Query the whole index on demand: 3434 curated game-security links across 35 sections, with a JSON dataset and a query CLI so an agent reads only the entries it needs. |
+
+The skills assume the checkout is reachable. Installing one elsewhere
+requires `GS_INDEX_ROOT` pointing at this repository, because
+`query.py` reads `data/` from it.
 
 ## Rebuild
 

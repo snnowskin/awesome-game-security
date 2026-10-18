@@ -9,6 +9,7 @@ Checks
 4. every skill listed in SKILLS exists on disk and its coverage is non-empty
 5. no absolute local paths (F:\\, C:\\Users) leaked into generated files
 6. no duplicate URL appears in the rendered docs
+7. the umbrella query skill's promised scripts/query.py exists and answers
 
 Rationale: upstream has no linter, which is why it carries 228 duplicate
 groups and 5 malformed lines without anyone noticing. A list of 3400 links
@@ -124,14 +125,37 @@ def main() -> int:
 
     # 6. skills
     skill_dirs = sorted((root / "skills").glob("*/SKILL.md")) if (root / "skills").is_dir() else []
-    if len(skill_dirs) < 9:
-        errors.append(f"expected 9 skills, found {len(skill_dirs)}")
+    if len(skill_dirs) < 10:
+        errors.append(f"expected 10 skills, found {len(skill_dirs)}")
     for sk in skill_dirs:
         text = io.open(sk, encoding="utf-8").read()
         if "## README Coverage" not in text:
             errors.append(f"{sk.relative_to(root).as_posix()}: no README Coverage block")
         if "name:" not in text.split("---")[1]:
             errors.append(f"{sk.relative_to(root).as_posix()}: frontmatter missing name:")
+        if "description:" not in text.split("---")[1]:
+            errors.append(f"{sk.relative_to(root).as_posix()}: frontmatter missing description:")
+
+    # 7. the umbrella skill documents query.py, so the script it promises must
+    #    exist and still answer. A skill that points at a deleted script is
+    #    worse than no skill: the agent follows it and hits a dead end.
+    query_skill = root / "skills" / "awesome-game-security-index" / "SKILL.md"
+    query_script = root / "scripts" / "query.py"
+    if not query_skill.is_file():
+        errors.append("skills/awesome-game-security-index/SKILL.md missing")
+    elif not query_script.is_file():
+        errors.append("query skill exists but scripts/query.py is missing")
+    else:
+        import subprocess
+
+        proc = subprocess.run(
+            [sys.executable, str(query_script), "--q", "kernel", "--limit", "1"],            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+        if proc.returncode != 0:
+            errors.append(f"scripts/query.py failed a smoke query (exit {proc.returncode})")
 
     print(f"md files      : {len(md_files)}")
     print(f"dataset urls  : {len(urls)}")

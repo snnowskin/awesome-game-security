@@ -271,6 +271,7 @@ docs/wsa.md
 docs/wsl.md
 docs/xbox.md
 skills/anti-cheat-systems/SKILL.md
+skills/awesome-game-security-index/SKILL.md
 skills/awesome-game-security-overview/SKILL.md
 skills/dma-attack-techniques/SKILL.md
 skills/game-engine-resources/SKILL.md
