@@ -24,6 +24,9 @@ python scripts/lint.py
 3. every docs page has an inbound link
 4. all nine skills exist with a `README Coverage` block
 5. no absolute local path leaked into generated files
+6. every relative `.md` link resolves to a real file, treating the target as
+   relative to the *linking* page (so `docs/cheat/index.md` links `guide.md`,
+   while `skills/<name>/SKILL.md` links `../../docs/cheat/guide.md`)
 
 ## Pipeline
 
