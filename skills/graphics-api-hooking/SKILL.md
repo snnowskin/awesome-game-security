@@ -12,13 +12,13 @@ DirectX, OpenGL, and Vulkan interception, overlay rendering, draw-call hooks, sw
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- **DirectX** → [../docs/directx.md](../docs/directx.md)
-  - Guide (6) → [../docs/directx/guide.md](../docs/directx/guide.md)
-  - Hook (11) → [../docs/directx/hook.md](../docs/directx/hook.md)
-  - Tools (1) → [../docs/directx/tools.md](../docs/directx/tools.md)
-  - Emulation (1) → [../docs/directx/emulation.md](../docs/directx/emulation.md)
-  - Compatibility (4) → [../docs/directx/compatibility.md](../docs/directx/compatibility.md)
-  - Overlay (1) → [../docs/directx/overlay.md](../docs/directx/overlay.md)
+- **DirectX** → [docs/directx.md](../../docs/directx.md)
+  - Guide (6) → [directx.md#guide](../../docs/directx.md#guide)
+  - Hook (11) → [directx.md#hook](../../docs/directx.md#hook)
+  - Tools (1) → [directx.md#tools](../../docs/directx.md#tools)
+  - Emulation (1) → [directx.md#emulation](../../docs/directx.md#emulation)
+  - Compatibility (4) → [directx.md#compatibility](../../docs/directx.md#compatibility)
+  - Overlay (1) → [directx.md#overlay](../../docs/directx.md#overlay)
 
 ## How to use this skill
 

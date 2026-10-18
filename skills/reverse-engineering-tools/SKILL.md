@@ -12,13 +12,13 @@ Reverse engineering protected games and anti-cheat components across user mode, 
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- Cheat › RE Tools (99) → [../docs/cheat/re-tools.md](../docs/cheat/re-tools.md)
-- Cheat › IDA Plugins (184) → [../docs/cheat/ida-plugins.md](../docs/cheat/ida-plugins.md)
-- Cheat › Debugging (52) → [../docs/cheat/debugging.md](../docs/cheat/debugging.md)
-- Cheat › Fix VMP (10) → [../docs/cheat/fix-vmp.md](../docs/cheat/fix-vmp.md)
-- Cheat › Fix Themida (3) → [../docs/cheat/fix-themida.md](../docs/cheat/fix-themida.md)
-- Cheat › Fix OLLVM (9) → [../docs/cheat/fix-ollvm.md](../docs/cheat/fix-ollvm.md)
-- Cheat › Dynamic Binary Instrumentation (20) → [../docs/cheat/dynamic-binary-instrumentation.md](../docs/cheat/dynamic-binary-instrumentation.md)
+- Cheat › RE Tools (99) → [cheat/re-tools.md](../../docs/cheat/re-tools.md)
+- Cheat › IDA Plugins (184) → [cheat/ida-plugins.md](../../docs/cheat/ida-plugins.md)
+- Cheat › Debugging (52) → [cheat/debugging.md](../../docs/cheat/debugging.md)
+- Cheat › Fix VMP (10) → [cheat/fix-vmp.md](../../docs/cheat/fix-vmp.md)
+- Cheat › Fix Themida (3) → [cheat/fix-themida.md](../../docs/cheat/fix-themida.md)
+- Cheat › Fix OLLVM (9) → [cheat/fix-ollvm.md](../../docs/cheat/fix-ollvm.md)
+- Cheat › Dynamic Binary Instrumentation (20) → [cheat/dynamic-binary-instrumentation.md](../../docs/cheat/dynamic-binary-instrumentation.md)
 
 ## How to use this skill
 

@@ -12,13 +12,13 @@ Android and iOS reversing, Frida, Zygisk/Magisk, jailbreak and root bypass, mobi
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- Cheat › Magisk (23) → [../docs/cheat/magisk.md](../docs/cheat/magisk.md)
-- Cheat › Xposed (1) → [../docs/cheat/xposed.md](../docs/cheat/xposed.md)
-- Cheat › Frida (27) → [../docs/cheat/frida.md](../docs/cheat/frida.md)
-- Cheat › IOS jailbreak (20) → [../docs/cheat/ios-jailbreak.md](../docs/cheat/ios-jailbreak.md)
-- Anti Cheat › Detection:Android root (9) → [../docs/anti-cheat/detection-android-root.md](../docs/anti-cheat/detection-android-root.md)
-- Anti Cheat › Detection:Magisk (6) → [../docs/anti-cheat/detection-magisk.md](../docs/anti-cheat/detection-magisk.md)
-- Anti Cheat › Detection:Frida (4) → [../docs/anti-cheat/detection-frida.md](../docs/anti-cheat/detection-frida.md)
+- Cheat › Magisk (23) → [cheat/magisk.md](../../docs/cheat/magisk.md)
+- Cheat › Xposed (1) → [cheat/xposed.md](../../docs/cheat/xposed.md)
+- Cheat › Frida (27) → [cheat/frida.md](../../docs/cheat/frida.md)
+- Cheat › IOS jailbreak (20) → [cheat/ios-jailbreak.md](../../docs/cheat/ios-jailbreak.md)
+- Anti Cheat › Detection:Android root (9) → [anti-cheat/detection-android-root.md](../../docs/anti-cheat/detection-android-root.md)
+- Anti Cheat › Detection:Magisk (6) → [anti-cheat/detection-magisk.md](../../docs/anti-cheat/detection-magisk.md)
+- Anti Cheat › Detection:Frida (4) → [anti-cheat/detection-frida.md](../../docs/anti-cheat/detection-frida.md)
 
 ## How to use this skill
 

@@ -12,8 +12,8 @@ PCIe DMA threat modeling, FPGA memory access, IOMMU constraints, device imperson
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- Anti Cheat › Detection:DMA (5) → [../docs/anti-cheat/detection-dma.md](../docs/anti-cheat/detection-dma.md)
-- Cheat › DMA (28) → [../docs/cheat/dma.md](../docs/cheat/dma.md)
+- Anti Cheat › Detection:DMA (5) → [anti-cheat/detection-dma.md](../../docs/anti-cheat/detection-dma.md)
+- Cheat › DMA (28) → [cheat/dma.md](../../docs/cheat/dma.md)
 
 ## How to use this skill
 

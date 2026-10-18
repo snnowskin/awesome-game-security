@@ -87,24 +87,42 @@ def main() -> int:
     # 3. docs reachability: every page must be linked from *some* other page.
     # Subsection pages are linked from their section index, so checking only
     # docs/README.md would produce false positives for every split section.
+    # Targets must be resolved against the LINKING page's directory: an index
+    # at docs/anti-cheat/index.md links siblings as `guide.md`, which is
+    # docs/anti-cheat/guide.md, not a top-level docs/guide.md.
     docs_readme = root / "docs" / "README.md"
     if not docs_readme.is_file():
         errors.append("docs/README.md missing")
     else:
-        linker: dict[str, set[str]] = {}
-        for p in (root / "docs").rglob("*.md"):
-            rel = p.relative_to(root / "docs").as_posix()
+        docs_root = root / "docs"
+        linked: set[str] = set()
+        for p in docs_root.rglob("*.md"):
             text = io.open(p, encoding="utf-8").read()
-            for target in re.findall(r"\]\(([^)]+\.md)\)", text):
-                linker.setdefault(target.lstrip("./"), set()).add(rel)
+            for target in re.findall(r"\]\(([^)#]+\.md)(?:#[^)]*)?\)", text):
+                try:
+                    resolved = (p.parent / target).resolve()
+                    linked.add(resolved.relative_to(docs_root.resolve()).as_posix())
+                except ValueError:
+                    pass
         for p in (root / "docs").rglob("*.md"):
-            rel = p.relative_to(root / "docs").as_posix()
+            rel = p.relative_to(docs_root).as_posix()
             if rel == "README.md":
                 continue
-            if rel not in linker:
+            if rel not in linked:
                 warnings.append(f"docs/{rel}: no inbound link from any docs page")
 
-    # 4. skills
+    # 5. relative .md links must resolve to a real file. Skill coverage and
+    #    docs indexes are generated paths; a rename would otherwise leave dead
+    #    relative links that no other check would catch.
+    for p in md_files:
+        text = io.open(p, encoding="utf-8").read()
+        rel = p.relative_to(root).as_posix()
+        for target in re.findall(r"\]\((?!https?://)([^)#]+\.md)(?:#[^)]*)?\)", text):
+            resolved = (p.parent / target).resolve()
+            if not resolved.is_file():
+                errors.append(f"{rel}: relative link does not resolve: {target}")
+
+    # 6. skills
     skill_dirs = sorted((root / "skills").glob("*/SKILL.md")) if (root / "skills").is_dir() else []
     if len(skill_dirs) < 9:
         errors.append(f"expected 9 skills, found {len(skill_dirs)}")

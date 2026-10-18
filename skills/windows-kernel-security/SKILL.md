@@ -12,7 +12,7 @@ Windows kernel internals for game security: callbacks, MMVAD, IOCTL paths, DSE, 
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- **Windows Security Features** → [../docs/windows-security-features.md](../docs/windows-security-features.md)
+- **Windows Security Features** → [docs/windows-security-features.md](../../docs/windows-security-features.md)
 
 ## How to use this skill
 

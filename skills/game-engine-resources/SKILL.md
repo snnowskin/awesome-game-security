@@ -12,14 +12,14 @@ Engine internals, source trees, plugins, explorers, and protection patterns for 
 Derived at build time from `data/sections.json` — never hand-edited, so it
 cannot drift from the index the way a copied list does.
 
-- **Game Engine** → [../docs/game-engine.md](../docs/game-engine.md)
-  - Guide (27) → [../docs/game-engine/guide.md](../docs/game-engine/guide.md)
-  - Source (94) → [../docs/game-engine/source.md](../docs/game-engine/source.md)
-  - Game Engine Plugins:Unreal (20) → [../docs/game-engine/game-engine-plugins-unreal.md](../docs/game-engine/game-engine-plugins-unreal.md)
-  - Game Engine Plugins:Unity (7) → [../docs/game-engine/game-engine-plugins-unity.md](../docs/game-engine/game-engine-plugins-unity.md)
-  - Game Engine Plugins:Godot (3) → [../docs/game-engine/game-engine-plugins-godot.md](../docs/game-engine/game-engine-plugins-godot.md)
-  - Game Engine Plugins:Lumix (1) → [../docs/game-engine/game-engine-plugins-lumix.md](../docs/game-engine/game-engine-plugins-lumix.md)
-  - Game Engine Detector (1) → [../docs/game-engine/game-engine-detector.md](../docs/game-engine/game-engine-detector.md)
+- **Game Engine** → [docs/game-engine.md](../../docs/game-engine.md)
+  - Guide (27) → [game-engine.md#guide](../../docs/game-engine.md#guide)
+  - Source (94) → [game-engine.md#source](../../docs/game-engine.md#source)
+  - Game Engine Plugins:Unreal (20) → [game-engine.md#game-engine-pluginsunreal](../../docs/game-engine.md#game-engine-pluginsunreal)
+  - Game Engine Plugins:Unity (7) → [game-engine.md#game-engine-pluginsunity](../../docs/game-engine.md#game-engine-pluginsunity)
+  - Game Engine Plugins:Godot (3) → [game-engine.md#game-engine-pluginsgodot](../../docs/game-engine.md#game-engine-pluginsgodot)
+  - Game Engine Plugins:Lumix (1) → [game-engine.md#game-engine-pluginslumix](../../docs/game-engine.md#game-engine-pluginslumix)
+  - Game Engine Detector (1) → [game-engine.md#game-engine-detector](../../docs/game-engine.md#game-engine-detector)
 
 ## How to use this skill
 

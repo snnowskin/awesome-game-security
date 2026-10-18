@@ -147,6 +147,18 @@ def slug(text: str) -> str:
     return s or "section"
 
 
+def section_page(grp, name: str, split_threshold: int = 400) -> str:
+    """Path of a section's landing page, relative to docs/.
+
+    Sections over the threshold are split into a directory with an index.md;
+    smaller ones are a flat page. Splitting exists because Cheat alone is 2304
+    entries (two thirds of the list) and a single page that large is unusable
+    in a browser, in a diff, and as an LLM context load.
+    """
+    total = sum(len(v) for v in grp.get(name, {}).values())
+    return f"{slug(name)}/index.md" if total > split_threshold else f"{slug(name)}.md"
+
+
 def load(data_dir: Path):
     entries = [
         json.loads(line)
@@ -212,7 +224,12 @@ def build_docs(root: Path, entries, sections):
             idx += ["| Subsection | Entries | Page |", "|---|---|---|"]
             for sub_name, items in subs.items():
                 sub_slug = f"{base}/{slug(sub_name or 'general')}"
-                idx.append(f"| {sub_name or '(general)'} | {len(items)} | [{sub_slug}.md]({sub_slug}.md) |")
+                # The index lives at docs/<base>/index.md, so the link is a
+                # sibling filename, not a path from docs/.
+                idx.append(
+                    f"| {sub_name or '(general)'} | {len(items)} | "
+                    f"[{slug(sub_name or 'general')}.md]({slug(sub_name or 'general')}.md) |"
+                )
                 page = [f"# {name} › {sub_name or '(general)'}", "", f"[← back to {name}](index.md)", ""]
                 page += [entry_line(e) for e in sorted(items, key=lambda x: x["line"])]
                 written.append(write_page(docs / f"{sub_slug}.md", f"{name} › {sub_name}", "\n".join(page) + "\n"))
@@ -244,6 +261,28 @@ def build_docs(root: Path, entries, sections):
     return written, grp
 
 
+def gh_anchor(text: str) -> str:
+    """GitHub's heading slug: lowercase, drop punctuation, spaces to hyphens.
+
+    Needed because flat section pages keep their subsections as `##` headings,
+    so a cross-reference to one subsection must target an anchor, not a file.
+    """
+    s = text.strip().lower()
+    s = re.sub(r"[^\w\s-]", "", s)
+    return re.sub(r"\s+", "-", s)
+
+
+def sub_link(grp, section: str, subsection: str) -> str:
+    """Repo-relative docs link for one subsection, from a skills/*/SKILL.md."""
+    total = sum(len(v) for v in grp.get(section, {}).values())
+    base = slug(section)
+    if total > 400:
+        return f"../../docs/{base}/{slug(subsection or 'general')}.md"
+    if subsection:
+        return f"../../docs/{base}.md#{gh_anchor(subsection)}"
+    return f"../../docs/{base}.md"
+
+
 def build_skills(root: Path, grp, sections):
     """Emit one SKILL.md per domain with derived README Coverage."""
     out = []
@@ -253,21 +292,25 @@ def build_skills(root: Path, grp, sections):
         if skill_name == "awesome-game-security-overview":
             for sec in sections["sections"]:
                 if grp.get(sec["name"]):
-                    coverage.append(f"- [{sec['name']}](../docs/{slug(sec['name'])}.md)")
+                    coverage.append(f"- [{sec['name']}](../../docs/{section_page(grp, sec['name'])})")
         elif owner_section:
             subs = grp.get(owner_section, OrderedDict())
-            coverage.append(f"- **{owner_section}** → [../docs/{slug(owner_section)}.md](../docs/{slug(owner_section)}.md)")
+            coverage.append(
+                f"- **{owner_section}** → [docs/{section_page(grp, owner_section)}](../../docs/{section_page(grp, owner_section)})"
+            )
             for sub_name, items in subs.items():
                 if sub_name:
-                    sub_slug = f"{slug(owner_section)}/{slug(sub_name)}"
-                    coverage.append(f"  - {sub_name} ({len(items)}) → [../docs/{sub_slug}.md](../docs/{sub_slug}.md)")
+                    link = sub_link(grp, owner_section, sub_name)
+                    label = link.split("docs/", 1)[1]
+                    coverage.append(f"  - {sub_name} ({len(items)}) → [{label}]({link})")
         else:
             for sec_name, sub_name in SKILL_SUBS.get(skill_name, []):
                 subs = grp.get(sec_name, OrderedDict())
                 if sub_name in subs:
+                    link = sub_link(grp, sec_name, sub_name)
+                    label = link.split("docs/", 1)[1]
                     coverage.append(
-                        f"- {sec_name} › {sub_name} ({len(subs[sub_name])}) → "
-                        f"[../docs/{slug(sec_name)}/{slug(sub_name)}.md](../docs/{slug(sec_name)}/{slug(sub_name)}.md)"
+                        f"- {sec_name} › {sub_name} ({len(subs[sub_name])}) → [{label}]({link})"
                     )
 
         body = [
