@@ -385,7 +385,7 @@ def build_readme(root: Path, entries, sections, grp, report_text: str):
     lines.append("|---|---|")
     lines.append("| 4395-line single README | Split into `docs/`, one page per section, larger sections per subsection |")
     lines.append("| No structured data | `data/entries.jsonl`, one JSON record per entry with source line |")
-    lines.append("| `scripts/` missing, all 4 CI workflows fail | `scripts/` present and exercised by `.github/workflows/ci.yml` |")
+    lines.append("| `scripts/` holds only an empty `__pycache__`, so all 4 CI workflows fail | `scripts/` present and exercised by `.github/workflows/ci.yml` |")
     lines.append("| 3285 archive `.txt` files containing only a self-URL | `archive/` dropped; indexing does not pretend to vendor code |")
     lines.append("| Mirror links silently replace the original author | Mirror entries are tagged `mirror` in every page |")
     lines.append("| Skills hand-copy their coverage list and drift | `skills/*/SKILL.md` coverage is generated from `data/sections.json` |")
