@@ -300,20 +300,35 @@ def query_skill_body(skill_name: str, purpose: str, coverage) -> list[str]:
     DirectX 12" — the agent would have to guess a page and read it whole. This
     skill points at scripts/query.py, which answers from entries.jsonl and
     returns bounded records with the page each one lives on.
+
+    The description is bilingual on purpose, and the Chinese lead comes first.
+    A description written only in English does not reliably trigger on a
+    Chinese request: the agent matches on the words in front of it, and
+    游戏外挂 / 反作弊 / 内核驱动 share no surface form with "game hacking" /
+    "anti-cheat" / "kernel drivers". Leading with Chinese also survives the
+    catalog's truncation — a trigger list appended after 500 characters of
+    English prose is the part that gets cut off.
     """
     return [
         "---",
         f"name: {skill_name}",
         "description: >-",
-        "  Query a curated index of 3434 game-security research links (35 sections,",
-        "  267 subsections: cheat techniques, anti-cheat architecture, kernel security,",
-        "  DMA, graphics API hooking, mobile reversing, reverse-engineering tools,",
-        "  engine internals) without loading the dataset into context. Use this skill",
-        "  whenever the user asks where to find a project, paper, blog, source dump or",
-        "  tool about game hacking, game cheating, anti-cheat, memory scanning, DLL",
-        "  injection, kernel drivers, hypervisors, hooking, Frida, Magisk, Zygisk,",
-        "  IDA plugins, Unreal/Unity internals, VMP/Themida/OLLVM unpacking, or asks",
-        "  for a reading list, a resource list, or to search this repository's index.",
+        "  游戏安全资料库查询：3434 条精编游戏安全研究链接（35 大类 267 子类）的索引，",
+        "  用 CLI 按需查询，不把 989 KB 数据集塞进上下文。中文触发：游戏外挂、游戏辅助、",
+        "  游戏作弊、反作弊、内核驱动、内核逆向、驱动读写、内存修改、内存扫描、指针追踪、",
+        "  DLL 注入、Hook、脱壳、加固、反调试、反虚拟机、代码混淆、VMP、Themida、OLLVM、",
+        "  Frida、Xposed、Magisk、Zygisk、Root 隐藏、手游逆向、Android 逆向、iOS 越狱、",
+        "  虚拟化、虚拟机检测、DMA、IOMMU、游戏引擎、Unreal、UE4、UE5、Unity、il2cpp、",
+        "  IDAPython、IDA 插件、x64dbg、游戏资料库、资料库、资源库、书单、找项目、",
+        "  有哪些开源项目、这个库里有啥、帮我找资料、查一下资料库。凡是「在哪找 / 有没有",
+        "  / 列一下」这类问资源位置的问题，都应先用本 skill 查询，而不是凭记忆作答。",
+        "  English: query a curated index of 3434 game-security links (cheat techniques,",
+        "  anti-cheat architecture, kernel security, DMA, graphics API hooking, mobile",
+        "  reversing, RE tools, engine internals). Use when asked where to find a",
+        "  project, paper, blog, source dump or tool about game hacking, game cheating,",
+        "  anti-cheat, memory scanning, DLL injection, kernel drivers, hypervisors,",
+        "  hooking, Frida, Magisk, Zygisk, IDA plugins, Unreal/Unity internals,",
+        "  VMP/Themida/OLLVM unpacking, or for a reading list / resource list.",
         "---",
         "",
         f"# {skill_name}",
@@ -327,6 +342,7 @@ def query_skill_body(skill_name: str, purpose: str, coverage) -> list[str]:
         "",
         "```bash",
         "python scripts/query.py --q <terms>          # all terms must match (AND)",
+        "python scripts/query.py --q 脱壳              # Chinese works: synonyms expand it",
         "python scripts/query.py --section \"Anti Cheat\"",
         "python scripts/query.py --sub Frida --no-mirror",
         "python scripts/query.py --host unknowncheats.me",
@@ -334,6 +350,13 @@ def query_skill_body(skill_name: str, purpose: str, coverage) -> list[str]:
         "python scripts/query.py --stats              # dataset health and host spread",
         "python scripts/query.py --q ida --json       # records instead of markdown",
         "```",
+        "",
+        "The index text is English, so Chinese terms are translated before the scan",
+        "by the `SYNONYMS` table in `scripts/query.py` (`脱壳` → unpack/packer,",
+        "`反作弊` → anti-cheat, `驱动隐藏` → hide/manual map...). Ask in Chinese; do",
+        "not hand-translate into English first — the table covers common phrasing and",
+        "a translation you invent will miss the upstream wording. If a Chinese term",
+        "returns nothing, fall back to an English keyword and add the mapping.",
         "",
         "Every hit prints the docs page and source README line that owns it, so a",
         "follow-up read is one file open, not a search. Exit codes: `0` hit, `1` no",

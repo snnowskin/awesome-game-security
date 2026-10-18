@@ -34,6 +34,10 @@ Exit codes
 Matching is case-insensitive substring over url + title + desc + repo, and
 multi-word queries require every word to appear somewhere in the record (AND,
 not OR) so `kernel hook` does not return every kernel-only project.
+
+Chinese queries are translated by the SYNONYMS table in this file: the dataset
+is English, so `--q 脱壳` is expanded to unpack/unpacking/packer before the
+scan. That is why `--q 外挂` returns hundreds of rows instead of zero.
 """
 
 from __future__ import annotations
@@ -56,6 +60,54 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+# The dataset is English, the questions are often not. Each key is a Chinese
+# (or abbreviation) term the caller is likely to type; each value is the
+# English wording the upstream README actually uses. Only terms that would
+# otherwise return 0 hits belong here — a synonym list that fires on
+# everything makes a query look smarter than it is.
+SYNONYMS = {
+    "外挂": ["cheat", "esp", "aimbot"],
+    "辅助": ["cheat", "esp"],
+    "透视": ["esp", "wallhack", "overlay"],
+    "自瞄": ["aimbot", "aim"],
+    "反作弊": ["anti-cheat", "anticheat", "anti cheat"],
+    "反外挂": ["anti-cheat", "anticheat"],
+    "检测": ["detect", "detection", "scan"],
+    "内核": ["kernel", "driver"],
+    "驱动": ["driver", "kernel"],
+    "驱动读写": ["read", "write", "physical", "memory"],
+    "驱动隐藏": ["hide", "hidden", "conceal", "manual map"],
+    "内存": ["memory", "mem"],
+    "内存扫描": ["scan", "signature", "pattern"],
+    "内存修改": ["memory", "write", "patch"],
+    "注入": ["inject", "injection"],
+    "注入器": ["injector", "injection", "loader"],
+    "脱壳": ["unpack", "unpacking", "packer"],
+    "加固": ["protect", "protector", "obfuscat"],
+    "加壳": ["packer", "pack", "crypt"],
+    "混淆": ["obfuscat", "ollvm", "control flow"],
+    "反调试": ["anti-debug", "antidebug", "debugger"],
+    "反虚拟机": ["anti-vm", "antivm", "virtual machine"],
+    "虚拟化": ["hypervisor", "virtualization", "vtx", "vmx"],
+    "虚拟机": ["hypervisor", "virtual machine", "vm"],
+    "钩子": ["hook", "hooking"],
+    "游戏引擎": ["engine", "unreal", "unity"],
+    "手游": ["android", "mobile", "ios"],
+    "手游逆向": ["android", "mobile", "il2cpp", "frida"],
+    "安卓": ["android"],
+    "固件": ["firmware", "uefi", "bios"],
+    "寄存器": ["register"],
+    "逆向": ["reverse", "reversing", "re"],
+    "反编译": ["decompiler", "decompile", "ida", "ghidra"],
+    "符号": ["symbol", "pdb", "signature"],
+    "过检测": ["bypass", "evasion", "detect"],
+    "绕过": ["bypass", "evasion"],
+    "隐藏": ["hide", "hidden", "stealth"],
+    "抓包": ["sniff", "capture", "proxy"],
+    "协议": ["protocol", "packet"],
+    "调试器": ["debugger", "x64dbg", "windbg"],
+}
 
 
 def slug(text: str) -> str:
@@ -97,11 +149,39 @@ def page_for(entries, section: str, sub: str, split_threshold: int = 400) -> str
     return f"docs/{base}.md"
 
 
-def matches(entry: dict, terms: list[str]) -> bool:
+def matches(entry: dict, groups: list[list[str]]) -> bool:
+    """True when every term group matches the record (AND over groups, OR inside one).
+
+    A group holds a term plus its aliases, because the dataset is English while
+    the questions are often Chinese: `--q 外挂` must reach records whose text
+    says "cheat". Without aliasing the caller has to translate first, and a
+    translation it invents will not match the upstream wording either.
+
+    `section` is deliberately NOT part of the haystack. Almost every record
+    lives under a section literally named "Cheat", so including it makes
+    `--q cheat` (and therefore `--q 外挂`) match 2843 of 3434 rows — a hit
+    count that looks like success and answers nothing. Match the record's own
+    text, and use --section when the section itself is the filter.
+    """
     hay = " ".join(
-        str(entry.get(k) or "") for k in ("url", "title", "desc", "repo", "owner", "section", "sub")
+        str(entry.get(k) or "") for k in ("url", "title", "desc", "repo", "owner", "sub")
     ).lower()
-    return all(t in hay for t in terms)
+    return all(any(alt in hay for alt in group) for group in groups)
+
+
+def expand_terms(terms: list[str]) -> list[list[str]]:
+    """One group per query term: the term itself plus any English aliases."""
+    groups = []
+    for t in terms:
+        key = t.strip().lower()
+        if not key:
+            continue
+        alts = [key]
+        for alias in SYNONYMS.get(key, []):
+            if alias not in alts:
+                alts.append(alias)
+        groups.append(alts)
+    return groups
 
 
 def render(entry: dict, docs_page: str) -> str:
@@ -171,7 +251,8 @@ def main() -> int:
         default=[],
         help="one or more terms; all must match (AND). Each argument is matched "
         "--q vulkan overlay is two terms (both must appear), --q \"vulkan "
-        "overlay\" is one phrase (the words must be adjacent)",
+        "overlay\" is one phrase (the words must be adjacent). Chinese terms are "
+        "translated through SYNONYMS, so --q 脱壳 works without an English query.",
     )
     ap.add_argument("--section", default="", help="exact section name, e.g. 'Anti Cheat'")
     ap.add_argument("--sub", default="", help="substring of the subsection name")
@@ -195,7 +276,7 @@ def main() -> int:
     if args.stats:
         return cmd_stats(entries)
 
-    terms = [t.lower() for t in args.q if t.strip()]
+    terms = expand_terms([t for t in args.q if t.strip()])
     hits = []
     for e in entries:
         if args.section and (e.get("section") or "").lower() != args.section.lower():
