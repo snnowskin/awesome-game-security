@@ -1,0 +1,489 @@
+{
+  "sections": [
+    {
+      "name": "How to contribute?",
+      "line": 12,
+      "subs": []
+    },
+    {
+      "name": "Skills for AI Agents",
+      "line": 16,
+      "subs": []
+    },
+    {
+      "name": "Contents",
+      "line": 49,
+      "subs": []
+    },
+    {
+      "name": "Game Engine",
+      "line": 85,
+      "subs": [
+        "Guide",
+        "Source",
+        "Game Engine Plugins:Unreal",
+        "Game Engine Plugins:Unity",
+        "Game Engine Plugins:Godot",
+        "Game Engine Plugins:Lumix",
+        "Game Engine Detector"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "line": 257,
+      "subs": []
+    },
+    {
+      "name": "Renderer",
+      "line": 265,
+      "subs": []
+    },
+    {
+      "name": "3D Graphics",
+      "line": 284,
+      "subs": []
+    },
+    {
+      "name": "AI",
+      "line": 290,
+      "subs": []
+    },
+    {
+      "name": "Image Codec",
+      "line": 295,
+      "subs": []
+    },
+    {
+      "name": "Wavefront Obj",
+      "line": 302,
+      "subs": []
+    },
+    {
+      "name": "Task Scheduler",
+      "line": 306,
+      "subs": []
+    },
+    {
+      "name": "Game Network",
+      "line": 309,
+      "subs": [
+        "Guide",
+        "Source",
+        "JWT / Auth Token",
+        "Location / Geocoding"
+      ]
+    },
+    {
+      "name": "PhysX SDK",
+      "line": 343,
+      "subs": []
+    },
+    {
+      "name": "Game Develop",
+      "line": 349,
+      "subs": [
+        "Guide",
+        "Source",
+        "MCP server",
+        "MCP server security",
+        "AI Agents"
+      ]
+    },
+    {
+      "name": "Game Assets",
+      "line": 532,
+      "subs": []
+    },
+    {
+      "name": "Game Hot Patch",
+      "line": 542,
+      "subs": []
+    },
+    {
+      "name": "Game Testing",
+      "line": 548,
+      "subs": []
+    },
+    {
+      "name": "Game Tools",
+      "line": 568,
+      "subs": []
+    },
+    {
+      "name": "Game Manager",
+      "line": 580,
+      "subs": []
+    },
+    {
+      "name": "Game CI",
+      "line": 583,
+      "subs": []
+    },
+    {
+      "name": "DirectX",
+      "line": 587,
+      "subs": [
+        "Guide",
+        "Hook",
+        "Tools",
+        "Emulation",
+        "Compatibility",
+        "Overlay"
+      ]
+    },
+    {
+      "name": "OpenGL",
+      "line": 624,
+      "subs": [
+        "Guide",
+        "Source",
+        "Hook"
+      ]
+    },
+    {
+      "name": "Vulkan",
+      "line": 634,
+      "subs": [
+        "Guide",
+        "API",
+        "Hook"
+      ]
+    },
+    {
+      "name": "Cheat",
+      "line": 649,
+      "subs": [
+        "Guide",
+        "Debugging",
+        "Packet Sniffer&Filter",
+        "Packet Capture&Parse",
+        "SpeedHack",
+        "RE Tools",
+        "Mixed boolean-arithmetic",
+        "Fix VMP",
+        "Fix Themida",
+        "Fix OLLVM",
+        "Dynamic Binary Instrumentation",
+        "Launcher Abuser",
+        "PatchGuard-related",
+        "Driver Signature enforcement",
+        "Windows Kernel Explorer",
+        "Linux Kernel Explorer",
+        "Magisk",
+        "Xposed",
+        "Frida",
+        "Hook ART(android)",
+        "Hook syscall(android)",
+        "Android Terminal Emulator",
+        "Android File Explorer",
+        "Android Memory Explorer",
+        "Android Application CVE",
+        "Android Kernel CVE",
+        "Android Bootloader Bypass",
+        "IoT / Smart devices",
+        "Android ROM",
+        "Android Device Trees",
+        "Android Kernel Source",
+        "Android Root",
+        "Android Kernel driver development",
+        "Android Kernel Explorer",
+        "Android Kernel Driver",
+        "Android Network Explorer",
+        "Android memory loading",
+        "IOS jailbreak",
+        "IOS Memory Explorer",
+        "IOS File Explorer",
+        "IOS App Packaging",
+        "Virtual Environments",
+        "Decompiler",
+        "IDA themes",
+        "IDA Plugins",
+        "IDA Signature Database",
+        "Binary Ninja Plugins",
+        "Ghidra Plugins",
+        "Radare Plugins",
+        "Windbg Plugins",
+        "X64DBG Plugins",
+        "Cheat Engine Plugins",
+        "Injection:Windows",
+        "Injection:Linux",
+        "Injection:Android",
+        "Injection:IOS",
+        "Injection:PlayStation",
+        "DLL Hijack",
+        "Hook",
+        "ROP Finder",
+        "ROP Generation",
+        "Anti Signature Scanning",
+        "RPM",
+        "DMA",
+        "W2S",
+        "Overlay",
+        "Render/Draw",
+        "UI Interface",
+        "Vulnerable Driver",
+        "Driver Communication",
+        "EFI Driver",
+        "QEMU/KVM/PVE/VBOX",
+        "Wine",
+        "Anti Screenshot",
+        "Spoof Stack",
+        "Hide",
+        "Anti Forensics",
+        "Triggerbot & Aimbot",
+        "WallHack",
+        "HWID",
+        "Bypass Page Protection",
+        "SDK CodeGen",
+        "Game Engine Explorer:Unreal",
+        "Game Engine Explorer:Unity",
+        "Game Engine Explorer:Source",
+        "Explore UWP",
+        "Explore AntiCheat System:VAC",
+        "Explore AntiCheat System:EAC",
+        "Explore AntiCheat System:BE",
+        "Explore AntiCheat System:EQU8",
+        "Explore AntiCheat System:Ricochet",
+        "Explore AntiCheat System:RIOT",
+        "Explore AntiCheat System:XignCode",
+        "Explore AntiCheat System:ACE",
+        "Explore AntiCheat System:G-Presto",
+        "Explore AntiCheat System:NeacSafe",
+        "Explore AntiCheat System:BadlionAnticheat",
+        "Explore AntiCheat System:Byfron",
+        "Explore AntiCheat System:FACEIT",
+        "Explore AntiCheat System:CS2",
+        "Game:MapleStory",
+        "Game:Minecraft",
+        "Game:Sword With Sauce",
+        "Game:Gunfire Reborn",
+        "Game:Fall Guys",
+        "Game:Remnant",
+        "Game:LostArk",
+        "Game:Battlerite",
+        "Game:CrossFire",
+        "Game:TGame",
+        "Game:LOL",
+        "Game:NARAKA",
+        "Game:Thetan",
+        "Game:Dota2",
+        "Game:WOW",
+        "Game:Warcraft III",
+        "Game:Half-Life 2",
+        "Game:CS1.6",
+        "Game:CSS",
+        "Game:CSGO",
+        "Game:CS2",
+        "Game:Assault Cube",
+        "Game:Valorant",
+        "Game:VEILED EXPERTS",
+        "Game:COD1",
+        "Game:COD7",
+        "Game:COD Black Ops 2",
+        "Game:COD Black Ops 3",
+        "Game:COD Warzone",
+        "Game:CODM",
+        "Game:Battlefield 1",
+        "Game:Battlefield 4",
+        "Game:Battlefield 2042",
+        "Game:Apex Legends",
+        "Game:Fortnite",
+        "Game:Bloodhunt",
+        "Game:Super People",
+        "Game:Splitgate",
+        "Game:PUBG",
+        "Game:PUBG Lite",
+        "Game:PUBGM",
+        "Game:Sausage Man",
+        "Game:The finals",
+        "Game:EFT",
+        "Game:Duckov",
+        "Game:Arena Breakout Infinite",
+        "Game:R6",
+        "Game:Overwatch",
+        "Game:Overwatch2",
+        "Game:Paladins",
+        "Game:DayZ",
+        "Game:Rust",
+        "Game:Arma3",
+        "Game:7 Days To Die",
+        "Game:AVA",
+        "Game:Mordhau",
+        "Game:Smite  [UE3]",
+        "Game:POLYGON [UE5]",
+        "Game:PalWorld [UE5]",
+        "Game:Genshin Impact",
+        "Game:Honkai Impact",
+        "Game:Honkai Star Rail",
+        "Game:osu",
+        "Game:EldenRing",
+        "Game:Dark Souls",
+        "Game:Sea Of Thieves",
+        "Game:GTA III - Definitive Edition",
+        "Game:GTA5",
+        "Game:Geometry Dash",
+        "Game:8ball pool",
+        "Game:Wizard101",
+        "Game:QQTang",
+        "Game:Chess",
+        "Game:BLOCKPOST",
+        "Game:Witch It",
+        "Game:RO",
+        "Game:PokemonGo",
+        "Game:L4D2",
+        "Game:mhxy",
+        "Game:Ironsight",
+        "Game:Devour",
+        "Game:Goose Goose Duck",
+        "Game:Team Fortress 2"
+      ]
+    },
+    {
+      "name": "Anti Cheat",
+      "line": 3482,
+      "subs": [
+        "Guide",
+        "Stress Testing",
+        "Driver Unit Test Framework",
+        "Anti Debugging",
+        "Page Protection",
+        "Binary Packer",
+        "CLR Protection",
+        "Anti Disassembly",
+        "Sample Unpacker",
+        "Dump Fix",
+        "Encrypt Variable",
+        "Lazy Importer",
+        "Anti-Cheat Programming",
+        "Compile Time",
+        "Shellcode Engine & Tricks",
+        "Obfuscation Engine",
+        "Screenshot",
+        "Game Engine Protection:Unreal",
+        "Game Engine Protection:Unity",
+        "Game Engine Protection:Source",
+        "Open Source Anti Cheat System",
+        "Analysis Framework",
+        "Detection:Hook",
+        "Detection:Memory Integrity",
+        "Detection:ShellCode",
+        "Detection:Attach",
+        "Detection:Triggerbot & Aimbot",
+        "Detection:Hide",
+        "Detection:Vulnerable Driver",
+        "Detection: Hacked Hypervisor",
+        "Detection:Virtual Environments",
+        "Detection:HWID",
+        "Detection:SpeedHack",
+        "Detection:Injection",
+        "Detection:Spoof Stack",
+        "Detection:ESP",
+        "Detection:DMA",
+        "Detection:Wall Hack",
+        "Detection:Obfuscation",
+        "Detection:Android root",
+        "Detection:Magisk",
+        "Detection:Frida",
+        "Detection:Overlay",
+        "Signature Scanning",
+        "Information System & Forensics",
+        "Dynamic Script",
+        "Kernel Mode Winsock",
+        "Fuzzer",
+        "OpenCV",
+        "Windows Ring3 Callback",
+        "Windows Ring0 Callback",
+        "Winows User Dump Analysis",
+        "Winows Kernel Dump Analysis",
+        "Sign Tools",
+        "Backup File",
+        "Backup Drivers",
+        "Black Signature"
+      ]
+    },
+    {
+      "name": "Some Tricks",
+      "line": 4173,
+      "subs": [
+        "Windows Ring0",
+        "Windows Ring3",
+        "Linux",
+        "Android"
+      ]
+    },
+    {
+      "name": "Windows Security Features",
+      "line": 4308,
+      "subs": []
+    },
+    {
+      "name": "WSL",
+      "line": 4320,
+      "subs": []
+    },
+    {
+      "name": "WSA",
+      "line": 4326,
+      "subs": []
+    },
+    {
+      "name": "Windows Emulator",
+      "line": 4337,
+      "subs": []
+    },
+    {
+      "name": "Linux Emulator",
+      "line": 4346,
+      "subs": []
+    },
+    {
+      "name": "Android Emulator",
+      "line": 4349,
+      "subs": []
+    },
+    {
+      "name": "IOS Emulator",
+      "line": 4359,
+      "subs": []
+    },
+    {
+      "name": "Game Boy",
+      "line": 4364,
+      "subs": []
+    },
+    {
+      "name": "Nintendo Switch",
+      "line": 4369,
+      "subs": []
+    },
+    {
+      "name": "Xbox",
+      "line": 4378,
+      "subs": []
+    },
+    {
+      "name": "PlayStation",
+      "line": 4387,
+      "subs": []
+    },
+    {
+      "name": "Donate",
+      "line": 4393,
+      "subs": []
+    }
+  ],
+  "stats": {
+    "total_lines": 4395,
+    "records": 3688,
+    "sections": 38,
+    "counts": {
+      "subsections": 273,
+      "dash_lines": 3722,
+      "url_first": 3592,
+      "navigation": 34,
+      "mirror": 761,
+      "title_first": 91,
+      "malformed": 5
+    }
+  }
+}

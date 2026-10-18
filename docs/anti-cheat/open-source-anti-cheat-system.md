@@ -1,0 +1,53 @@
+# Anti Cheat › Open Source Anti Cheat System
+
+[← back to Anti Cheat](index.md)
+
+- [mq1n/NoMercy](https://github.com/mq1n/NoMercy)
+- [https://github.com/NoMercy-ac](https://github.com/NoMercy-ac) — NoMercy
+- [JackBro/BetaShield](https://github.com/JackBro/BetaShield)
+- [chztbby/RebirthGuard](https://github.com/chztbby/RebirthGuard)
+- [GravitLauncher/Avanguard](https://github.com/GravitLauncher/Avanguard)
+- [Rycooop/Bloom-Anticheat](https://github.com/Rycooop/Bloom-Anticheat)
+- [Vasieco/Kernel-Anticheat](https://github.com/Vasieco/Kernel-Anticheat) — Kernel Anticheat
+- [AvivShabtay/Stresser](https://github.com/AvivShabtay/Stresser) — Anti Virus in fact but also Anti Cheat
+- [D4stiny/PeaceMaker](https://github.com/D4stiny/PeaceMaker) — Anti Virus in fact but also Anti Cheat
+- [danielkrupinski/VAC](https://github.com/danielkrupinski/VAC) — Reversed VAC
+- [ApexLegendsUC/anti-cheat-emulator](https://github.com/ApexLegendsUC/anti-cheat-emulator)
+- [ch4ncellor/EAC-Reversal](https://github.com/ch4ncellor/EAC-Reversal) — Reversed EAC
+- [weak1337/BE-Shellcode](https://github.com/weak1337/BE-Shellcode) — Reversed BE Shellcode
+- [gmh5225/be_shellcode_dump](https://github.com/gmh5225/be_shellcode_dump) — Reversed BE Shellcode `mirror`
+- [codetronik/AndroidAntiCheat](https://github.com/codetronik/AndroidAntiCheat) — Android Platform
+- [Lazenca/Lazenca-S](https://github.com/Lazenca/Lazenca-S) — Android Platform
+- [MrDiamond64/Scythe-AntiCheat](https://github.com/MrDiamond64/Scythe-AntiCheat) — Minecraft
+- [GrimAnticheat/Grim](https://github.com/GrimAnticheat/Grim) — Minecraft
+- [gmh5225/AntiCheat](https://github.com/gmh5225/AntiCheat) `mirror`
+- [ComodoSecurity/openedr](https://github.com/ComodoSecurity/openedr) — EDR
+- [0xrawsec/whids](https://github.com/0xrawsec/whids) — EDR
+- [Neo23x0/Raccine](https://github.com/Neo23x0/Raccine) — EDR
+- [ION28/BLUESPAWN](https://github.com/ION28/BLUESPAWN) — EDR
+- [TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive) — EDR
+- [0xflux/Sanctum](https://github.com/0xflux/Sanctum) — Sanctum is an experimental proof-of-concept EDR, designed to detect modern malware techniques, above and beyond the capabilities of antivirus. Built in Rust
+- [wazuh/wazuh](https://github.com/wazuh/wazuh) — XDR
+- [AlSch092/UltimateAntiCheat](https://github.com/AlSch092/UltimateAntiCheat)
+- [JonathanBerkeley/Quack](https://github.com/JonathanBerkeley/Quack)
+- [This is the Anti Cheat System for Knight Online Gamesoft vversion](https://github.com/luisfelipe18/GamesoftACS)
+- [User-mode C++ Anti-Cheat written for German Roleplay Server GVMP.de](https://github.com/divodeuxsevres/gvmp-anticheat)
+- [Cheat developer platform](https://github.com/c4kef/UAC)
+- [ekknod/Anti-Cheat-TestBench](https://github.com/ekknod/Anti-Cheat-TestBench) — TestBench
+- [gmh5225/Malicious-code-detection-bugu](https://github.com/gmh5225/Malicious-code-detection-bugu) — Malicious code detection and obfuscation `mirror`
+- [Kernel Security driver used to block past, current and future process injection techniques on Windows Operating System](https://github.com/PI-Defender/pi-defender)
+- [gmh5225/Anticheat-android-cheap-engine](https://github.com/gmh5225/Anticheat-android-cheap-engine) — Sample implementation of anti-cheat in android `mirror`
+- [Proof of concept Anti-Cheat plugin for CS:GO](https://github.com/ekknod/CSGO-AC)
+- [Deep Learning Anti-Cheat For CSGO](https://github.com/LaihoE/DLAC)
+- [Deep Learning Anti-Cheat For CSGO](https://github.com/gmh5225/anti-cheat) `mirror`
+- [jnastarot/anti-cheat](https://github.com/jnastarot/anti-cheat)
+- [jnastarot/ice9](https://github.com/jnastarot/ice9)
+- [realTristan/Reborn](https://github.com/realTristan/Reborn) — Designed with Rust
+- [gmh5225/Dynsec](https://github.com/gmh5225/Dynsec) `mirror`
+- [gmh5225/Basic_Anti-Cheat](https://github.com/gmh5225/Basic_Anti-Cheat) `mirror`
+- [https://github.com/MegaAntiCheat](https://github.com/MegaAntiCheat)
+- [donnaskiez/ac](https://github.com/donnaskiez/ac)
+- [gmh5225/Mandragora](https://github.com/gmh5225/Mandragora) — For Assault Cube `mirror`
+- [J-Tanzanite/Little-Anti-Cheat](https://github.com/J-Tanzanite/Little-Anti-Cheat) — For Source Games
+- [noahware/darken-anticheat](https://github.com/noahware/darken-anticheat) — Kernel anti-cheat for protecting software
+- [TOSTcRa/vigil](https://github.com/TOSTcRa/vigil) — Open-source Linux-native anti-cheat powered by eBPF

@@ -1,0 +1,58 @@
+# Cheat › Guide
+
+[← back to Cheat](index.md)
+
+- [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking)
+- [dsasmblr/hacking-online-games](https://github.com/dsasmblr/hacking-online-games)
+- [jbro129/android-modding](https://github.com/jbro129/android-modding) — A collection of repositories related to Android game modding
+- [kovidomi/game-reversing](https://github.com/kovidomi/game-reversing)
+- [TheZong/Game-Hacking](https://github.com/TheZong/Game-Hacking)
+- [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering)
+- [wtsxDev/reverse-engineering](https://github.com/wtsxDev/reverse-engineering)
+- [mytechnotalent/Hacking-Windows](https://github.com/mytechnotalent/Hacking-Windows)
+- [kotae4/intro-to-gamehacking](https://github.com/kotae4/intro-to-gamehacking)
+- [https://blog.can.ac/author/can1357](https://blog.can.ac/author/can1357)
+- [SinaKarvandi/Hypervisor-From-Scratch](https://github.com/SinaKarvandi/Hypervisor-From-Scratch) — Hypervisor
+- [https://secret.club](https://secret.club)
+- [https://back.engineering](https://back.engineering)
+- [https://vollragm.github.io](https://vollragm.github.io)
+- [https://www.triplefault.io](https://www.triplefault.io)
+- [https://advancedvectorextensions.github.io](https://advancedvectorextensions.github.io)
+- [https://bright.engineer](https://bright.engineer)
+- [https://reversing.info](https://reversing.info)
+- [https://www.unknowncheats.me](https://www.unknowncheats.me)
+- [https://forum.ragezone.com](https://forum.ragezone.com)
+- [https://guidedhacking.com](https://guidedhacking.com)
+- [https://github.com/guided-hacking](https://github.com/guided-hacking)
+- [https://gamehacking.academy](https://gamehacking.academy)
+- [https://github.com/GameHackingAcademy](https://github.com/GameHackingAcademy)
+- [https://areweanticheatyet.com](https://areweanticheatyet.com) — A list of games using anti-cheats
+- [aclist/aclist.github.io](https://github.com/aclist/aclist.github.io) — Anti-cheat compatibility list
+- [imadr/Unity-game-hacking](https://github.com/imadr/Unity-game-hacking) — Unity
+- [https://vollragm.github.io/posts/unity-reversing](https://vollragm.github.io/posts/unity-reversing) — Unity
+- [https://wiki.cheatengine.org/index.php?title=Mono](https://wiki.cheatengine.org/index.php?title=Mono) — CE Mono
+- [krampus-nuggets/ce-tutorial](https://github.com/krampus-nuggets/ce-tutorial) — CE
+- [https://il2cppdumper.com](https://il2cppdumper.com) — IL2CPP
+- [https://www.unknowncheats.me/forum/unity/465283-il2cppruntimedumper.html](https://www.unknowncheats.me/forum/unity/465283-il2cppruntimedumper.html) — IL2CPP
+- [shalzuth/NativeNetSharp](https://github.com/shalzuth/NativeNetSharp) — Injecting C# code
+- [januwA/game-reversed-study](https://github.com/januwA/game-reversed-study) — CE Guide zh
+- [csgohacks/master-guide](https://github.com/csgohacks/master-guide) — CSGO Guide
+- [different-ways-hooking](https://www.unknowncheats.me/forum/general-programming-and-reversing/154643-different-ways-hooking.html) — Hook Guide
+- [http://pwnadventure.com](http://pwnadventure.com) — Hackable Game
+- [GameCrashProject/UE4-Hacking-Guideline](https://github.com/GameCrashProject/UE4-Hacking-Guideline) — Unreal
+- [TimMisiak/WinDbgCookbook](https://github.com/TimMisiak/WinDbgCookbook) — WinDbg
+- [anhkgg/awesome-windbg-extensions](https://github.com/anhkgg/awesome-windbg-extensions) — WinDbg
+- [Undetected Cheat Engine](https://www.unknowncheats.me/forum/anti-cheat-bypass/504191-undetected-cheat-engine-driver-2022-bypass-anticheats-eac.html)
+- [Guide about remote Windows kernel debugging](https://github.com/konstantin89/windows-kernel-debugging-guide)
+- [rmusser01/Infosec_Reference](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Games.md) — Game Hacking
+- [cragson/osmium](https://github.com/cragson/osmium) — C++ Framework for external cheats
+- [april-ivy/Apwil](https://github.com/april-ivy/Apwil) — Rust Windows gamehacking library, internal & external; process/memory/module/scan/hook/render/syscall/input/window
+- [WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial](https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial) — DMA Tutorial
+- [NetKingJ/awesome-android-security](https://github.com/NetKingJ/awesome-android-security) — Android (Samsung) Security Research References
+- [gregkh/kernel-development](https://github.com/gregkh/kernel-development) — Linux kernel development
+- [MatheuZSecurity/Rootkit](https://github.com/MatheuZSecurity/Rootkit) — Collection of codes focused on Linux rootkits
+- [ARandomPerson7/Appsealing-Reversal](https://github.com/ARandomPerson7/Appsealing-Reversal) — A Reversal and bypass for Appsealing
+- [https://klecko.github.io/posts/selinux-bypasses](https://klecko.github.io/posts/selinux-bypasses) — Bypass selinux
+- [Solaree/pairipcore](https://github.com/Solaree/pairipcore) — Public researchings of the Google's Android apps protection
+- [enjoy-digital/litepcie](https://github.com/enjoy-digital/litepcie) — Small footprint and configurable PCIe core
+- [https://lolc2.github.io](https://lolc2.github.io) — collection of C2 frameworks that leverage legitimate services to evade detection

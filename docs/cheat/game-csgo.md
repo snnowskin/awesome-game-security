@@ -1,0 +1,89 @@
+# Cheat › Game:CSGO
+
+[← back to Cheat](index.md)
+
+- [Akandesh/blazedumper](https://github.com/Akandesh/blazedumper) — Offset
+- [frk1/hazedumper](https://github.com/frk1/hazedumper) — Offset
+- [gmh5225/csgo-offsets](https://github.com/gmh5225/csgo-offsets) — Offset `mirror`
+- [ofDataa/offsets](https://github.com/ofDataa/offsets) — Offset
+- [Akandesh/csgo_auto_dumper](https://github.com/Akandesh/csgo_auto_dumper) — Auto Dump
+- [dretax/GarHal_CSGO](https://github.com/dretax/GarHal_CSGO)
+- [danielkrupinski/Osiris](https://github.com/danielkrupinski/Osiris)
+- [danielkrupinski/GOESP](https://github.com/danielkrupinski/GOESP) — Cross-platform
+- [danielkrupinski/Anubis](https://github.com/danielkrupinski/Anubis)
+- [s3pt3mb3r/Dainsleif](https://github.com/s3pt3mb3r/Dainsleif)
+- [gmh5225/csgo_sdk](https://github.com/gmh5225/csgo_sdk) `mirror`
+- [gmh5225/csgo-sdk](https://github.com/gmh5225/csgo-sdk) — SDK for Rust `mirror`
+- [ekknod/csf_w](https://github.com/ekknod/csf_w) — Win SDK
+- [ekknod/csf](https://github.com/ekknod/csf) — Linux SDK
+- [Speedi13/ROP-COMPILER](https://github.com/Speedi13/ROP-COMPILER)
+- [AimTuxOfficial/AimTux](https://github.com/AimTuxOfficial/AimTux) — Linux
+- [seksea/gamesneeze](https://github.com/seksea/gamesneeze) — Linux
+- [otvv/csgo-linux-cheat-sdk](https://github.com/otvv/csgo-linux-cheat-sdk) — Linux
+- [EternityX/DEADCELL-CSGO](https://github.com/EternityX/DEADCELL-CSGO)
+- [nbqofficial/kernel-csgo](https://github.com/nbqofficial/kernel-csgo)
+- [HeathHowren/CSGO-Cheats](https://github.com/HeathHowren/CSGO-Cheats)
+- [Kruziikrel1/CSGO-FindMDL](https://github.com/Kruziikrel1/CSGO-FindMDL) — Model Changer
+- [ekknod/nv_v2](https://github.com/ekknod/nv_v2) — Sound ESP
+- [0TheSpy/SpyExternal1337hax](https://github.com/0TheSpy/SpyExternal1337hax) — External
+- [0TheSpy/Seaside](https://github.com/0TheSpy/Seaside) — Internal
+- [whereisr0da/Lumina-Cheat](https://github.com/whereisr0da/Lumina-Cheat) — Internal
+- [boltgolt/boltobserv](https://github.com/boltgolt/boltobserv) — Radar
+- [gmh5225/csgo_external_ahk_hack](https://github.com/gmh5225/csgo_external_ahk_hack) — External `mirror`
+- [ch4ncellor/CSGO-P2C-Dumper](https://github.com/ch4ncellor/CSGO-P2C-Dumper) — Dump
+- [Akatsyk/2k17-club](https://github.com/Akatsyk/2k17-club)
+- [flowxrc/csgo-xenforo-loader](https://github.com/flowxrc/csgo-xenforo-loader)
+- [ALittlePatate/ezfrags](https://github.com/ALittlePatate/ezfrags)
+- [Neaxic/CSGO-MAIN-INTERNAL](https://github.com/Neaxic/CSGO-MAIN-INTERNAL)
+- [W1lliam1337/digital-sdk](https://github.com/W1lliam1337/digital-sdk)
+- [sneakyevilSK/CSGO_BacktrackPatch](https://github.com/sneakyevilSK/CSGO_BacktrackPatch) — Backtrack Patch
+- [NullTerminatorr/NullBase](https://github.com/NullTerminatorr/NullBase) — External
+- [krxdev-kaan/AqHax-CSGO](https://github.com/krxdev-kaan/AqHax-CSGO)
+- [slack69/csgo-dma-overlay](https://github.com/slack69/csgo-dma-overlay) — DMA
+- [rrpvm/csgo-external-cheat](https://github.com/rrpvm/csgo-external-cheat)
+- [Bartis1313/csgo](https://github.com/Bartis1313/csgo)
+- [NullHooks/NullHooks](https://github.com/NullHooks/NullHooks) — Internal
+- [Skarbo/CSGOCrosshair](https://github.com/Skarbo/CSGOCrosshair) — Crosshair Generator
+- [ekknod/G37OBS](https://github.com/ekknod/G37OBS) — obs-studio plugin for csgo
+- [Sentient111/Csgo-Full-kernel](https://github.com/Sentient111/Csgo-Full-kernel) — Running from kernelmode
+- [razixNew/CompiledProtection](https://github.com/razixNew/CompiledProtection) — Cheat Compiler
+- [ekknod/EC](https://github.com/ekknod/EC)
+- [soyware/heck_csgo_external](https://github.com/soyware/heck_csgo_external) — External
+- [martinjanas/Sensum](https://github.com/martinjanas/Sensum) — Internal
+- [cazzwastaken/kakhack](https://github.com/cazzwastaken/kakhack) — Internal
+- [Spelchure/CSGO-Internal](https://github.com/Spelchure/CSGO-Internal) — Internal
+- [binkynz/cstrike-hack](https://github.com/binkynz/cstrike-hack)
+- [R4YVEN/raybot-zero](https://github.com/R4YVEN/raybot-zero) — Kernel-mode
+- [gmh5225/CSGO-Loader](https://github.com/gmh5225/CSGO-Loader) — Loader `mirror`
+- [gmh5225/CSGO-NIXWARE-CSGO](https://github.com/gmh5225/CSGO-NIXWARE-CSGO) — Nixware `mirror`
+- [designer1337/csgo-cheat-base](https://github.com/designer1337/csgo-cheat-base) — Internal
+- [yourmnbbn/tiny-csgo-client](https://github.com/yourmnbbn/tiny-csgo-client) — Tiny csgo client for connecting dedicated server
+- [click4dylan/CSGO_AnimationCode_Reversed](https://github.com/click4dylan/CSGO_AnimationCode_Reversed) — CSGO animation code
+- [spirthack/CSGOSimple](https://github.com/spirthack/CSGOSimple) — Internal
+- [ViddeBoiiii/CSGO-Ormbunke-x86](https://github.com/ViddeBoiiii/CSGO-Ormbunke-x86) — Imgui Menu
+- [gmh5225/legit-csgo-cheat-menu](https://github.com/gmh5225/legit-csgo-cheat-menu) — Menu `mirror`
+- [gmh5225/autismware](https://github.com/gmh5225/autismware) — HvH `mirror`
+- [emilyinure/solace-csgo](https://github.com/emilyinure/solace-csgo) — Internal
+- [gmh5225/csgo-sdk-improved](https://github.com/gmh5225/csgo-sdk-improved) — Internal `mirror`
+- [gmh5225/cartmanv2](https://github.com/gmh5225/cartmanv2) — Internal `mirror`
+- [gmh5225/CSGO-aw-v5.1.13](https://github.com/gmh5225/CSGO-aw-v5.1.13) — aw-v5.1.13 `mirror`
+- [ricencheese/csgo-bot](https://github.com/ricencheese/csgo-bot)
+- [forceinline/csgo-external-esp](https://github.com/forceinline/csgo-external-esp) — External
+- [gmh5225/avhook](https://github.com/gmh5225/avhook) `mirror`
+- [si1kyyy/csgo_cheat_external](https://github.com/si1kyyy/csgo_cheat_external) — External
+- [gmh5225/nebulite-external](https://github.com/gmh5225/nebulite-external) — External `mirror`
+- [lstrsrt/csgo_internal_base](https://github.com/lstrsrt/csgo_internal_base) — Internal
+- [gmh5225/Astra](https://github.com/gmh5225/Astra) — External `mirror`
+- [gmh5225/CSGO-Alphen](https://github.com/gmh5225/CSGO-Alphen) `mirror`
+- [Enzo0721/ExternalCheatV3](https://github.com/Enzo0721/ExternalCheatV3) — External
+- [SteamDatabase/Protobufs](https://github.com/SteamDatabase/Protobufs/tree/master/csgo) — Protobuf
+- [kyojig/csgo_kns](https://github.com/kyojig/csgo_kns) — Internal
+- [M3351AN/saphire](https://github.com/M3351AN/saphire) — Internal
+- [VitorMob/GHInterfacesCSGO](https://github.com/VitorMob/GHInterfacesCSGO) — Internal
+- [gmh5225/memcs](https://github.com/gmh5225/memcs) — External `mirror`
+- [rabbitfishy/sdk](https://github.com/rabbitfishy/sdk) — SDK
+- [bloesway/csgo_sdk](https://github.com/bloesway/csgo_sdk) — SDK
+- [DeiVid-12/SmKernel-CSGO](https://github.com/DeiVid-12/SmKernel-CSGO) — Driver
+- [notgoodusename/OsirisAndExtra](https://github.com/notgoodusename/OsirisAndExtra) — Internal
+- [M3351AN/Echinoidea](https://github.com/M3351AN/Echinoidea) — External C#
+- [Blaumaus/le_chiffre](https://github.com/Blaumaus/le_chiffre) — External

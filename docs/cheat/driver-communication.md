@@ -1,0 +1,57 @@
+# Cheat › Driver Communication
+
+[← back to Cheat](index.md)
+
+- [gmh5225/Driver-Communication-List](https://github.com/gmh5225/Driver-Communication-List) `mirror`
+- [EBalloon/Common-Registry](https://github.com/EBalloon/Common-Registry) — Registry Callback
+- [gmh5225/Common-Registry-Jmp-RCX](https://github.com/gmh5225/Common-Registry-Jmp-RCX) — Registry Callback `mirror`
+- [0xGREG/registry-callbacks](https://github.com/0xGREG/registry-callbacks) — Registry Callback
+- [adrianyy/rw_socket_driver](https://github.com/adrianyy/rw_socket_driver) — Socket
+- [zoand/BOOM](https://github.com/zoand/BOOM) — Hijack Beep.sys
+- [gmh5225/Driver-read_write](https://github.com/gmh5225/Driver-read_write) — Hijack IRP Beep.sys `mirror`
+- [isoadam/gina_public](https://github.com/isoadam/gina_public) — Hijack IRP Null
+- [Barracudach/Swap-control-ioctl](https://github.com/Barracudach/Swap-control-ioctl) — Hijack IRP SpeedFan.sys
+- [adspro15/km-um-communication](https://github.com/adspro15/km-um-communication)
+- [Spuckwaffel/Kernel-Thread-Driver](https://github.com/Spuckwaffel/Kernel-Thread-Driver) — Thread
+- [Astronaut00/DoubleDataPointer](https://github.com/Astronaut00/DoubleDataPointer) — Double Data Pointer
+- [paradoxwastaken/Poseidon](https://github.com/paradoxwastaken/Poseidon) — NtConvertBetweenAuxiliaryCounterAndPerformanceCounter
+- [FarmEquipment69/umap-mapper](https://github.com/FarmEquipment69/umap-mapper) — NtConvertBetweenAuxiliaryCounterAndPerformanceCounter
+- [0mWindyBug/DataptrHooks](https://github.com/0mWindyBug/DataptrHooks) — NtConvertBetweenAuxiliaryCounterAndPerformanceCounter
+- [gmh5225/r69-driver](https://github.com/gmh5225/r69-driver) — NtQueryAuxiliaryCounterFrequency `mirror`
+- [KeServiceDescriptorTable/roak](https://github.com/KeServiceDescriptorTable/roak) — NtQueryAuxiliaryCounterFrequency
+- [weak1337/EvCommunication](https://github.com/weak1337/EvCommunication) — NtTokenManagerCreateFlipObjectReturnTokenHandle
+- [gmh5225/Driver-kaldereta](https://github.com/gmh5225/Driver-kaldereta) — NtTokenManagerGetAnalogExclusiveTokenEvent `mirror`
+- [UCFoxi/Shared-FlushFileBuffers-Communication](https://github.com/UCFoxi/Shared-FlushFileBuffers-Communication) — FlushFileBuffers
+- [Sinclairq/DataCommunication](https://github.com/Sinclairq/DataCommunication) — NtCompareSigningLevels
+- [ExpLife0011/NtCompareSigningLevel-hook](https://github.com/ExpLife0011/NtCompareSigningLevel-hook) — NtCompareSigningLevels
+- [muturikaranja/AfdIrpCallDispatch](https://github.com/muturikaranja/AfdIrpCallDispatch) — .data Pointer hook in Afd.sys
+- [https://www.unknowncheats.me/forum/anti-cheat-bypass/483093-vtable-kernel-function-hook-communication.html](https://www.unknowncheats.me/forum/anti-cheat-bypass/483093-vtable-kernel-function-hook-communication.html) — NtUserMessageCall
+- [EBalloon/MapPage](https://github.com/EBalloon/MapPage) — NtUserGetObjectInformation
+- [gmh5225/eac-bypass-1](https://github.com/gmh5225/eac-bypass-1) — NtMapVisualRelativePoints `mirror`
+- [https://git.back.engineering/_xeroxz/NtWin32k](https://git.back.engineering/_xeroxz/NtWin32k) — NtUserGetThreadState
+- [sbsbsbssbsbs/boundcallback](https://github.com/sbsbsbssbsbs/boundcallback) — KeRegisterBoundCallback
+- [gmh5225/DataPtrSwap-driver](https://github.com/gmh5225/DataPtrSwap-driver) — NtSetCompositionSurfaceAnalogExclusive `mirror`
+- [xPasters/.data-ptr-swap](https://github.com/xPasters/.data-ptr-swap) — NtSetCompositionSurfaceAnalogExclusive
+- [ryan-weil/ReadWriteDriver](https://github.com/ryan-weil/ReadWriteDriver) — NtUserSetSysColors
+- [D3DXVECTOR2/NtUserUpdateWindowTrackingInfo](https://github.com/D3DXVECTOR2/NtUserUpdateWindowTrackingInfo) — NtUserUpdateWindowTrackingInfo
+- [KiFilterFiberContext/windows-software-policy](https://github.com/KiFilterFiberContext/windows-software-policy) — clip
+- [gmh5225/Interep-Driver-Leak](https://github.com/gmh5225/Interep-Driver-Leak) — NtGdiPolyPolyDraw `mirror`
+- [gmh5225/Comm-data-ptr-driver](https://github.com/gmh5225/Comm-data-ptr-driver) — NtGdiPolyPolyDraw `mirror`
+- [JGonz1337/kernel-eac-be-comm](https://github.com/JGonz1337/kernel-eac-be-comm) — NtGdiPolyPolyDraw
+- [Lynnette177/Rigel-Driver](https://github.com/Lynnette177/Rigel-Driver) — NtGdiDdDDINetDispGetNextChunkInfo
+- [NullTerminatorr/NullHook](https://github.com/NullTerminatorr/NullHook) — NtDxgkGetTrackedWorkloadStatistics
+- [gmh5225/Kernel-Cheat-for-directx3D](https://github.com/gmh5225/Kernel-Cheat-for-directx3D) — NtDxgkGetTrackedWorkloadStatistics `mirror`
+- [gmh5225/Comm-Data-Pointer-Swap](https://github.com/gmh5225/Comm-Data-Pointer-Swap) — NtDCompositionSetChildRootVisual `mirror`
+- [gmh5225/Comm-NekoSwap](https://github.com/gmh5225/Comm-NekoSwap) — Win32kApiSetTable `mirror`
+- [gmh5225/kernel_payload_comms](https://github.com/gmh5225/kernel_payload_comms) — Shared Memory `mirror`
+- [Chase1803/UCMiraka-ValorantExternal](https://github.com/Chase1803/UCMiraka-ValorantExternal) — NtUserGetPointerProprietaryId
+- [gmh5225/Comm-ImMiraclela](https://github.com/gmh5225/Comm-ImMiraclela) — NtDxgkGetTrackedWorkloadStatistics/NtDxgkGetAvailableTrackedWorkLoadIndex `mirror`
+- [https://www.unknowncheats.me/forum/2976731-post45.html](https://www.unknowncheats.me/forum/2976731-post45.html) — IsWin32KSyscallFiltered
+- [gmh5225/Eac-Injector-Driver](https://github.com/gmh5225/Eac-Injector-Driver) — NtQueryIntervalProfile `mirror`
+- [gmh5225/job_communication](https://github.com/gmh5225/job_communication) — NtQueryInformationJobObject `mirror`
+- [gmh5225/custom_data_ptr_swap_sample](https://github.com/gmh5225/custom_data_ptr_swap_sample) — NtQueryLicenseValue `mirror`
+- [zer0condition/ZeroThreadKernel](https://github.com/zer0condition/ZeroThreadKernel) — NtCreateCompositionSurfaceHandle
+- [gmh5225/NullDriverCheat](https://github.com/gmh5225/NullDriverCheat) — NtOpenCompositionSurfaceSectionInfo `mirror`
+- [https://www.unknowncheats.me/forum/anti-cheat-bypass/560809-firmwaretablehandler.html](https://www.unknowncheats.me/forum/anti-cheat-bypass/560809-firmwaretablehandler.html) — FirmwareTableHandler
+- [oakboat/DataPtrHookWin11](https://github.com/oakboat/DataPtrHookWin11) — NtUserSetGestureConfig
+- [GetRektBoy724/Win32kHooker](https://github.com/GetRektBoy724/Win32kHooker) — .data ptr swapper for newer win32k versions

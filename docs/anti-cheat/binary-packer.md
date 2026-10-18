@@ -1,0 +1,62 @@
+# Anti Cheat › Binary Packer
+
+[← back to Anti Cheat](index.md)
+
+- [phra/PEzor](https://github.com/phra/PEzor)
+- [czs108/PE-Packer](https://github.com/czs108/PE-Packer) — X86
+- [longqun/Packer](https://github.com/longqun/Packer) — X86
+- [ATsahikian/pe-protector](https://github.com/ATsahikian/pe-protector) — X86
+- [mkaring/ConfuserEx](https://github.com/mkaring/ConfuserEx) — .NET
+- [iArtorias/debug_remover](https://github.com/iArtorias/debug_remover) — Strip Debug Info
+- [ytk2128/pe32-password](https://github.com/ytk2128/pe32-password)
+- [frkngksl/Huan](https://github.com/frkngksl/Huan)
+- [frkngksl/HintInject](https://github.com/frkngksl/HintInject) — Hint/Name Table
+- [ClaudiuGeorgiu/Obfuscapk](https://github.com/ClaudiuGeorgiu/Obfuscapk) — Android
+- [magnussen7/Embuche](https://github.com/magnussen7/Embuche) — ELF
+- [EgeBalci/amber](https://github.com/EgeBalci/amber)
+- [SamLarenN/PePacker](https://github.com/SamLarenN/PePacker)
+- [Systemcluster/wrappe](https://github.com/Systemcluster/wrappe) — Rust
+- [vsteffen/woody_woodpacker](https://github.com/vsteffen/woody_woodpacker) — ELF
+- [n4sm/m0dern_p4cker](https://github.com/n4sm/m0dern_p4cker) — ELF
+- [JonDoNym/peinjector](https://github.com/JonDoNym/peinjector)
+- [craids/AresFramework](https://github.com/craids/AresFramework)
+- [andrew9382/exe_packer](https://github.com/andrew9382/exe_packer)
+- [dr4k0nia/Origami](https://github.com/dr4k0nia/Origami) — Compressing .net assemblies
+- [mix64/ELFpacker](https://github.com/mix64/ELFpacker) — ELF
+- [litemars/hARMless](https://github.com/litemars/hARMless) — ARM64 Linux ELF Packer/Loader
+- [jnastarot/shibari](https://github.com/jnastarot/shibari) — Linking multiple PE\PE + files to one
+- [Simple ELF runtime packer for creating stealthy droppers](https://github.com/ex0dus-0x/ward)
+- [A simple packer working with all PE files which cipher your exe with a XOR implementation](https://github.com/nqntmqmqmb/xorPacker)
+- [r0ngwe1/petoy](https://github.com/r0ngwe1/petoy) — PE
+- [An ELF / PE packer written in pure C](https://github.com/SilentVoid13/Silent_Packer)
+- [droberson/ELFcrypt](https://github.com/droberson/ELFcrypt) — ELF RC4
+- [timhsutw/elfuck](https://github.com/timhsutw/elfuck) — ELF
+- [Eronana/packer](https://github.com/Eronana/packer) — PE
+- [akuafif/hXOR-Packer](https://github.com/akuafif/hXOR-Packer) — PE XOR
+- [arisada/midgetpack](https://github.com/arisada/midgetpack) — ELF
+- [friedkiwi/netcrypt](https://github.com/friedkiwi/netcrypt) — .NET
+- [89luca89/pakkero](https://github.com/89luca89/pakkero) — ELF
+- [dimkr/papaw](https://github.com/dimkr/papaw) — LZMA
+- [akawashiro/sloader](https://github.com/akawashiro/sloader) — ELF loader which aims to replace ld-linux.so of glibc
+- [cryonumb/elfloader](https://github.com/cryonumb/elfloader) — ELF Loader for ps5-jar-loader
+- [MahmoudZohdy/IAT-Obfuscation](https://github.com/MahmoudZohdy/IAT-Obfuscation) — IAT Obfuscation
+- [gmh5225/shellcode-EntropyFix](https://github.com/gmh5225/shellcode-EntropyFix) — Reducing entropy `mirror`
+- [gmh5225/AtomPePacker](https://github.com/gmh5225/AtomPePacker) — PE X64 `mirror`
+- [Lima-X/Win32.Nebula](https://github.com/Lima-X/Win32.Nebula) — PE X64
+- [TheAenema/hm-pe-packer](https://github.com/TheAenema/hm-pe-packer) — PE X64
+- [hid3rx/PEPacker](https://github.com/hid3rx/PEPacker) — PE X64
+- [xsj3n/x64-EXE-Packer](https://github.com/xsj3n/x64-EXE-Packer) — PE X64
+- [frkngksl/Shoggoth](https://github.com/frkngksl/Shoggoth) — Polymorphic Encryptor
+- [LongWayHomie/PolyEngine](https://github.com/LongWayHomie/PolyEngine) — Evasive PE packer for CTF and Windows low-level security education; in-memory execution and layered obfuscation
+- [GunshipPenguin/kiteshield](https://github.com/GunshipPenguin/kiteshield) — ELF X64
+- [gmh5225/KitsuPE](https://github.com/gmh5225/KitsuPE) — PE `mirror`
+- [KooroshRZ/Evader](https://github.com/KooroshRZ/Evader) — PE
+- [greyb1t/GreyM](https://github.com/greyb1t/GreyM) — PE
+- [xM0kht4r/2Pack](https://github.com/xM0kht4r/2Pack) — Rust Based PE & Shellcode Packer
+- [DavidBuchanan314/stelf-loader](https://github.com/DavidBuchanan314/stelf-loader) — ELF X64 loader
+- [frank2/oxide](https://github.com/frank2/oxide) — Written by Rust
+- [Washi1337/AwaitFuscator](https://github.com/Washi1337/AwaitFuscator) — .NET
+- [Fatmike-GH/Fatpack](https://github.com/Fatmike-GH/Fatpack) — A Windows PE packer with full TLS (Thread Local Storage) support
+- [caprinux/rel-fuscate](https://github.com/caprinux/rel-fuscate) — Modifying the jmprel_entry->r_offset
+- [dobin/SuperMega](https://github.com/dobin/SuperMega) — Stealthily inject shellcode into an executable
+- [raskolnikov90/Beatrice.py](https://github.com/raskolnikov90/Beatrice.py) — Modify machine code in binaries with alternative x64 assembly opcodes for AV evasion

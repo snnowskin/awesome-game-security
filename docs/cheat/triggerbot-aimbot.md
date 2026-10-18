@@ -1,0 +1,41 @@
+# Cheat › Triggerbot & Aimbot
+
+[← back to Cheat](index.md)
+
+- [changeofpace/MouHidInputHook](https://github.com/changeofpace/MouHidInputHook)
+- [ekknod/MouseClassServiceCallbackTrick](https://github.com/ekknod/MouseClassServiceCallbackTrick)
+- [ekknod/MouseClassServiceCallbackMeme](https://github.com/ekknod/MouseClassServiceCallbackMeme)
+- [blackhades00/PareidoliaTriggerbot](https://github.com/blackhades00/PareidoliaTriggerbot)
+- [adspro15/DirectInput](https://github.com/adspro15/DirectInput)
+- [petercunha/Pine](https://github.com/petercunha/Pine) — Neural Network
+- [gmh5225/AI-FPS-b00m-h3adsh0t](https://github.com/gmh5225/AI-FPS-b00m-h3adsh0t) — Neural Network `mirror`
+- [univrsal/input-overlay](https://github.com/univrsal/input-overlay) — Keyboard Mapper
+- [Miffyli/gan-aimbots](https://github.com/Miffyli/gan-aimbots) — Machine Learning
+- [RootKit-Org/AI-Aimbot](https://github.com/RootKit-Org/AI-Aimbot) — Machine Learning YOLOv5
+- [AMXZzzz/SF_TRT_61](https://github.com/AMXZzzz/SF_TRT_61) — Machine Learning YOLO
+- [Fragmentaim/Auto_aim](https://github.com/Fragmentaim/Auto_aim) — DXGI + TensorRT + driver-level input
+- [Passer1072/RookieAI_yolov8](https://github.com/Passer1072/RookieAI_yolov8) — Machine Learning YOLOv8
+- [Leksa667/YOLOv8-Overlay-CS2](https://github.com/Leksa667/YOLOv8-Overlay-CS2) — YOLOv8 in CS2
+- [dqforgive-sudo/pubg-ai-yolov4](https://github.com/dqforgive-sudo/pubg-ai-yolov4) — PUBG yolov4
+- [lkeai2007/yolov5_PUBG](https://github.com/lkeai2007/yolov5_PUBG) — PUBG yolov5
+- [Hellonihaohh/yolo-v8s](https://github.com/Hellonihaohh/yolo-v8s) — PUBG yolo dataset
+- [Hellonihaohh/yolo-v8m](https://github.com/Hellonihaohh/yolo-v8m) — PUBG yolo dataset
+- [lehmenkuehler/camera-triggerbot](https://github.com/lehmenkuehler/camera-triggerbot) — Camera Triggerbot
+- [BuddyBoi/KernelMoveMouse](https://github.com/BuddyBoi/KernelMoveMouse) — gptCursorAsync
+- [Zpes/mouse-input-injection](https://github.com/Zpes/mouse-input-injection) — NtUserInjectMouseInput
+- [gmh5225/Overwatch-1-cheat-source](https://github.com/gmh5225/Overwatch-1-cheat-source) — NtUserInjectMouseInput `mirror`
+- [gmh5225/NtUserInjectMouseInput-syscall](https://github.com/gmh5225/NtUserInjectMouseInput-syscall) — NtUserInjectMouseInput SYSCALL `mirror`
+- [gmh5225/ClickPic](https://github.com/gmh5225/ClickPic) — OpenCV + Triggerbot `mirror`
+- [gmh5225/OpenCV-SmartAimBot](https://github.com/gmh5225/OpenCV-SmartAimBot) — OpenCV + Triggerbot `mirror`
+- [Lexikos/AutoHotkey_L](https://github.com/Lexikos/AutoHotkey_L)
+- [tgillam/HumanMouseMovement](https://github.com/tgillam/HumanMouseMovement)
+- [AsfhtgkDavid/windmouse](https://github.com/AsfhtgkDavid/windmouse) — Human-like mouse movement using WindMouse algorithm
+- [Chaoses-Ib/IbInputSimulator](https://github.com/Chaoses-Ib/IbInputSimulator) — Simulating keyboard, mouse
+- [ekknod/logitech-cve](https://github.com/ekknod/logitech-cve) — logitech
+- [gmh5225/razer-rzctl](https://github.com/gmh5225/razer-rzctl) — Razer `mirror`
+- [vsaint1/kernel-mouse](https://github.com/vsaint1/kernel-mouse) — MouClass
+- [gmh5225/android_touch](https://github.com/gmh5225/android_touch) — For Android `mirror`
+- [muchenspace/android_virtualTouch](https://github.com/muchenspace/android_virtualTouch) — For Android
+- [gmh5225/PTFakeTouch](https://github.com/gmh5225/PTFakeTouch) — For IOS `mirror`
+- [M3351AN/mouse_input_injection](https://github.com/M3351AN/mouse_input_injection) — NtUserInjectMouseInput
+- [BatogiX/logitech-cve](https://github.com/BatogiX/logitech-cve) — A Rust library for interacting with Logitech virtual driver

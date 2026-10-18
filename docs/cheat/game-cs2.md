@@ -1,0 +1,57 @@
+# Cheat › Game:CS2
+
+[← back to Cheat](index.md)
+
+- [ro0ti/CS2-Offsets](https://github.com/ro0ti/CS2-Offsets) — Offset
+- [sezzyaep/CS2-OFFSETS](https://github.com/sezzyaep/CS2-OFFSETS) — Offset
+- [Salvatore-Als/cs2-signature-list](https://github.com/Salvatore-Als/cs2-signature-list) — Signature
+- [bruhmoment21/cs2-sdk](https://github.com/bruhmoment21/cs2-sdk) — SDK
+- [Omn1z/Counter-Strike2-SDK](https://github.com/Omn1z/Counter-Strike2-SDK) — SDK
+- [gmh5225/cs2-sdk](https://github.com/gmh5225/cs2-sdk) — SDK `mirror`
+- [gmh5225/CS2-SDK-Source2Gen](https://github.com/gmh5225/CS2-SDK-Source2Gen) — SDK `mirror`
+- [FrySimpl3/SDK_CS2](https://github.com/FrySimpl3/SDK_CS2) — SDK
+- [gmh5225/cs2_sdk](https://github.com/gmh5225/cs2_sdk) — SDK `mirror`
+- [NotOfficer/cs2-sdk](https://github.com/NotOfficer/cs2-sdk) — SDK
+- [a2x/cs2-dumper](https://github.com/a2x/cs2-dumper) — Dump
+- [dougwithseismic/dezlock-dump](https://github.com/dougwithseismic/dezlock-dump) — Runtime schema + RTTI extraction for Source 2 (Deadlock, CS2, Dota 2); no source2gen required
+- [imnotdatguy/csgo2-cheat](https://github.com/imnotdatguy/csgo2-cheat)
+- [papstuc/counterstrike2](https://github.com/papstuc/counterstrike2)
+- [nezu-cc/BakaWare4](https://github.com/nezu-cc/BakaWare4)
+- [gmh5225/cs2-fov-changer](https://github.com/gmh5225/cs2-fov-changer) — FOV changer `mirror`
+- [clauadv/cs2_webradar](https://github.com/clauadv/cs2_webradar) — undetected counter strike 2 browser based radar cheat
+- [MoZiHao/CS2_DMA_Radar](https://github.com/MoZiHao/CS2_DMA_Radar) — DMA Radar
+- [gmh5225/cs2_webradar](https://github.com/gmh5225/cs2_webradar) — Browser based radar cheat `mirror`
+- [MoZiHao/CS2_DMA_Extrnal](https://github.com/MoZiHao/CS2_DMA_Extrnal) — DMA External
+- [gmh5225/vscript_lua51](https://github.com/gmh5225/vscript_lua51) — VScript `mirror`
+- [gmh5225/cs2_things](https://github.com/gmh5225/cs2_things) — VScript `mirror`
+- [IMXNOOBX/cs2-external-esp](https://github.com/IMXNOOBX/cs2-external-esp) — External
+- [UnnamedZ03/CS2-external-base](https://github.com/UnnamedZ03/CS2-external-base) — External
+- [Tokyodidit/cs2External](https://github.com/Tokyodidit/cs2External) — External
+- [TKazer/CS2_External](https://github.com/TKazer/CS2_External) — External
+- [Valthrun/Valthrun](https://github.com/Valthrun/Valthrun) — External
+- [Zckyy/CS2-External](https://github.com/Zckyy/CS2-External) — External
+- [sFIsAnExpert/CS2-External-Cheat](https://github.com/sFIsAnExpert/CS2-External-Cheat) — External
+- [gmh5225/tim_apple](https://github.com/gmh5225/tim_apple) — External `mirror`
+- [kristofhracza/tim_apple](https://github.com/kristofhracza/tim_apple) — External
+- [gmh5225/CS2-Cheat](https://github.com/gmh5225/CS2-Cheat) — External `mirror`
+- [Half-People/HPCS2](https://github.com/Half-People/HPCS2) — External
+- [gmh5225/CS2-External-1](https://github.com/gmh5225/CS2-External-1) — External `mirror`
+- [M3351AN/AimStar](https://github.com/M3351AN/AimStar) — External
+- [Fr0go1/Aeonix-Cs2](https://github.com/Fr0go1/Aeonix-Cs2) — External
+- [xvorost/CS-2-Glow](https://github.com/xvorost/CS-2-Glow) — External
+- [yinleiCoder/cs2-cheat-cpp](https://github.com/yinleiCoder/cs2-cheat-cpp) — External
+- [ByteCorum/DragonBurn](https://github.com/ByteCorum/DragonBurn) — External
+- [yoshisaac/CounterStrike2-Linux-Cheat](https://github.com/yoshisaac/CounterStrike2-Linux-Cheat) — Linux External
+- [KisSsArt/CS2-Cheat-Base](https://github.com/KisSsArt/CS2-Cheat-Base) — Internal
+- [redbg/CS2-Internal](https://github.com/redbg/CS2-Internal) — Internal
+- [gmh5225/CS2-Cheat-Base](https://github.com/gmh5225/CS2-Cheat-Base) — Internal `mirror`
+- [chaycee/CS2Internal](https://github.com/chaycee/CS2Internal) — Internal
+- [gmh5225/csgo2-cheat](https://github.com/gmh5225/csgo2-cheat) — Internal `mirror`
+- [gmh5225/Aurora](https://github.com/gmh5225/Aurora) — Internal `mirror`
+- [clouddss/cs2-internal-sdk](https://github.com/clouddss/cs2-internal-sdk) — Internal
+- [W1lliam1337/cstrike2-hack](https://github.com/W1lliam1337/cstrike2-hack) — Rust-based internal
+- [eden13378/CS2-DMA-Cheat](https://github.com/eden13378/CS2-DMA-Cheat) — DMA
+- [gmh5225/CS2-Dma-Radar](https://github.com/gmh5225/CS2-Dma-Radar) — DMA `mirror`
+- [M3351AN/Samidare](https://github.com/M3351AN/Samidare) — External Ring3/Ring0
+- [Vekor64/PythonCS2](https://github.com/Vekor64/PythonCS2) — Python External
+- [maecry/asphyxia-cs2](https://github.com/maecry/asphyxia-cs2) — Internal

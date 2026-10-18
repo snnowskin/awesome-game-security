@@ -1,0 +1,186 @@
+# Game Develop
+
+168 entries.
+
+## Guide
+
+- [Calinou/awesome-gamedev](https://github.com/Calinou/awesome-gamedev)
+- [notpresident35/learn-awesome-gamedev](https://github.com/notpresident35/learn-awesome-gamedev)
+- [yrgo/awesome-educational-games](https://github.com/yrgo/awesome-educational-games)
+- [bobeff/open-source-games](https://github.com/bobeff/open-source-games) — A list of open source games
+- [michelpereira/awesome-open-source-games](https://github.com/michelpereira/awesome-open-source-games) — Collection of Games
+- [raizam/gamedev_libraries](https://github.com/raizam/gamedev_libraries) — A collection of open source c/c++ libraries for gamedev
+- [gheja/game-design-documents](https://github.com/gheja/game-design-documents) — Game design documents
+- [Kavex/GameDev-Resources](https://github.com/Kavex/GameDev-Resources) — Game Development resources
+- [michal-z/zig-gamedev](https://github.com/michal-z/zig-gamedev) — Building game development ecosystem for ziglang
+- [OTFCG/Awesome-Game-Analysis](https://github.com/OTFCG/Awesome-Game-Analysis) — Video game tech analysis resources
+- [killop/anything_about_game](https://github.com/killop/anything_about_game) — Game Development resources
+- [TastSong/GameProgrammerStudyNotes](https://github.com/TastSong/GameProgrammerStudyNotes) — Game Development notes
+- [gmh5225/gtav-sourcecode-build-guide](https://github.com/gmh5225/gtav-sourcecode-build-guide) — GTA V Source Code Build Tutorial `mirror`
+
+## Source
+
+- [PiMoNFeeD/csgo-src](https://github.com/PiMoNFeeD/csgo-src) — Leaked CSGO
+- [perilouswithadollarsign/cstrike15_src](https://github.com/perilouswithadollarsign/cstrike15_src) — Leaked CSGO With CI
+- [gmh5225/Far-Cry-1-Source-Full](https://github.com/gmh5225/Far-Cry-1-Source-Full) — Leaked Far Cry 1 `mirror`
+- [gmh5225/FarCry](https://github.com/gmh5225/FarCry) — Leaked Far Cry 1 `mirror`
+- [SwagSoftware/Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike) — Open Source CSGO
+- [SwagSoftware/KisakCOD](https://github.com/SwagSoftware/KisakCOD) — COD4 Open Source Reimplementation
+- [SwagSoftware/KisakBlack](https://github.com/SwagSoftware/KisakBlack) — COD:Black Ops Open Source Reimplementation
+- [gmh5225/csso-src](https://github.com/gmh5225/csso-src) — CSGO Mod `mirror`
+- [thomaseichhorn/cs16-client](https://github.com/thomaseichhorn/cs16-client) — Rewrote CS1.6
+- [s1lentq/ReGameDLL_CS](https://github.com/s1lentq/ReGameDLL_CS) — Reversed CS1.6
+- [Velaron/cs16-client](https://github.com/Velaron/cs16-client) — Reversed CS1.6
+- [Source2ZE/CS2Fixes](https://github.com/Source2ZE/CS2Fixes) — CS2 mod
+- [gmh5225/Game-GTA-re3](https://github.com/gmh5225/Game-GTA-re3) — Reversed GTA III, Vice City `mirror`
+- [gmh5225/reGTA](https://github.com/gmh5225/reGTA) — Reverse Engineered GTA III and GTA VC `mirror`
+- [gta-reversed/gta-reversed-modern](https://github.com/gta-reversed/gta-reversed-modern) — Reimplementation of GTA:SA 1.0 US
+- [ThirteenAG/GTAIV.EFLC.FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) — GTA IV: Complete Edition fixes and modern-feature patch (graphics, FPS, QoL, scripting, widescreen)
+- [gmh5225/Grand-Theft-Auto-Modding-Source](https://github.com/gmh5225/Grand-Theft-Auto-Modding-Source) — Code snippets for Vice City `mirror`
+- [Harrison1/unrealcpp](https://github.com/Harrison1/unrealcpp) — UE4 C++ examples
+- [QianMo/UE4-FPS-Game](https://github.com/QianMo/UE4-FPS-Game) — UE4 FPS Game
+- [KitchenGun/UE4_FPS](https://github.com/KitchenGun/UE4_FPS) — UE4 FPS Demo
+- [tomlooman/SimpleFPSTemplate](https://github.com/tomlooman/SimpleFPSTemplate) — UE4 FPS Demo
+- [tomlooman/EpicSurvivalGame](https://github.com/tomlooman/EpicSurvivalGame) — UE4 FPS Game
+- [QianMo/UE4-Tank-Game](https://github.com/QianMo/UE4-Tank-Game) — UE4 Game
+- [gmh5225/UE5-FPS-CryptRaider](https://github.com/gmh5225/UE5-FPS-CryptRaider) — UE5 FPS Game `mirror`
+- [LeroyTechnologies/ProjectM](https://github.com/LeroyTechnologies/ProjectM) — UE5 FPS Game
+- [invi1998/MultiplayerBlasterGame](https://github.com/invi1998/MultiplayerBlasterGame) — UE5 FPS Game
+- [DruidMech/MultiplayerCourseBlasterGame](https://github.com/DruidMech/MultiplayerCourseBlasterGame) — UE5 FPS Game
+- [gmh5225/UE5MultiplayerProject](https://github.com/gmh5225/UE5MultiplayerProject) — UE5 horror game with anti-cheat `mirror`
+- [perfect-hand/ue5-cardgame](https://github.com/perfect-hand/ue5-cardgame) — UE5 Card Game
+- [stackOverflower92/FightingGame-UE5](https://github.com/stackOverflower92/FightingGame-UE5) — UE5 Fighting Game
+- [gmh5225/UnrealEngine5-UltimateStreetFighters](https://github.com/gmh5225/UnrealEngine5-UltimateStreetFighters) — UE5 StreetFighters Game `mirror`
+- [EvelynSchwab/ComponentFuseMechanic](https://github.com/EvelynSchwab/ComponentFuseMechanic) — UE5 constraining system
+- [CobraCodeDev/TP_2DSideScrollerBP](https://github.com/CobraCodeDev/TP_2DSideScrollerBP) — UE5 2D template
+- [gmh5225/ue5-roll-a-ball-game](https://github.com/gmh5225/ue5-roll-a-ball-game) — UE5 Roll a Ball Game `mirror`
+- [tomlooman/ActionRoguelike](https://github.com/tomlooman/ActionRoguelike) — UE Roguelike Game
+- [Unity-Technologies/FPSSample](https://github.com/Unity-Technologies/FPSSample) — Unity Game
+- [OguzKaira/FPS-Movement](https://github.com/OguzKaira/FPS-Movement) — Unity FPS
+- [OguzKaira/SQLite-Unity3D](https://github.com/OguzKaira/SQLite-Unity3D) — Unity SQLite
+- [swordjoinmagic/MoBaDemo](https://github.com/swordjoinmagic/MoBaDemo) — Unity MoBa
+- [gmh5225/U3D_MiniDNF](https://github.com/gmh5225/U3D_MiniDNF) — Unity mini DNF `mirror`
+- [gmh5225/unity-vrchat-template](https://github.com/gmh5225/unity-vrchat-template) — Unity VRChat Template `mirror`
+- [Saukiya/Arknights](https://github.com/Saukiya/Arknights) — Unity Arknights
+- [ZehMatt/SnakeRoyal](https://github.com/ZehMatt/SnakeRoyal) — Mini Game With Server
+- [MKXJun/Super-Fighter](https://github.com/MKXJun/Super-Fighter) — DX11 Mini Game
+- [MKXJun/Rubik-Cube](https://github.com/MKXJun/Rubik-Cube) — DX9/11 Mini Game
+- [Suprcode/mir2](https://github.com/Suprcode/mir2) — MIR2
+- [Suprcode/mir3-zircon](https://github.com/Suprcode/mir3-zircon) — MIR3
+- [WolfireGames/overgrowth](https://github.com/WolfireGames/overgrowth) — Overgrowth
+- [solidi/hl-mods](https://github.com/solidi/hl-mods) — Modification For Half-Life
+- [codingben/maple-fighters](https://github.com/codingben/maple-fighters) — A small online game similar to MapleStory
+- [gmh5225/WinAPI_MapleStory](https://github.com/gmh5225/WinAPI_MapleStory) — WinAPI MapleStory `mirror`
+- [ZeromaXHe/MapleStoryCopy](https://github.com/ZeromaXHe/MapleStoryCopy) — Godot MapleStory
+- [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects) — Demonstration and Template Projects for Godot
+- [loqix/Fortnite](https://github.com/loqix/Fortnite) — Fortnite
+- [bradharding/doomretro](https://github.com/bradharding/doomretro) — DOOM
+- [Daivuk/PureDOOM](https://github.com/Daivuk/PureDOOM) — DOOM
+- [NSG650/NtDOOM](https://github.com/NSG650/NtDOOM) — Doom running in the NT kernel
+- [Luxon98/Super-Mario-Bros-game](https://github.com/Luxon98/Super-Mario-Bros-game) — Remake of Super Mario
+- [plibither8/2048.cpp](https://github.com/plibither8/2048.cpp) — 2048
+- [An open source re-implementation of RollerCoaster Tycoon 2](https://github.com/OpenRCT2/OpenRCT2)
+- [This is the old Paradise SPRX BO2 soruce code](https://github.com/gopro2027/ParadiseBO2)
+- [dreamstalker/rehlds](https://github.com/dreamstalker/rehlds) — Reverse-engineered HLDS
+- [AndroidModLoader/AndroidModLoader](https://github.com/AndroidModLoader/AndroidModLoader) — Android Mod Loader
+- [marblexu/PythonPlantsVsZombies](https://github.com/marblexu/PythonPlantsVsZombies) — PlantsVsZombies
+- [mhyousefi/ZombiesVsPlants](https://github.com/mhyousefi/ZombiesVsPlants) — PlantsVsZombies
+- [Fewnity/Counter-Strike-DS-Unity-Project](https://github.com/Fewnity/Counter-Strike-DS-Unity-Project) — Unity CS
+- [Fewnity/Counter-Strike-Nintendo-DS](https://github.com/Fewnity/Counter-Strike-Nintendo-DS) — Nintendo CS
+- [ppy/osu](https://github.com/ppy/osu) — osu
+- [ppy/osu-framework](https://github.com/ppy/osu-framework) — osu
+- [dufernst/LegionCore-7.3.5](https://github.com/dufernst/LegionCore-7.3.5) — wow
+- [RageProject/5.4.7-Wow-source](https://github.com/RageProject/5.4.7-Wow-source) — wow
+- [SkyFire/MopCore547](https://github.com/SkyFire/MopCore547) — wow
+- [Arctium/WoW-Launcher](https://github.com/Arctium/WoW-Launcher) — wow launcher
+- [skMetinek/Non-Newtonian-New-York](https://github.com/skMetinek/Non-Newtonian-New-York) — Spider-Man Remastered Mod
+- [playgameservices/cpp-android-basic-samples](https://github.com/playgameservices/cpp-android-basic-samples) — Sample games using the Google Play Games C++ SDK
+- [pafuhana1213/KawaiiPhysics](https://github.com/pafuhana1213/KawaiiPhysics) — Simple fake Physics for UnrealEngine4 & 5
+- [pafuhana1213/VTuberWithUE4](https://github.com/pafuhana1213/VTuberWithUE4) — UE4 VTuber
+- [Bratah123/GojoTheSpire](https://github.com/Bratah123/GojoTheSpire) — Slay The Spire Remastered Mod
+- [snesrev/zelda3](https://github.com/snesrev/zelda3) — A reimplementation of Zelda 3
+- [kantam5/DeadByDaylight](https://github.com/kantam5/DeadByDaylight) — Dead By Daylight Copy
+- [Phobos-developers/Phobos](https://github.com/Phobos-developers/Phobos) — Red Alert 2: Yuri's Revenge engine extension
+- [praydog/AutomataMP](https://github.com/praydog/AutomataMP) — NieR
+- [xinyu-evolutruster/3D-Racing-Game](https://github.com/xinyu-evolutruster/3D-Racing-Game) — A racing game based on OpenGL
+- [ProjectBorealis/PBCharacterMovement](https://github.com/ProjectBorealis/PBCharacterMovement) — HL2-style, classic FPS movement for UE4 implemented in C++
+- [Merisho/tx-holdem](https://github.com/Merisho/tx-holdem) — Texas Holdem Poker made by JS
+- [raysan5/raylib](https://github.com/raysan5/raylib) — A simple and easy-to-use library to enjoy videogames programming
+- [scottcgi/Mojoc](https://github.com/scottcgi/Mojoc) — A cross-platform, open-source, pure C game engine for mobile game
+- [MarilynDafa/Bulllord-Engine](https://github.com/MarilynDafa/Bulllord-Engine) — lightspeed lightweight elegant game engine in pure c
+- [orangeduck/Corange](https://github.com/orangeduck/Corange) — Pure C Game Engine
+- [NotYetGames/WarriOrb](https://github.com/NotYetGames/WarriOrb) — a Dark-Souls like action platformer using UE4
+- [pjasicek/OpenClaw](https://github.com/pjasicek/OpenClaw) — Reimplementation of Captain Claw (1997) platformer
+- [galaxyhaxz/devilution](https://github.com/galaxyhaxz/devilution) — Reversed Devilution
+- [assaultcube/AC](https://github.com/assaultcube/AC) — FPS Game
+- [fishfolk/jumpy](https://github.com/fishfolk/jumpy) — Pixels style
+- [jynew/jynew](https://github.com/jynew/jynew) — JinYongLegend
+- [johndpope/pianogame](https://github.com/johndpope/pianogame) — Piano Game
+- [gmh5225/QQTang](https://github.com/gmh5225/QQTang) — QQTang `mirror`
+- [kvnxiao/storytime](https://github.com/kvnxiao/storytime) — Remake of MapleStory
+- [deathkiller/jazz2-native](https://github.com/deathkiller/jazz2-native) — Remake of Jazz Jackrabbit 2
+- [electronicarts/CnC_Red_Alert](https://github.com/electronicarts/CnC_Red_Alert) — Command and Conquer: Red Alert
+- [huangkaoya/redalert2](https://github.com/huangkaoya/redalert2) — Red Alert 2 on Web
+
+## MCP server
+
+- [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) — Awesome MCP
+- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Blender Model Context Protocol Integration
+- [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp) — MCP for Unreal Engine
+- [kvick-games/UnrealMCP](https://github.com/kvick-games/UnrealMCP) — MCP for Unreal Engine
+- [VedantRGosavi/UE5-MCP](https://github.com/VedantRGosavi/UE5-MCP) — MCP for Unreal Engine 5
+- [justinpbarnett/unity-mcp](https://github.com/justinpbarnett/unity-mcp) — MCP for unity
+- [wondeks/unity-mcp](https://github.com/wondeks/unity-mcp) — MCP for unity
+- [gmh5225/mcpup](https://github.com/gmh5225/mcpup) — MCP for unity `mirror`
+- [gmh5225/vibe-blocks-mcp](https://github.com/gmh5225/vibe-blocks-mcp) — MCP for Roblox Studio `mirror`
+- [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) — MCP for Ghidra
+- [jtang613/GhidrAssistMCP](https://github.com/jtang613/GhidrAssistMCP) — MCP for Ghidra
+- [mrphrazer/ghidra-headless-mcp](https://github.com/mrphrazer/ghidra-headless-mcp) — ghidra-headless-mcp — headless Ghidra over MCP
+- [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) — MCP for IDA pro
+- [cnitlrt/headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server) — MCP for IDA pro(headless)
+- [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) — MCP for IDA pro
+- [taida957789/ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin) — MCP for IDA pro
+- [fdrechsler/mcp-server-idapro](https://github.com/fdrechsler/mcp-server-idapro) — MCP for IDA pro
+- [rand-tech/pcm](https://github.com/rand-tech/pcm) — MCP for IDA pro
+- [Iamgublin/ida-codex-mcp](https://github.com/Iamgublin/ida-codex-mcp) — IDA Codex MCP
+- [HLND2T/CS2_VibeSignatures](https://github.com/HLND2T/CS2_VibeSignatures) — Generate CS2 signatures via Agent SKILLS with ida-pro-mcp
+- [axelmierczuk/tenrec](https://github.com/axelmierczuk/tenrec) — A headless, extendable, multi-session, IDA Pro MCP framework
+- [blacktop/ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) — Headless IDA Pro MCP server
+- [fosdickio/binary_ninja_mcp](https://github.com/fosdickio/binary_ninja_mcp) — MCP for Binary_Ninja
+- [Invoke-RE/binja-lattice-mcp](https://github.com/Invoke-RE/binja-lattice-mcp) — MCP for Binary_Ninja
+- [dnakov/radare2-mcp](https://github.com/dnakov/radare2-mcp) — Radare2 MCP Server
+- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) — Cursor Talk To Figma MCP server
+- [gmh5225/hex2dec-mcp](https://github.com/gmh5225/hex2dec-mcp) — MCP server that provides conversion between hexadecimal and decimal numbers `mirror`
+- [signal-slot/mcp-gdb](https://github.com/signal-slot/mcp-gdb) — MCP for GDB
+- [jtang613/gdb-mcp](https://github.com/jtang613/gdb-mcp) — Lightweight MCP server for GDB automation (FastMCP, SSE, gdb-command proxy)
+- [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg) — MCP for WinDBG
+- [AgentSmithers/x64DbgMCPServer](https://github.com/AgentSmithers/x64DbgMCPServer) — MCP for x64Dbg
+- [bromoket/x64dbg_mcp](https://github.com/bromoket/x64dbg_mcp) — MCP for x64Dbg with extensive tooling
+- [IChooseYou/Reclass](https://github.com/IChooseYou/Reclass) — MCP for Reclass
+- [ant4g0nist/lisa.py](https://github.com/ant4g0nist/lisa.py) — MCP for LLDB
+- [droidrun/droidrun](https://github.com/droidrun/droidrun) — MCP for Android
+- [un4ckn0wl3z/MemMCP](https://github.com/un4ckn0wl3z/MemMCP) — Cheat Engine-like but MCP
+- [Eruditi/CE-MCP-Plugin](https://github.com/Eruditi/CE-MCP-Plugin) — MCP for Cheat Engine
+- [miscusi-peek/cheatengine-mcp-bridge](https://github.com/miscusi-peek/cheatengine-mcp-bridge) — MCP for Cheat Engine
+- [beamstar/cheatengine-mcp-bridge](https://github.com/beamstar/cheatengine-mcp-bridge) — MCP for Cheat Engine
+- [illegal-instruction-co/processhacker-mcp](https://github.com/illegal-instruction-co/processhacker-mcp) — MCP for runtime analysis and process hacking; ProcessHacker for AI agents, extensible with DLL plugins
+- [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server) — A MCP Server for APK Tool (Part of Android Reverse Engineering MCP Suites)
+- [zhizhuodemao/android_proxy_mcp](https://github.com/zhizhuodemao/android_proxy_mcp) — Android Proxy MCP — HTTP/HTTPS packet capture for AI assistants, mitmdump + SQLite + natural language query
+- [regenrek/deepwiki-mcp](https://github.com/regenrek/deepwiki-mcp) — MCP for deepwiki
+- [gmh5225/zig-mcp-server](https://github.com/gmh5225/zig-mcp-server) — A high-performance implementation of the MCP protocol in Zig `mirror`
+- [noopstudios/interactive-feedback-mcp](https://github.com/noopstudios/interactive-feedback-mcp) — Interactive User Feedback MCP
+- [gmh5225/interactive-feedback-macos-mcp](https://github.com/gmh5225/interactive-feedback-macos-mcp) — A native macOS MCP server for collecting interactive user feedback with AppleScript dialogs and image support `mirror`
+- [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) — MCP for Jupyter
+- [PortSwigger/mcp-server](https://github.com/PortSwigger/mcp-server) — MCP for Burp Suite
+- [cycraft-corp/BinaryAnalysisMCPs](https://github.com/cycraft-corp/BinaryAnalysisMCPs) — Binary analysis MCPs collections
+
+## MCP server security
+
+- [johnhalloran321/mcpSafetyScanner](https://github.com/johnhalloran321/mcpSafetyScanner) — MCPSafetyScanner - Automated MCP safety auditing and remediation using Agents
+- [appsecco/vulnerable-mcp-servers-lab](https://github.com/appsecco/vulnerable-mcp-servers-lab) — A collection of servers which are deliberately vulnerable to learn Pentesting MCP Servers
+
+## AI Agents
+
+- [0xeb/windbg-copilot](https://github.com/0xeb/windbg-copilot) — WinDbg Copilot - Agentic Debugging extension
+- [leigest519/OpenGame](https://github.com/leigest519/OpenGame) — Open agentic coding for web games end-to-end from prompts; Game Skill (template + debug); GameCoder-27B; OpenGame-Bench; qwen-code-based CLI
+- [0x0funky/agent-sprite-forge](https://github.com/0x0funky/agent-sprite-forge) — Codex skills for game-ready 2D sprites, layered maps, and engine-ready prototypes (Godot/Unity)

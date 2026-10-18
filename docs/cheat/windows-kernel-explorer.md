@@ -1,0 +1,89 @@
+# Cheat › Windows Kernel Explorer
+
+[← back to Cheat](index.md)
+
+- [NullArray/WinKernel-Resources](https://github.com/NullArray/WinKernel-Resources) — Guide
+- [supermanc88/Document](https://github.com/supermanc88/Document/tree/master/Windows%20Driver%20Development) — Guide
+- [https://windiff.vercel.app](https://windiff.vercel.app) — Diff
+- [cristeigabriela/bb](https://github.com/cristeigabriela/bb) — Benowin Blanc — parse Windows SDK/PHNT via libclang; struct layouts, enums, constants like dt without WinDbg; CLI + TUI, JSON export
+- [gmh5225/ntoskrnl_file_collection](https://github.com/gmh5225/ntoskrnl_file_collection) — Various versions of ntoskrnl files `mirror`
+- [gmh5225/win32k_file_collection](https://github.com/gmh5225/win32k_file_collection) — Various versions of win32k files `mirror`
+- [gmh5225/win32k_file_collection2](https://github.com/gmh5225/win32k_file_collection2) — Various versions of win32k files `mirror`
+- [jiubanlo/WinNT5_src_20201004](https://github.com/jiubanlo/WinNT5_src_20201004) — Leaked Windows XP Source
+- [yyl-20020115/OpenArk](https://github.com/yyl-20020115/OpenArk) — Tool
+- [BeneficialCode/WinArk](https://github.com/BeneficialCode/WinArk) — Tool
+- [kernullist/kn-diff-pool](https://github.com/kernullist/kn-diff-pool) — Windows kernel Big Pool snapshot/diff tool with kernel driver and Go TUI
+- [hfiref0x/KDU](https://github.com/hfiref0x/KDU) — Kernel Driver Utility Tool
+- [jthuraisamy/TelemetrySourcerer](https://github.com/jthuraisamy/TelemetrySourcerer) — Enumerate and disable callbacks/ETW
+- [preludeorg/ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) — Consuming from the Threat-Intelligence ETW provider without a driver or PPL privilege
+- [progmboy/openprocmon](https://github.com/progmboy/openprocmon) — open source process monitor
+- [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) — The original name is "Process Hacker"
+- [0xcpu/ExecutiveCallbackObjects](https://github.com/0xcpu/ExecutiveCallbackObjects) — Callback
+- [0xcpu/WinAltSyscallHandler](https://github.com/0xcpu/WinAltSyscallHandler) — AltSystemCallHandlers
+- [DownWithUp/CallMon](https://github.com/DownWithUp/CallMon) — AltSystemCallHandlers
+- [everdox/InfinityHook](https://github.com/everdox/InfinityHook) — ETW Hook
+- [AyinSama/Anti-AntiDebuggerDriver](https://github.com/AyinSama/Anti-AntiDebuggerDriver) — ETW Hook
+- [gmh5225/AcDrv](https://github.com/gmh5225/AcDrv) — ETW Hook `mirror`
+- [FiYHer/InfinityHookPro](https://github.com/FiYHer/InfinityHookPro) — ETW Hook Ex
+- [gmh5225/ETWHOOK-InfinityHookClass](https://github.com/gmh5225/ETWHOOK-InfinityHookClass) — ETW Hook Ex `mirror`
+- [DearXiaoGui/InfinityHookPro-main](https://github.com/DearXiaoGui/InfinityHookPro-main) — ETW Hook WIN11
+- [ThomasonZhao/InfinityHookProMax](https://github.com/ThomasonZhao/InfinityHookProMax) — ETW Hook WIN11
+- [Oxygen1a1/InfinityHook_latest](https://github.com/Oxygen1a1/InfinityHook_latest) — ETW Hook WIN11
+- [gmh5225/PDF-PMC-X86](https://github.com/gmh5225/PDF-PMC-X86) — A Study on PMI in x86-Architecture `mirror`
+- [KelvinMsft/ThreadSpy](https://github.com/KelvinMsft/ThreadSpy) — PMI Callback
+- [KelvinMsft/PerfMon](https://github.com/KelvinMsft/PerfMon) — PMI Callback
+- [gmh5225/PMI-hpc](https://github.com/gmh5225/PMI-hpc) — PMI `mirror`
+- [marcusbotacin/BranchMonitoringProject](https://github.com/marcusbotacin/BranchMonitoringProject) — PMI
+- [gmh5225/NMI-EnumNmiCallback](https://github.com/gmh5225/NMI-EnumNmiCallback) — Enumerate NMI `mirror`
+- [gmh5225/Disable-nmi-callbacks](https://github.com/gmh5225/Disable-nmi-callbacks) — Disable NMI `mirror`
+- [gmh5225/NMICallbackBlocker2](https://github.com/gmh5225/NMICallbackBlocker2) — Disable NMI `mirror`
+- [gmh5225/NMI-nmi_callback](https://github.com/gmh5225/NMI-nmi_callback) — Triggering NMI `mirror`
+- [gmh5225/Kernel_Anti-Cheat](https://github.com/gmh5225/Kernel_Anti-Cheat) — NMI `mirror`
+- [jlgreathouse/AMD_IBS_Toolkit](https://github.com/jlgreathouse/AMD_IBS_Toolkit) — AMD Sampling
+- [intelpt/WindowsIntelPT](https://github.com/intelpt/WindowsIntelPT) — Intel PT
+- [CristiNacu/ingsoc](https://github.com/CristiNacu/ingsoc) — Intel PT
+- [DProvinciani/pt-detector](https://github.com/DProvinciani/pt-detector) — Intel PT
+- [googleprojectzero/winafl](https://github.com/googleprojectzero/winafl) — Intel PT Fuzzer
+- [intelpt/winipt](https://github.com/intelpt/winipt) — ipt.sys
+- [australeo/libipt-rs](https://github.com/australeo/libipt-rs) — ipt.sys
+- [intelpt/processor-trace](https://github.com/intelpt/processor-trace) — Intel PT Decoder
+- [gmh5225/Driver-intel-PEBs-LoopHPCs](https://github.com/gmh5225/Driver-intel-PEBs-LoopHPCs) — Intel PEBs `mirror`
+- [libiht/libiht](https://github.com/libiht/libiht) — Intel Hardware Trace Library
+- [jsacco/NTKernelWalkerLib](https://github.com/jsacco/NTKernelWalkerLib) — User-mode ntoskrnl symbol/struct offset resolver via dbghelp + executable section gadget scanning (e.g., short ROP primitives)
+- [gmh5225/Ark](https://github.com/gmh5225/Ark) — Tool `mirror`
+- [gmh5225/MSSymbolsCollection](https://github.com/gmh5225/MSSymbolsCollection) — Kernel Symbols `mirror`
+- [am0nsec/wkpe](https://github.com/am0nsec/wkpe) — Enumerate VAD
+- [armvirus/DriverDllFInder](https://github.com/armvirus/DriverDllFInder) — Find Driver Useless Memory
+- [MahmoudZohdy/APICallProxy](https://github.com/MahmoudZohdy/APICallProxy) — Windows API Call Obfuscation
+- [Spuckwaffel/Simple-MmcopyMemory-Hook](https://github.com/Spuckwaffel/Simple-MmcopyMemory-Hook) — Hook MmcopyMemory
+- [misc0110/PTEditor](https://github.com/misc0110/PTEditor) — PT Editor
+- [IcEy-999/Ntoskrnl_Viewer](https://github.com/IcEy-999/Ntoskrnl_Viewer) — Ntoskrnl Viewer
+- [ekknod/Nmi](https://github.com/ekknod/Nmi) — Blocking NMI interrupts
+- [EquiFox/KsDumper](https://github.com/EquiFox/KsDumper) — Dumping processes using the power of kernel space
+- [mastercodeon314/KsDumper-11](https://github.com/mastercodeon314/KsDumper-11) — Classic and legendary KsDumper
+- [not-matthias/Nemesis](https://github.com/not-matthias/Nemesis) — Dumping processes using the power of kernel space
+- [allogic/KDBG](https://github.com/allogic/KDBG) — Tool
+- [backengineering/Voyager](https://github.com/backengineering/Voyager) — A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel)
+- [gmh5225/Voyager](https://github.com/gmh5225/Voyager) — A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel) `mirror`
+- [noahware/hyper-reV](https://github.com/noahware/hyper-reV) — memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V
+- [LabGuy94/Diskjacker](https://github.com/LabGuy94/Diskjacker) — Runtime Hyper-V Hijacking with DDMA
+- [zer0condition/BusterCall](https://github.com/zer0condition/BusterCall) — HVCI bypass via PFN swapping to call arbitrary kernel functions from user-mode
+- [NurdAlert/modded-voyager](https://github.com/NurdAlert/modded-voyager)
+- [gmh5225/Fortnite-VoyagerTF](https://github.com/gmh5225/Fortnite-VoyagerTF) — Voyager for Fortnite `mirror`
+- [repnz/apc-research](https://github.com/repnz/apc-research) — APC Internals Research Code
+- [intel/pcm](https://github.com/intel/pcm) — Processor Counter Monitor
+- [ChengChengCC/Ark-tools](https://github.com/ChengChengCC/Ark-tools) — Some kernel research
+- [alal4465/KernelMon](https://github.com/alal4465/KernelMon) — Monitoring Windows Kernel Drivers
+- [gmh5225/Practical-Reverse-Engineering-Solutions](https://github.com/gmh5225/Practical-Reverse-Engineering-Solutions) — DPC+APC `mirror`
+- [br-sn/CheekyBlinder](https://github.com/br-sn/CheekyBlinder) — Enumerating and removing kernel callbacks using signed vulnerable drivers
+- [GetRektBoy724/DCMB](https://github.com/GetRektBoy724/DCMB) — Removing kernel callbacks
+- [V-i-x-x/kernel-callback-removal](https://github.com/V-i-x-x/kernel-callback-removal) — Removing kernel callbacks
+- [Air14/KDBGDecryptor](https://github.com/Air14/KDBGDecryptor) — A simple example how to decrypt kernel debugger data block
+- [FaEryICE/MemScanner](https://github.com/FaEryICE/MemScanner) — Memory scanner
+- [Oliver-1-1/RwxScanner](https://github.com/Oliver-1-1/RwxScanner) — RWX Memory scanner
+- [irql/nokd](https://github.com/irql/nokd) — Kernel debugger protocol
+- [DejavuSecure/DetectNtoskrnlIntegrity](https://github.com/DejavuSecure/DetectNtoskrnlIntegrity) — Windows Kernel Security: Memory Integrity Verification with Disk Verification of ntoskrnl.exe
+- [brew02/BudgetEPT](https://github.com/brew02/BudgetEPT) — Create stealthy, inline, EPT-like hooks using SMAP and SMEP
+- [synacktiv/windows_kernel_shadow_stack](https://github.com/synacktiv/windows_kernel_shadow_stack) — Shadow Stack
+- [noahware/apic](https://github.com/noahware/apic) — C++ library for sending processor interrupts via x2apic & xapic
+- [zer0condition/NTMemory](https://github.com/zer0condition/NTMemory) — Usermode NT Explorer - Query kernel addresses, translate virtual to physical addresses, inspect the PFN database, and more.

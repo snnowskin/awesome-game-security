@@ -1,0 +1,44 @@
+# Cheat › Game:MapleStory
+
+[← back to Cheat](index.md)
+
+- [https://forum.ragezone.com/threads/getting-packet-structures-opcodes-using-ida.792436/](https://forum.ragezone.com/threads/getting-packet-structures-opcodes-using-ida.792436/) — Packet
+- [Bratah123/SpiritIDAPlugin](https://github.com/Bratah123/SpiritIDAPlugin) — IDA-Plugin
+- [icelemon1314/mapleLemon](https://github.com/icelemon1314/mapleLemon) — Private Server-CMS-027
+- [ellermister/MapleStory](https://github.com/ellermister/MapleStory) — Private Server-CMS-079
+- [mrzhqiang/ms079](https://github.com/mrzhqiang/ms079) — Private Server-CMS-079
+- [mimilewis/MapleStory143](https://github.com/mimilewis/MapleStory143) — Private Server-CMS-143
+- [unsafeblackcat/MapleStoryEx](https://github.com/unsafeblackcat/MapleStoryEx) — Private Server-CMS-079
+- [gmh5225/maplestory-v83MaplestoryCPP](https://github.com/gmh5225/maplestory-v83MaplestoryCPP) — Private Server-GMS-083 C++ `mirror`
+- [Fraysa/Destiny](https://github.com/Fraysa/Destiny) — Private Server-GMS-083 C#
+- [Bratah123/ElectronMS](https://github.com/Bratah123/ElectronMS) — Private Server-KMS-316
+- [gmh5225/MapleStory-v113-Server-Eimulator](https://github.com/gmh5225/MapleStory-v113-Server-Eimulator) — Private Server-TMS-113 `mirror`
+- [izarooni/MapleEzorsia](https://github.com/izarooni/MapleEzorsia) — v83 edits for creating a custom resolution client
+- [Bratah123/BattleAnalysis176](https://github.com/Bratah123/BattleAnalysis176) — Battle Analysis
+- [johnsonjason/MapleStoryBuildFramework](https://github.com/johnsonjason/MapleStoryBuildFramework) — AntiCheat
+- [Noosh404/Maplestory-V179-Cheat-Engine](https://github.com/Noosh404/Maplestory-V179-Cheat-Engine) — V179 CT
+- [gmh5225/MapleStory-HeavenClient](https://github.com/gmh5225/MapleStory-HeavenClient) — Heaven Client `mirror`
+- [gmh5225/TWMS-Hacking-Data](https://github.com/gmh5225/TWMS-Hacking-Data) — TMS CT `mirror`
+- [Inndy/MSDoggy](https://github.com/Inndy/MSDoggy) — TMS Old Hack
+- [PrinceFroggy/MSB](https://github.com/PrinceFroggy/MSB) — GMS Old Hack 128-140
+- [PrinceFroggy/MSC](https://github.com/PrinceFroggy/MSC) — GMS Bot
+- [gmh5225/Rebirth](https://github.com/gmh5225/Rebirth) — Private Server-GMS-095 C# `mirror`
+- [gmh5225/mnwvs196](https://github.com/gmh5225/mnwvs196) — Private Server-TMS-196 `mirror`
+- [Maxcloud/MapleResearch](https://github.com/Maxcloud/MapleResearch) — GMS-095 Client Analysis
+- [gmh5225/MapleStory-CMS95-Client-Address](https://github.com/gmh5225/MapleStory-CMS95-Client-Address) — CMS-095 Client Analysis `mirror`
+- [gmh5225/RustMS](https://github.com/gmh5225/RustMS) — Private Server-Rust `mirror`
+- [gmh5225/WzComparerR2](https://github.com/gmh5225/WzComparerR2) — Maplestory online Extractor `mirror`
+- [Generate machine learning object detection samples from Maplestory in different formats](https://github.com/gmh5225/MapleStoryDetectionSampleGenerator) `mirror`
+- [gmh5225/MapleStory-GM-Client](https://github.com/gmh5225/MapleStory-GM-Client) — Offline MapleStory Client Emulator `mirror`
+- [gmh5225/maplestory-packer-ModPacker](https://github.com/gmh5225/maplestory-packer-ModPacker) — MapleStory Wolrds .mod file packing/unpacking tools `mirror`
+- [gmh5225/JMSv186](https://github.com/gmh5225/JMSv186) — JMS v186 `mirror`
+- [gmh5225/MapleStory-Client](https://github.com/gmh5225/MapleStory-Client) — HeavenMS Client `mirror`
+- [gmh5225/MapleStory-Server](https://github.com/gmh5225/MapleStory-Server) — HeavenMS Server `mirror`
+- [gmh5225/LibreMaple-Client](https://github.com/gmh5225/LibreMaple-Client) — LibreMaple Client `mirror`
+- [gmh5225/MapleServerAndroid](https://github.com/gmh5225/MapleServerAndroid) — GMS 083 server on Android `mirror`
+- [gmh5225/AzureV316](https://github.com/gmh5225/AzureV316) — Private Server-KMS-316 `mirror`
+- [gmh5225/MapleNecrocer](https://github.com/gmh5225/MapleNecrocer) — MapleStory Client Emulator `mirror`
+- [gmh5225/maplestory-artale-explab](https://github.com/gmh5225/maplestory-artale-explab) — Experience gain & HP/MP cost lab for MapleStory Worlds Artale `mirror`
+- [gmh5225/MapleStoryAutoLevelUp](https://github.com/gmh5225/MapleStoryAutoLevelUp) — An auto level up script for Maple Story Artale `mirror`
+- [tingwei1111/MapleStory-YOLOv8-Training](https://github.com/tingwei1111/MapleStory-YOLOv8-Training) — YOLOv8 training project for MapleStory object detection using Apple MPS acceleration
+- [tingwei1111/maplestory-worlds-automation](https://github.com/tingwei1111/maplestory-worlds-automation) — YOLO for MapleStory Worlds (Artale)

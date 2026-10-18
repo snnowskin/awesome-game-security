@@ -1,0 +1,332 @@
+== headline ==
+readme lines          4395
+dash lines            3722
+navigation lines      34
+url entries           3434
+malformed lines       5
+duplicate groups      228
+duplicates removed    249
+unique url entries     3434
+mirror entries        761
+mirror share          21.1%
+
+== formats ==
+  url_first      3592
+  title_first    91
+  malformed      5
+
+== entries per section ==
+   2304  Cheat
+    523  Anti Cheat
+    168  Game Develop
+    153  Game Engine
+     95  Some Tricks
+     25  Game Network
+     24  DirectX
+     17  Game Testing
+     16  Renderer
+     10  Game Tools
+      9  WSA
+      8  Windows Security Features
+      8  Android Emulator
+      7  Game Assets
+      6  Mathematics
+      6  Nintendo Switch
+      6  Xbox
+      5  Image Codec
+      5  Vulkan
+      4  WSL
+      4  Windows Emulator
+      3  3D Graphics
+      3  AI
+      3  PhysX SDK
+      3  Game Hot Patch
+      3  IOS Emulator
+      3  PlayStation
+      2  How to contribute?
+      2  Wavefront Obj
+      2  Game CI
+      2  OpenGL
+      2  Game Boy
+      1  Task Scheduler
+      1  Game Manager
+      1  Linux Emulator
+
+== malformed lines (upstream data bugs) ==
+  L1370  - IDA Pro
+  L1371  - Binary Ninja
+  L2156  - https://github.com/gmh5225/UCFoxi-Shared-FlushFileBuffers-Communication-Update FlushFileBuffers]
+  L3357  - https://github.com/EternalWraith/PalEdit Save]
+  L3419  - [About
+
+== duplicate groups ==
+  L107 , L359              https://github.com/crazyshader/GameDev
+  L108 , L360              https://github.com/RyanNielson/awesome-unity
+  L110 , L361              https://github.com/QianMo/Unity-Design-Pattern
+  L187 , L277              https://github.com/harukumo/HorizonEngine
+  L189 , L4367             https://github.com/chrismaltby/gb-studio
+  L224 , L229              https://github.com/rdeioris/LuaMachine
+  L227 , L566              https://github.com/DarknessFX/DFoundryFX
+  L281 , L286              https://github.com/MethanePowered/MethaneKit
+  L293 , L534              https://github.com/blendi-remade/sprite-sheet-creator
+  L366 , L3417             https://github.com/gmh5225/gtav-sourcecode-build-guide
+  L425 , L1965             https://github.com/NSG650/NtDOOM
+  L481 , L1661             https://github.com/LaurieWired/GhidraMCP
+  L482 , L1663             https://github.com/jtang613/GhidrAssistMCP
+  L484 , L1533             https://github.com/mrexodia/ida-pro-mcp
+  L486 , L1534             https://github.com/MxIris-Reverse-Engineering/ida-mcp-server
+  L487 , L1535             https://github.com/taida957789/ida-mcp-server-plugin
+  L488 , L1536             https://github.com/fdrechsler/mcp-server-idapro
+  L489 , L1537             https://github.com/rand-tech/pcm
+  L491 , L2937             https://github.com/HLND2T/CS2_VibeSignatures
+  L492 , L1554             https://github.com/axelmierczuk/tenrec
+  L493 , L1555             https://github.com/blacktop/ida-mcp-rs
+  L494 , L1623             https://github.com/fosdickio/binary_ninja_mcp
+  L495 , L1624             https://github.com/Invoke-RE/binja-lattice-mcp
+  L504 , L727              https://github.com/IChooseYou/Reclass
+  L507 , L760              https://github.com/un4ckn0wl3z/MemMCP
+  L508 , L1730             https://github.com/Eruditi/CE-MCP-Plugin
+  L513 , L1319             https://github.com/zhizhuodemao/android_proxy_mcp
+  L520 , L1547 , L1717     https://github.com/cycraft-corp/BinaryAnalysisMCPs
+  L538 , L2482             https://github.com/atenfyr/UAssetGUI
+  L570 , L3498             https://github.com/bad-antics/rce-shield
+  L571 , L793              https://github.com/Genymobile/scrcpy
+  L604 , L643              https://github.com/Rebzzel/kiero
+  L606 , L646              https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook
+  L607 , L632 , L644       https://github.com/bruhmoment21/UniversalHookX
+  L622 , L1934             https://github.com/SeanPesce/Direct3D9-Overlay
+  L661 , L709              https://github.com/SinaKarvandi/Hypervisor-From-Scratch
+  L675 , L3493             https://areweanticheatyet.com
+  L685 , L2843             https://github.com/csgohacks/master-guide
+  L699 , L1075             https://github.com/MatheuZSecurity/Rootkit
+  L702 , L3497             https://github.com/Solaree/pairipcore
+  L703 , L1897             https://github.com/enjoy-digital/litepcie
+  L704 , L4062             https://lolc2.github.io
+  L712 , L813              https://github.com/gmh5225/ceserver-ios
+  L726 , L1908             https://github.com/gmh5225/ReClass-DMA
+  L728 , L1909             https://github.com/Metick/CheatEngine-DMA
+  L729 , L1910             https://github.com/kaijia2022/Cheat-Engine-DMA-Plugin
+  L734 , L1077             https://github.com/djolertrk/kLLDB
+  L738 , L3548             https://github.com/gmh5225/vt-debuger
+  L754 , L859              https://github.com/roger1337/JDBG
+  L755 , L1298             https://github.com/Sh11no/eDBG
+  L757 , L1297             https://github.com/SeeFlowerX/stackplz
+  L759 , L951 , L1192      https://github.com/g2wfw/qbdi-tracer-android
+  L761 , L1173             https://github.com/LLeavesG/eBPFDexDumper
+  L786 , L2523             https://github.com/BataBo/ACEPatcher
+  L789 , L1041             https://github.com/VollRagm/PTView
+  L790 , L1153             https://github.com/iBotPeaches/Apktool
+  L792 , L1154             https://github.com/AndnixSH/APKToolGUI
+  L797 , L1159             https://github.com/rednaga/APKiD
+  L798 , L1376             https://github.com/Col-E/Recaf
+  L799 , L4375             https://github.com/tomvita/SE-tools
+  L802 , L1230             https://github.com/cfig/Android_boot_image_editor
+  L805 , L1160             https://github.com/APKLab/APKLab
+  L827 , L1156             https://github.com/skylot/jadx
+  L844 , L1224             https://github.com/vm03/payload_dumper
+  L846 , L1214             https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass
+  L850 , L1143 , L1842     https://github.com/iofomo/abyss
+  L856 , L4258             https://github.com/xaitax/NTSleuth
+  L860 , L2680             https://github.com/atrexus/vulkan
+  L864 , L1352             https://github.com/MxIris-Reverse-Engineering/RuntimeViewer
+  L868 , L1167             https://github.com/loerting/dalvikus
+  L869 , L913 , L1552 , L1665 https://github.com/poppopjmp/VMDragonSlayer
+  L870 , L4384             https://github.com/Byrom90/XenonDumper
+  L872 , L1381             https://github.com/Hexorg/Ouroboros
+  L881 , L1356             https://github.com/LaurieWired/Malimite
+  L922 , L1439             https://github.com/w00tzenheimer/d810-ng
+  L926 , L1516             https://github.com/Mrack/DeObfBR
+  L927 , L1620             https://github.com/zhuzhu-Top/deobf
+  L930 , L1581             https://github.com/guheng-re/unflat
+  L934 , L4341             https://github.com/momo5502/sogen
+  L935 , L4342             https://github.com/mojtabafalleh/emulator
+  L936 , L4343             https://github.com/binsnake/KUBERA
+  L956 , L3523             https://github.com/Ricardonacif/launcher-abuser
+  L960 , L3533             https://github.com/9176324/Shark
+  L963 , L3532             https://github.com/Mattiwatti/EfiGuard
+  L979 , L2086             https://github.com/gmh5225/dse_hook
+  L988 , L1033             https://github.com/gmh5225/ntoskrnl_file_collection
+  L989 , L1034             https://github.com/gmh5225/win32k_file_collection
+  L990 , L1035             https://github.com/gmh5225/win32k_file_collection2
+  L1005 , L2352 , L3869 , L4205 , L4207 https://github.com/gmh5225/AcDrv
+  L1012 , L3922            https://github.com/KelvinMsft/ThreadSpy
+  L1020 , L3927            https://github.com/gmh5225/Kernel_Anti-Cheat
+  L1042 , L1170            https://github.com/misc0110/PTEditor
+  L1044 , L2214            https://github.com/ekknod/Nmi
+  L1051 , L3553            https://github.com/noahware/hyper-reV
+  L1052 , L3554            https://github.com/LabGuy94/Diskjacker
+  L1055 , L3176            https://github.com/gmh5225/Fortnite-VoyagerTF
+  L1065 , L3938            https://github.com/FaEryICE/MemScanner
+  L1068 , L3892            https://github.com/DejavuSecure/DetectNtoskrnlIntegrity
+  L1069 , L4229            https://github.com/brew02/BudgetEPT
+  L1070 , L4313            https://github.com/synacktiv/windows_kernel_shadow_stack
+  L1076 , L3893 , L3929    https://github.com/MatheuZSecurity/ksentinel
+  L1082 , L2336            https://github.com/longpoxin/hideroot
+  L1086 , L4305            https://github.com/Dr-TSNG/ZygiskOnKernelSU
+  L1097 , L1189            https://github.com/hackcatml/zygisk-memdump
+  L1100 , L1132            https://github.com/Exo1i/MagiskHluda
+  L1114 , L2458            https://github.com/gmh5225/frida-ue4dump
+  L1121 , L1831            https://github.com/noobpk/frida-android-hook
+  L1128 , L1278            https://github.com/0xCD4/SSL-bypass
+  L1161 , L1164            https://github.com/pgp/XFiles
+  L1185 , L1881            https://github.com/gmh5225/Android-MemoryTool
+  L1186 , L1884            https://github.com/Anonym0usWork1221/C-Android-Memory-Tool
+  L1187 , L1313 , L1882    https://github.com/Poko-Apps/MemKernel
+  L1207 , L1277            https://github.com/0x36/Pixel_GPU_Exploit
+  L1272 , L4300            https://github.com/tiann/KernelSU
+  L1276 , L4304            https://github.com/abcz316/SKRoot-linuxKernelRoot
+  L1286 , L1306            https://github.com/fuqiuluo/android-wuwa
+  L1305 , L1315            https://github.com/kkkbbb/mkpms
+  L1312 , L1836            https://github.com/WeiJiLab/kernel-hook-framework
+  L1314 , L1883            https://github.com/libtersafe/KPM-MemReader
+  L1349 , L1355            https://github.com/DerekSelander/dynadump
+  L1350 , L1843            https://github.com/jsherman212/xnuspy
+  L1423 , L1699            https://github.com/gmh5225/GhidraDec
+  L1458 , L2134            https://github.com/gmh5225/ida-find-.data-ptr
+  L1485 , L1615 , L1657    https://github.com/danielplohmann/gui-plugin-template
+  L1522 , L1621            https://github.com/junron/auto-enum
+  L1580 , L1627            https://github.com/buzzer-re/Rikugan
+  L1603 , L1605            https://github.com/jmprdi/binja-division-deoptimization
+  L1606 , L4024            https://github.com/mrphrazer/obfuscation_detection
+  L1688 , L1708            https://github.com/horsicq/x64dbg-Plugin-Manager
+  L1701 , L3367            https://github.com/DNLINYJ/Anti_miHoYo_Jcc_Obfuscate
+  L1726 , L3275            https://github.com/gmh5225/overwatch-iat-fixer
+  L1728 , L2527            https://github.com/gmh5225/frida-il2cpp-datacollector
+  L1733 , L1784            https://github.com/itaymigdal/awesome-injection
+  L1742 , L3511            https://github.com/w1u0u1/kinject
+  L1752 , L4223            https://github.com/Cr4sh/KernelForge
+  L1753 , L2619 , L4182 , L4185 https://github.com/Compiled-Code/be-injector
+  L1761 , L3515 , L4275    https://github.com/deepinstinct/Dirty-Vanity
+  L1766 , L3530            https://github.com/zorftw/lsass-extend-mapper
+  L1769 , L3514            https://github.com/Fahersto/code_injection
+  L1779 , L3753            https://github.com/a0yark/DXInject-UC
+  L1829 , L4252            https://github.com/weak1337/SkipHook
+  L1860 , L2146            https://github.com/btbd/access
+  L1862 , L2147            https://github.com/bromoket/access_updated
+  L1869 , L2206            https://github.com/TheCruZ/EFI_Driver_Access
+  L1870 , L2205            https://github.com/SamuelTulach/efi-memory
+  L1879 , L1907            https://github.com/ekknod/vm
+  L1888 , L2357 , L2870    https://github.com/nbqofficial/norsefire
+  L1890 , L2389            https://github.com/M3351AN/Usugumo
+  L1891 , L4287            https://github.com/waryas/WaryasSWHE
+  L1938 , L1966            https://github.com/Splitx12/StrongSteam
+  L1939 , L2277            https://github.com/gmh5225/dwmhook
+  L1954 , L2587            https://github.com/xBrunoMedeiros/eac-overlay
+  L1956 , L2183            https://github.com/J0xna/Kernel-Overlay-Hider
+  L2019 , L2162 , L2328 , L2572 , L4183 https://github.com/Compiled-Code/eac-mapper
+  L2043 , L2044            https://github.com/gmh5225/CVE-2021-21551
+  L2161 , L2327            https://github.com/EBalloon/MapPage
+  L2180 , L3015            https://github.com/Chase1803/UCMiraka-ValorantExternal
+  L2181 , L3239            https://github.com/gmh5225/Comm-ImMiraclela
+  L2184 , L2592            https://github.com/gmh5225/Eac-Injector-Driver
+  L2201 , L2317            https://github.com/ekknod/sumap
+  L2208 , L2408            https://github.com/SamuelTulach/rainbow
+  L2209 , L2409            https://github.com/gmh5225/-Rainbow---EFI
+  L2210 , L3137            https://github.com/gmh5225/Fortnite-EFI-External
+  L2212 , L2419            https://github.com/SamuelTulach/negativespoofer
+  L2215 , L4195            https://github.com/ekknod/smm
+  L2255 , L3238            https://github.com/Qemu-Gang/Escape-from-TuxKov
+  L2256 , L3099            https://github.com/LWSS/Ape-ex-Abominations
+  L2257 , L2480            https://github.com/Qemu-Gang/QemuUnrealDumper-4.25
+  L2262 , L2985            https://github.com/atombottle/cs2_kvm_dma
+  L2276 , L2311            https://github.com/KANKOSHEV/NoScreen
+  L2310 , L4076            https://github.com/ch3rn0byl/ANTfs
+  L2320 , L3534            https://github.com/gmh5225/HideDriverTesting
+  L2322 , L3542            https://github.com/Kudaes/Puzzle
+  L2324 , L3537            https://github.com/BadPlayer555/TraceCleaner
+  L2329 , L3535            https://github.com/nbqofficial/HideDriver
+  L2330 , L3536            https://github.com/ExpLife0011/HideDriver
+  L2339 , L4225            https://github.com/gmh5225/Map-file-in-system-space
+  L2344 , L4284            https://github.com/rad9800/BootExecuteEDR
+  L2351 , L3905            https://github.com/changeofpace/MouHidInputHook
+  L2355 , L3274            https://github.com/blackhades00/PareidoliaTriggerbot
+  L2358 , L2884            https://github.com/petercunha/Pine
+  L2366 , L2989            https://github.com/Leksa667/YOLOv8-Overlay-CS2
+  L2477 , L2735            https://github.com/1hAck-0/UE4-Cheat-Source-Code
+  L2493 , L2495            https://github.com/Perfare/Il2CppDumper
+  L2509 , L2514            https://github.com/knah/Il2CppAssemblyUnhollower
+  L2573 , L4184            https://github.com/EBalloon/MmCopyMemory
+  L2610 , L3522            https://github.com/ZoondEngine/NoBastian_v2
+  L2632 , L4112            https://github.com/R4YVEN/beservice_intcallbacks
+  L2646 , L2780            https://github.com/Nuxar1/DecryptionDumper
+  L2647 , L3008            https://github.com/lil-skies/val-exception-handler
+  L2698 , L2723            https://github.com/Bratah123/ElectronMS
+  L2768 , L2772            https://github.com/gmh5225/LeagueSharp
+  L2847 , L3000 , L3081 , L3118 https://github.com/ofDataa/offsets
+  L2850 , L2933            https://github.com/danielkrupinski/Osiris
+  L2891 , L3503            https://github.com/ekknod/EC
+  L3031 , L3033            https://github.com/kali11211/valorant-internal-cheat
+  L3091 , L3143            https://github.com/Keyzp1337/Fortnite
+  L3303 , L3316            https://github.com/gmh5225/Rust-External
+  L3348 , L3349            https://github.com/luciouskami/palworld_rcon
+  L3490 , L3617            https://github.com/gmh5225/awesome-executable-packing
+  L3556 , L4259            https://github.com/rbmm/LockFile-Poc
+  L3558 , L4212            https://github.com/gmh5225/Kernel-Special-APC-ReadProcessMemory
+  L3568 , L3959            https://github.com/Ahora57/MAJESTY-technologies
+  L3569 , L3588            https://github.com/AdvDebug/AntiCrack-DotNet
+  L3671 , L3788            https://github.com/Washi1337/AwaitFuscator
+  L3674 , L3756            https://github.com/dobin/SuperMega
+  L3695 , L3740            https://github.com/obama-gaming/xor-float
+  L3696 , L3714            https://github.com/emlinhax/xv
+  L3697 , L3744            https://github.com/nevergiveup-c/obfuscxx
+  L3705 , L3713            https://github.com/emlinhax/blitz
+  L3742 , L3763            https://github.com/DosX-dev/obfus.h
+  L3820 , L3851            https://github.com/kanekikun420/NoCheatZ-3
+  L3855 , L3919            https://github.com/ekknod/Anti-Cheat-TestBench
+  L3861 , L3910            https://github.com/gmh5225/anti-cheat
+  L3883 , L4114            https://github.com/paranoidninja/EtwTi-Syscall-Hook
+  L3924 , L4000            https://github.com/Nou4r/ModFinder
+  L3951 , L3972            https://github.com/gmh5225/hv-detect
+  L3969 , L3987            https://github.com/can1357/hvdetecc
+  L4003 , L4043            https://github.com/JingMatrix/Demo
+  L4006 , L4269            https://github.com/gabriellandau/ShadowStackWalk
+  L4125 , L4281            https://github.com/brew02/KiUserExceptionDispatcherHook
+  L4135 , L4227            https://github.com/Archie-osu/PowerHook
+  L4152 , L4246            https://github.com/gmh5225/chainoffools
+  L4154 , L4236            https://github.com/utoni/PastDSE
+  L4155 , L4237            https://github.com/Jemmy1228/HookSigntool
+  L4156 , L4238            https://github.com/namazso/MagicSigner
+  L4157 , L4239            https://github.com/hzqst/FuckCertVerifyTimeValidity
+  L4158 , L4240            https://github.com/mathisvickie/sign-expired
+
+== top subsections ==
+    184  Cheat > IDA Plugins
+    129  Cheat > Vulnerable Driver
+    101  Game Develop > Source
+     99  Cheat > RE Tools
+     94  Game Engine > Source
+     85  Cheat > Windows Kernel Explorer
+     85  Cheat > Game:CSGO
+     58  Cheat > Game:Fortnite
+     58  Anti Cheat > Binary Packer
+     54  Cheat > Guide
+     53  Cheat > Driver Communication
+     53  Cheat > Game:CS2
+     52  Cheat > Debugging
+     49  Game Develop > MCP server
+     49  Cheat > Injection:Windows
+     49  Anti Cheat > Open Source Anti Cheat System
+     45  Cheat > Game Engine Explorer:Unity
+     45  Some Tricks > Windows Ring0
+     41  Anti Cheat > Stress Testing
+     40  Cheat > QEMU/KVM/PVE/VBOX
+     40  Cheat > Game:MapleStory
+     40  Some Tricks > Windows Ring3
+     39  Cheat > Game Engine Explorer:Unreal
+     37  Cheat > Triggerbot & Aimbot
+     35  Cheat > HWID
+     33  Cheat > Explore AntiCheat System:EAC
+     33  Cheat > Game:Valorant
+     33  Cheat > Game:Apex Legends
+     32  Cheat > Render/Draw
+     32  Cheat > Hide
+     32  Anti Cheat > Compile Time
+     31  Cheat > Binary Ninja Plugins
+     31  Cheat > Ghidra Plugins
+     31  Cheat > EFI Driver
+     31  Anti Cheat > Obfuscation Engine
+     30  Anti Cheat > Anti Debugging
+     29  Cheat > X64DBG Plugins
+     28  Cheat > RPM
+     28  Cheat > DMA
+     27  Game Engine > Guide

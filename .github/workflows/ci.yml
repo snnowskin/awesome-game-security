@@ -1,0 +1,52 @@
+name: build-index
+
+# Upstream's four workflows all call scripts/*.py that do not exist in its own
+# repository, so every run fails with "can't open file". This workflow is the
+# inverse: it only invokes scripts that are committed here, and it verifies the
+# generated output is current. If someone edits data/ without regenerating, the
+# diff check fails the build instead of letting the pages drift.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parse the upstream README snapshot
+        run: python scripts/parse_readme.py --source ./upstream --out data
+
+      - name: Regenerate docs and skills
+        run: python scripts/generate_site.py
+
+      - name: Lint
+        run: python scripts/lint.py
+
+      - name: Fail if generated files are out of date
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::generated files are stale; run the scripts and commit the result"
+            git status --porcelain
+            git diff --stat
+            exit 1
+          fi
+
+      - name: Report dataset size
+        run: |
+          echo "entries: $(wc -l < data/entries.jsonl)"
+          echo "docs:    $(find docs -name '*.md' | wc -l)"
+          echo "skills:  $(find skills -name 'SKILL.md' | wc -l)"

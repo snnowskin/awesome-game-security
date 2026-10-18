@@ -1,0 +1,188 @@
+# Cheat › IDA Plugins
+
+[← back to Cheat](index.md)
+
+- [gmh5225/ida-plugins](https://github.com/gmh5225/ida-plugins) — List of IDA Plugins `mirror`
+- [gmh5225/idaplugins-list](https://github.com/gmh5225/idaplugins-list) — List of IDA Plugins `mirror`
+- [gmh5225/idawilli](https://github.com/gmh5225/idawilli) — IDA Pro resources, scripts, and configurations `mirror`
+- [gmh5225/idasdk-collection](https://github.com/gmh5225/idasdk-collection/tree/master) — IDA SDK `mirror`
+- [gmh5225/ida-sdk](https://github.com/gmh5225/ida-sdk) — IDA SDK `mirror`
+- [gmh5225/IDASkins](https://github.com/gmh5225/IDASkins) — Skins `mirror`
+- [gmh5225/ida-nord-theme](https://github.com/gmh5225/ida-nord-theme) — Skins `mirror`
+- [giladreich/ida_migrator](https://github.com/giladreich/ida_migrator) — Migrate Database
+- [gmh5225/NtRays](https://github.com/gmh5225/NtRays) — Windows Kernel Enhance `mirror`
+- [gmh5225/ida_bitfields](https://github.com/gmh5225/ida_bitfields) — Windows Kernel Enhance `mirror`
+- [gmh5225/DriverBuddyReloaded](https://github.com/gmh5225/DriverBuddyReloaded) — Windows Kernel Analysis `mirror`
+- [gmh5225/IDA2Obj](https://github.com/gmh5225/IDA2Obj) — COFF Relink `mirror`
+- [synacktiv/dotNIET](https://github.com/synacktiv/dotNIET) — Import .NET Symbol
+- [aliyunav/Finger](https://github.com/aliyunav/Finger) — Recognizing Function By Cloud
+- [gmh5225/FindFunc](https://github.com/gmh5225/FindFunc) — Recognizing Function By Pattern `mirror`
+- [gmh5225/sigmakerex](https://github.com/gmh5225/sigmakerex) — Signature Maker `mirror`
+- [gmh5225/IDA-Pro-SigMaker](https://github.com/gmh5225/IDA-Pro-SigMaker) — Signature Maker `mirror`
+- [gmh5225/ida-sigmaker](https://github.com/gmh5225/ida-sigmaker) — Signature Maker `mirror`
+- [gmh5225/FakePDB](https://github.com/gmh5225/FakePDB) — PDB Generation From IDA `mirror`
+- [gmh5225/Ponce](https://github.com/gmh5225/Ponce) — Symbolic Execution `mirror`
+- [gmh5225/ttddbg](https://github.com/gmh5225/ttddbg) — Time Travel Debugging `mirror`
+- [gmh5225/LazyIDA](https://github.com/gmh5225/LazyIDA) — LazyIDA `mirror`
+- [gmh5225/HappyIDA](https://github.com/gmh5225/HappyIDA) — Hex-Rays decompiler utilities: parameter labeling, SEH, Rust strings `mirror`
+- [gmh5225/ida-function-string-associate](https://github.com/gmh5225/ida-function-string-associate) — IDA 9.X: auto-generate function comments from string literals `mirror`
+- [gmh5225/qsynthesis](https://github.com/gmh5225/qsynthesis) — Greybox Synthesizer geared for deobfuscation of assembly instructions `mirror`
+- [gmh5225/ida_medigate](https://github.com/gmh5225/ida_medigate) — RTTI `mirror`
+- [gmh5225/findyara-ida](https://github.com/gmh5225/findyara-ida) — Yara `mirror`
+- [gmh5225/ida_vmware_windows_gdb](https://github.com/gmh5225/ida_vmware_windows_gdb) — IDA+VMWARE+GDB `mirror`
+- [gmh5225/ida_bochs_windows](https://github.com/gmh5225/ida_bochs_windows) — IDA+BOCHS `mirror`
+- [An integration for IDA and VS Code which connects both to easily execute and debug IDAPython scripts](https://github.com/gmh5225/idacode) `mirror`
+- [gmh5225/efiXplorer](https://github.com/gmh5225/efiXplorer) — UEFI firmware `mirror`
+- [Accenture/protobuf-finder](https://github.com/Accenture/protobuf-finder) — Protobuf
+- [gmh5225/golang_loader_assist](https://github.com/gmh5225/golang_loader_assist) — GO Reversed `mirror`
+- [gmh5225/GhidraDec](https://github.com/gmh5225/GhidraDec) — Ghidra Decompiler `mirror`
+- [gmh5225/EasyRe](https://github.com/gmh5225/EasyRe) — Trace Execution `mirror`
+- [gmh5225/ida_ps5_elf_plugin](https://github.com/gmh5225/ida_ps5_elf_plugin) — PS5 elf loader `mirror`
+- [gmh5225/tenet](https://github.com/gmh5225/tenet) — Execution Traces `mirror`
+- [gmh5225/Tenet-IDA9.0](https://github.com/gmh5225/Tenet-IDA9.0) — Execution Traces `mirror`
+- [gmh5225/frinet](https://github.com/gmh5225/frinet) — Frida-based tracer `mirror`
+- [gmh5225/findcrypt-yara](https://github.com/gmh5225/findcrypt-yara) — Find crypto constants `mirror`
+- [gmh5225/VMAttack](https://github.com/gmh5225/VMAttack) — VMAttack PlugIn for IDA Pro `mirror`
+- [gmh5225/sk3wldbg](https://github.com/gmh5225/sk3wldbg) — Unicorn `mirror`
+- [gmh5225/Classy](https://github.com/gmh5225/Classy) — Manage classes `mirror`
+- [gmh5225/ida_names](https://github.com/gmh5225/ida_names) — Renames pseudocode windows with the current function name `mirror`
+- [helpsystems/turbodiff](https://github.com/helpsystems/turbodiff) — diff
+- [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) — diff
+- [An IDAPython module for way more convienent way to Reverse Engineering iOS kernelcaches](https://github.com/cellebrite-labs/ida_kcpp)
+- [https://gitlab.com/eshard/d810](https://gitlab.com/eshard/d810) — Deobfuscate code at decompilation time by modifying IDA Pro microcode
+- [CKCat/d810](https://github.com/CKCat/d810) — Deobfuscate code at decompilation time by modifying IDA Pro microcode
+- [airbus-seclab/AutoResolv](https://github.com/airbus-seclab/AutoResolv) — Resolves functions imported from external libraries
+- [snare/ida-efiutils](https://github.com/snare/ida-efiutils) — EFI binaries
+- [JusticeRage/Gepetto](https://github.com/JusticeRage/Gepetto) — ChatGPT
+- [MayerDaniel/ida_gpt](https://github.com/MayerDaniel/ida_gpt) — ChatGPT
+- [mahaloz/DAILA](https://github.com/mahaloz/DAILA) — ChatGPT
+- [ke0z/VulChatGPT](https://github.com/ke0z/VulChatGPT) — ChatGPT
+- [WPeace-HcH/WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT) — ChatGPT
+- [lzyddf/IDA_Plugin_PCodeGPT](https://github.com/lzyddf/IDA_Plugin_PCodeGPT) — ChatGPT
+- [deadeert/EWS](https://github.com/deadeert/EWS) — Emulation
+- [patois/genmc](https://github.com/patois/genmc) — Display Hex-Rays Microcode
+- [RolfRolles/HexRaysDeob](https://github.com/RolfRolles/HexRaysDeob) — Hex-Rays Microcode
+- [HexRaysSA/goomba](https://github.com/HexRaysSA/goomba) — Simplify MBA
+- [es3n1n/ida-wakatime-py](https://github.com/es3n1n/ida-wakatime-py) — WakaTime integration for IDA Pro
+- [senator715/IDA-Fusion](https://github.com/senator715/IDA-Fusion) — Fast Signature scanner & creator
+- [cellebrite-labs/PPLorer](https://github.com/cellebrite-labs/PPLorer) — Resolves PPL calls to the actual underlying PPL function
+- [kweatherman/ida_missinglink](https://github.com/kweatherman/ida_missinglink) — Fills in missing indirect CALL & JMP target information
+- [yubie-re/ida-jm-xorstr-decrypt-plugin](https://github.com/yubie-re/ida-jm-xorstr-decrypt-plugin) — Attempts to decrypt JM Xorstr in some x64 binaries
+- [timetravelthree/IDARustDemangler](https://github.com/timetravelthree/IDARustDemangler) — Rust Demangler & Normalizer
+- [gmh5225/ida-find-.data-ptr](https://github.com/gmh5225/ida-find-.data-ptr) — .data ptr lookup script `mirror`
+- [repnz/ida-plugins](https://github.com/repnz/ida-plugins) — Register Cross References
+- [lstaroth/AntiXorstr](https://github.com/lstaroth/AntiXorstr) — Anti Xorstr
+- [SentineLabs/AlphaGolang](https://github.com/SentineLabs/AlphaGolang) — Analyzing Golang Binaries
+- [tmr232/Sark](https://github.com/tmr232/Sark) — IDAPython Made Easy
+- [govcert-ch/ConfuserEx_IDAPython](https://github.com/govcert-ch/ConfuserEx_IDAPython) — Deobfuscation script for ConfuserEx
+- [sonyps5201314/pdb](https://github.com/sonyps5201314/pdb) — PDB plugin with enhance and bugfix
+- [Coldzer0/IDA-For-Delphi](https://github.com/Coldzer0/IDA-For-Delphi) — IDA-For-Delphi
+- [AntonKukoba1/BetterCallStack](https://github.com/AntonKukoba1/BetterCallStack) — Improve call stack
+- [za233/IDADeflat](https://github.com/za233/IDADeflat) — deflat
+- [RomanRybachek/Copy_RVA](https://github.com/RomanRybachek/Copy_RVA) — Copy RVA
+- [RevEngAI/reai-ida](https://github.com/RevEngAI/reai-ida) — RevEng.AI
+- [gaasedelen/microavx](https://github.com/gaasedelen/microavx) — AVX Lifter
+- [thalium/ida_kmdf](https://github.com/thalium/ida_kmdf) — IDA kmdf
+- [zengfr/XrefsExt](https://github.com/zengfr/XrefsExt) — XrefsExt plugin
+- [sterrasec/genpatch](https://github.com/sterrasec/genpatch) — Python script for patching binary
+- [AzzOnFire/yarka](https://github.com/AzzOnFire/yarka) — YARA signature creation
+- [VirusTotal/vt-ida-plugin](https://github.com/VirusTotal/vt-ida-plugin) — VirusTotal plugin
+- [crifan/AutoRename](https://github.com/crifan/AutoRename) — Auto rename symbol
+- [LAC-Japan/IDA_Plugin_AntiDebugSeeker](https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker) — Extract anti-debugging
+- [cseagle/blc](https://github.com/cseagle/blc) — Integrate Ghidra's decompiler
+- [Goatman13/ps2_ida_vu_micro](https://github.com/Goatman13/ps2_ida_vu_micro) — Find and disassembly vu microcode in ps2 executables
+- [arizvisa/ida-minsc](https://github.com/arizvisa/ida-minsc) — Functional DWIM interface
+- [wINfOG/IDA_Easy_Life](https://github.com/wINfOG/IDA_Easy_Life) — Deobfuscation
+- [senko37/yarascan-ida](https://github.com/senko37/yarascan-ida) — Scan file with Yara rules
+- [SamuelTulach/ida-unity-pdb-downloader](https://github.com/SamuelTulach/ida-unity-pdb-downloader) — Unity PDB Downloader
+- [TrungNguyen1909/aarch64-sysreg-ida](https://github.com/TrungNguyen1909/aarch64-sysreg-ida) — A IDA plugin to show ARM MSRs nicely
+- [danielplohmann/gui-plugin-template](https://github.com/danielplohmann/gui-plugin-template) — A template for cross-compatible GUI plugins
+- [gmh5225/IDA-MapSymbolParser](https://github.com/gmh5225/IDA-MapSymbolParser) — IDA Map File Symbol Renamer `mirror`
+- [gmh5225/IDA-KallsymsSymbolRenamer](https://github.com/gmh5225/IDA-KallsymsSymbolRenamer) — IDA kallsyms Renamer `mirror`
+- [XMCVE/import-kallsyms](https://github.com/XMCVE/import-kallsyms) — IDA Pro Plugin to import /proc/kallsyms for Linux Kernel
+- [tomrus88/OpenLumina](https://github.com/tomrus88/OpenLumina) — Allows connecting to third party Lumina servers
+- [stuxnet147/IDA-Assistant](https://github.com/stuxnet147/IDA-Assistant) — Claude-3 models assistant
+- [goseungduk/CE_Tracer-IDA](https://github.com/goseungduk/CE_Tracer-IDA) — CheatEngine Value Tracer of IDA
+- [binarly-io/idapcode](https://github.com/binarly-io/idapcode) — Displaying the P-Code for the current function
+- [ElvisBlue/emotet-deobfuscator](https://github.com/ElvisBlue/emotet-deobfuscator) — IDA plugin to deobfuscate emotet CFF
+- [threatlabz/pikabot-deobfuscator](https://github.com/threatlabz/pikabot-deobfuscator) — Deobfuscating Pikabot's strings using RC4 and AES
+- [Pycatchown/ClassMaker](https://github.com/Pycatchown/ClassMaker) — IDA plugin to make classes automatically
+- [airbus-cert/comida](https://github.com/airbus-cert/comida) — An IDA Plugin that help analyzing module that use COM
+- [Sandspeare/ida2llvm](https://github.com/Sandspeare/ida2llvm) — Lifting IDA Microcode into LLVM IR
+- [crtdll/ida-gameguard-str-dec](https://github.com/crtdll/ida-gameguard-str-dec) — GameGuard String Decryption
+- [kkent030315/IDARustCargo](https://github.com/kkent030315/IDARustCargo) — Displaying potentially installed Cargo dependencies
+- [dNop90/dOffset](https://github.com/dNop90/dOffset) — IDA Pro and Cheat Engine to get the offset of the current module
+- [sneakyevil/ida_functioncolor](https://github.com/sneakyevil/ida_functioncolor) — IDA Plugin to colorize function definition in pseudocode
+- [apkunpacker/IDA-Gepetto](https://github.com/apkunpacker/IDA-Gepetto) — IDA plugin which queries Local language models
+- [Jackiemin233/Gemini-Genius](https://github.com/Jackiemin233/Gemini-Genius) — IDA python 3 plugin and binary file similarity comparison
+- [lj94093/IDAAndroidBreakpoint](https://github.com/lj94093/IDAAndroidBreakpoint) — IDA plugin aid to set android so breakpoint
+- [jonpalmisc/ida_screenshot](https://github.com/jonpalmisc/ida_screenshot) — High-resolution screenshot capture plugin for IDA Pro
+- [JANlittle/IDARustHelper](https://github.com/JANlittle/IDARustHelper) — Small rust binary analysis helper for IDA
+- [mefistotelis/ida-pro-loadmap](https://github.com/mefistotelis/ida-pro-loadmap) — Plugin for IDA Pro disassembler which allows loading .map files
+- [OALabs/hashdb-ida](https://github.com/OALabs/hashdb-ida) — HashDB API hash lookup plugin for IDA Pro
+- [Vu1nT0tal/firmeye](https://github.com/Vu1nT0tal/firmeye) — IoT
+- [sean2077/big5-decode-ida](https://github.com/sean2077/big5-decode-ida) — IDA Plugin for decoding bytes as big5
+- [Vis-Wing/Binoculars](https://github.com/Vis-Wing/Binoculars) — Binoculars is an IDA PRO plugin with an integrated AI interface
+- [Reodus/CBS](https://github.com/Reodus/CBS) — IDA Plugin to set custom breakpoints on mnemonics
+- [matteyeux/IDArling](https://github.com/matteyeux/IDArling) — IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays
+- [richor1042/IDAFuncOutline](https://github.com/richor1042/IDAFuncOutline) — optimize the readability of decompiled code for iOS ARM64 binaries
+- [Dump-GUY/IDA_PHNT_TYPES](https://github.com/Dump-GUY/IDA_PHNT_TYPES) — Converted phnt to IDA TIL, IDC (Hex-Rays)
+- [janisslsm/ida-ps4-helper](https://github.com/janisslsm/ida-ps4-helper) — A helper plugin for PS4 module loader
+- [Antelcat/ida_copilot](https://github.com/Antelcat/ida_copilot) — ChatGPT Agent analyses your IDA pseudocode
+- [crytic/ida-evm](https://github.com/crytic/ida-evm) — IDA Processor Module for the Ethereum Virtual Machine (EVM)
+- [NoneShell/IDAComments](https://github.com/NoneShell/IDAComments) — a IDA plugin helps you to manage your IDA Comments
+- [emoose/idaxex](https://github.com/emoose/idaxex) — Xbox360/Xenon loader plugin for IDA 9
+- [junron/auto-enum](https://github.com/junron/auto-enum) — automatically identify and set enums for standard functions
+- [ViRb3/swift-ida](https://github.com/ViRb3/swift-ida) — IDA plugin to aid with Swift reverse engineering
+- [Krietz7/IDA-DataExportPlus](https://github.com/Krietz7/IDA-DataExportPlus) — a IDA Pro plugin to export data better
+- [harlamism/IdaClu](https://github.com/harlamism/IdaClu) — For grouping similar functions
+- [eset/DelphiHelper](https://github.com/eset/DelphiHelper) — help the analysis of x86/x86_64 binaries written in Delphi
+- [milankovo/YaraVM](https://github.com/milankovo/YaraVM) — IDA processor for loading and disassembling compiled yara rules
+- [cellebrite-labs/LabSync](https://github.com/cellebrite-labs/LabSync) — An IDA plugin that can be used to partially synchronize IDBs between different users reversing the same binaries
+- [cellebrite-labs/FunctionInliner](https://github.com/cellebrite-labs/FunctionInliner) — An IDA plugin that eases reversing of binaries that have been code-size-optimized with function outlining
+- [herosi/PyClassInformer](https://github.com/herosi/PyClassInformer) — RTTI Parsing IDA plugin
+- [0xGotcha/XrefXpert](https://github.com/0xGotcha/XrefXpert) — An advanced cross-reference navigation tool for IDA Pro
+- [TKazer/ScyllaHide-For-IDA9.0RC](https://github.com/TKazer/ScyllaHide-For-IDA9.0RC) — ScyllaHide-For-IDA9
+- [gmh5225/ida_export_functions](https://github.com/gmh5225/ida_export_functions) — Export IDA Pro Function List to a Specified Path (Markdown Format) `mirror`
+- [L4ys/IDA-WPP-Remover](https://github.com/L4ys/IDA-WPP-Remover) — Remove WPP calls from hexrays decompiled code
+- [0xdea/augur](https://github.com/0xdea/augur) — Augur is a blazing fast IDA Pro headless plugin that extracts strings and related pseudo-code from a binary file
+- [DennyDai/headless-ida](https://github.com/DennyDai/headless-ida) — Run IDA scripts headlessly
+- [cpkt9762/ida-cli](https://github.com/cpkt9762/ida-cli) — Headless IDA Pro MCP server for AI-assisted binary analysis, powered by idalib
+- [gilboz/ida_kernelcache_ng](https://github.com/gilboz/ida_kernelcache_ng) — An IDA Plugin for analyzing iOS kernelcaches
+- [mahmoudimus/ida-taskr](https://github.com/mahmoudimus/ida-taskr) — IDA Taskr is a pure Python library for IDA Pro related parallel computing
+- [sigwl/AiDA](https://github.com/sigwl/AiDA) — An AI-powered assistant for IDA 9.0+ to accelerate reverse engineering of C++ games
+- [alexhude/FRIEND](https://github.com/alexhude/FRIEND) — FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View
+- [SamuelTulach/unxorer](https://github.com/SamuelTulach/unxorer) — Yet another IDA Pro/Home plugin for deobfuscating stack strings
+- [loyaltypollution/ida2llvm](https://github.com/loyaltypollution/ida2llvm) — IDA2LLVM - Dynamic Binary Lifting IDA code to LLVM IR
+- [GAMMACASE/PltPatcher](https://github.com/GAMMACASE/PltPatcher) — Patches PLT sections when IDA fails to do so
+- [yoavst/ida-ios-helper](https://github.com/yoavst/ida-ios-helper) — Plugin to ease reversing iOS projects
+- [milankovo/ida_enums_helper](https://github.com/milankovo/ida_enums_helper) — IDA Enums Helper Plugin
+- [kweatherman/yara4ida](https://github.com/kweatherman/yara4ida) — Unofficial YARA IDA Pro plugin
+- [Berk000x/BinaryLens](https://github.com/Berk000x/BinaryLens) — An IDA plugin that uses LLM to speed up binary analysis
+- [jtang613/IDAssist](https://github.com/jtang613/IDAssist) — AI-powered RE plugin for IDA Pro: LLM function explanation, semantic knowledge graph, RAG, MCP integration
+- [CyberSecurityUP/DriverVuln-Analyzer-IDA-Plugin](https://github.com/CyberSecurityUP/DriverVuln-Analyzer-IDA-Plugin) — Driver Vuln Analyzer
+- [ssmugabi/IDAPlugins](https://github.com/ssmugabi/IDAPlugins) — Integrate essential IDA Pro plugins for enhanced functionality, including deobfuscation, binary diffing, and custom cryptography support
+- [momo5502/patch-finder](https://github.com/momo5502/patch-finder) — IDA plugin to find patched memory
+- [HexRaysSA/ida-cyberchef](https://github.com/HexRaysSA/ida-cyberchef) — A Qt-based CyberChef interface designed for malware analysis workflows, particularly in IDA Pro
+- [idkhidden/DrawIDA](https://github.com/idkhidden/DrawIDA) — Lightweight whiteboard plugin for IDA that allows reverse engineers to sketch and brainstorm directly inside IDA
+- [rem0obb/rtti-parser](https://github.com/rem0obb/rtti-parser) — IDA script to parse RTTI information in executable support for IDA 9.2
+- [19h/ida-semray](https://github.com/19h/ida-semray) — High-performance, AI-driven semantic analysis for the IDA Pro decompiler
+- [K4ryuu/IDA-VTableExplorer](https://github.com/K4ryuu/IDA-VTableExplorer) — C++ virtual table detection and annotation tool for IDA Pro 9.x
+- [oxiKKK/ida-vtable-tools](https://github.com/oxiKKK/ida-vtable-tools) — IDA 9.X plugin for vtable ops: dump C++ interface skeleton (.hpp), rename with class prefix, set this pointer type, show slot index/offset
+- [19h/chernobog](https://github.com/19h/chernobog) — A Hex-Rays IDA Pro plugin for deobfuscating binaries protected with the Hikari LLVM obfuscator
+- [danielplohmann/mcrit-plugin](https://github.com/danielplohmann/mcrit-plugin) — A plugin to use MCRIT from IDA Pro
+- [dyussekeyev/ida-spotlight](https://github.com/dyussekeyev/ida-spotlight) — Workflow-centric function triage and prioritization plugin for IDA Pro
+- [s3rg0x/AIMachDec](https://github.com/s3rg0x/AIMachDec) — AIMachDec is an IDA plugin for Apple AARCH64/ARM64 binaries that utilizes LLMs to translate assembly functions into readable pseudo-code in C, Objective-C, or Swift
+- [not1cyyy/Kiroshi](https://github.com/not1cyyy/Kiroshi) — An IDA Pro Plugin to detect common Anti-Cheat Artifacts
+- [HexRaysSA/ida-claude-code-plugins](https://github.com/HexRaysSA/ida-claude-code-plugins) — IDA Claude Code Plugins
+- [stolevchristian/LUDA](https://github.com/stolevchristian/LUDA) — Lua scripting plugin for IDA Pro
+- [allthingsida/idasql](https://github.com/allthingsida/idasql) — Interface with IDA in SQL via live virtual tables
+- [a1ext/auto_re](https://github.com/a1ext/auto_re) — IDA PRO auto-renaming plugin with tagging support
+- [SymbioticSec/ida-security-scanner](https://github.com/SymbioticSec/ida-security-scanner) — A security-focused code scanner for IDA Pro
+- [cristeigabriela/IDAFind](https://github.com/cristeigabriela/IDAFind) — Ctrl+F search support for Pseudocode windows
+- [thalium/symless](https://github.com/thalium/symless) — IDA Pro plugin that helps reconstruct structures
+- [buzzer-re/Rikugan](https://github.com/buzzer-re/Rikugan) — A reverse-engineering agent for IDA Pro and Binary Ninja that integrates a multi-provider LLM directly into your analysis UI
+- [Dump-GUY/ApplyCalleeTypeEx](https://github.com/Dump-GUY/ApplyCalleeTypeEx) — ApplyCalleeType reborn for IDA Pro 9.3 — apply function prototype to indirect CALL for correct decompiler/disasm; IDA 8.x–9.3+
+- [allthingsida/idacpp](https://github.com/allthingsida/idacpp) — A C++ REPL for IDA Pro / IDA C++ SDK
+- [milankovo/ida-search](https://github.com/milankovo/ida-search) — An IDA Pro 9.x plugin that brings 010 Editor-style type-aware binary search to IDA
+- [CSIT-SG/AETHER](https://github.com/CSIT-SG/AETHER) — An AI-powered reverse-engineering copilot for assisting tedious malware analysis in IDA Pro

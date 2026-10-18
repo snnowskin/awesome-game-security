@@ -1,0 +1,45 @@
+# Anti Cheat › Stress Testing
+
+[← back to Anti Cheat](index.md)
+
+- [niemand-sec/AntiCheat-Testing-Framework](https://github.com/niemand-sec/AntiCheat-Testing-Framework) — Testing Framework
+- [gmh5225/MemWars](https://github.com/gmh5225/MemWars) — Testing Framework `mirror`
+- [stuxnet147/Known-Driver-Mappers](https://github.com/stuxnet147/Known-Driver-Mappers) — Known Driver Mappers
+- [DanielRTeixeira/injectAllTheThings](https://github.com/DanielRTeixeira/injectAllTheThings) — Injection Testing
+- [MahmoudZohdy/Process-Injection-Techniques](https://github.com/MahmoudZohdy/Process-Injection-Techniques) — Injection Testing
+- [zoand/Injectors](https://github.com/zoand/Injectors) — Injection Testing
+- [guided-hacking/GuidedHacking-Injector](https://github.com/guided-hacking/GuidedHacking-Injector) — Injection Testing
+- [gmh5225/rust-dll-crab](https://github.com/gmh5225/rust-dll-crab) — Injection Testing `mirror`
+- [gmh5225/injection](https://github.com/gmh5225/injection) — Injection Testing `mirror`
+- [D4stiny/ThreadJect](https://github.com/D4stiny/ThreadJect) — Injection Testing
+- [KooroshRZ/Windows-DLL-Injector](https://github.com/KooroshRZ/Windows-DLL-Injector) — Injection Testing
+- [NullTerminatorr/ThreadHijackingInjector](https://github.com/NullTerminatorr/ThreadHijackingInjector) — Injection Testing
+- [Skengdo/simple-SetWindowsHookExW-injector](https://github.com/Skengdo/simple-SetWindowsHookExW-injector) — Injection Testing:SetWindowsHookExW
+- [gmh5225/SetWindowsHookEx-Injector](https://github.com/gmh5225/SetWindowsHookEx-Injector) — Injection Testing:SetWindowsHookExW `mirror`
+- [gavz/Jektor](https://github.com/gavz/Jektor) — Injection/Shellcode Testing
+- [KANKOSHEV/face-injector-v2](https://github.com/KANKOSHEV/face-injector-v2) — Injection/ Testing
+- [notscimmy/libelevate](https://github.com/notscimmy/libelevate) — Elevating Handle
+- [ContionMig/LSASS-Usermode-Bypass](https://github.com/ContionMig/LSASS-Usermode-Bypass) — Elevating Handle By LSASS
+- [gmh5225/LSASS-DumpThatLSASS](https://github.com/gmh5225/LSASS-DumpThatLSASS) — Elevating Handle By LSASS `mirror`
+- [kkent030315/Van1338](https://github.com/kkent030315/Van1338) — Elevating Handle By Timing Attack
+- [gmh5225/Handle-Ripper](https://github.com/gmh5225/Handle-Ripper) — DuplicateHandle `mirror`
+- [Kudaes/Dumpy](https://github.com/Kudaes/Dumpy) — Reuse opened handles By LSASS
+- [AlSch092/EasyHandles](https://github.com/AlSch092/EasyHandles) — Driver + DLL which allows us to open handles to callback-protected processes
+- [EvilBytecode/CustomDpapi](https://github.com/EvilBytecode/CustomDpapi) — Call undocumented DPAPI RPC interface directly via NdrClientCall3 to lsass protected_storage; no CryptUnprotectData
+- [muturikaranja/disable-threat-tracing](https://github.com/muturikaranja/disable-threat-tracing) — ETW Testing
+- [Mr-Un1k0d3r/AMSI-ETW-Patch](https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch) — ETW Testing
+- [EDRSandblast/KernellandBypass/ETWThreatIntel.c](https://github.com/wavestone-cdt/EDRSandblast/blob/master/EDRSandblast/KernellandBypass/ETWThreatIntel.c) — ETW Testing
+- [daswareinfach/Battleye-VAC-EAC-Kernel-Bypass](https://github.com/daswareinfach/Battleye-VAC-EAC-Kernel-Bypass) — FsFilter Testing
+- [gmh5225/MMFCodeInjection](https://github.com/gmh5225/MMFCodeInjection) — User APC + File Mapping Testing `mirror`
+- [liors619/TtdAntiDebugging](https://github.com/liors619/TtdAntiDebugging) — Debug Testing
+- [gmh5225/cheat-attack-thread-slemu](https://github.com/gmh5225/cheat-attack-thread-slemu) — Hearbeat Testing `mirror`
+- [nkga/cheat-driver](https://github.com/nkga/cheat-driver) — MmCopyVirtualMemory Testing
+- [zxd1994/vt-debuuger](https://github.com/zxd1994/vt-debuuger) — Hacked Hypervisor Testing
+- [zer0condition/hv](https://github.com/zer0condition/hv) — Hacked Hypervisor Testing
+- [zer0condition/Ophion](https://github.com/zer0condition/Ophion) — Stealth Intel VT-x Type-2 hypervisor: passes common HV detection, works with EAC/BE/AVs; CPUID cache, CR4.VMXE hide, TSC compensation, private host CR3
+- [gmh5225/AetherVisor](https://github.com/gmh5225/AetherVisor) — Hacked Hypervisor Testing AMD `mirror`
+- [valium007/BareSVM](https://github.com/valium007/BareSVM) — Hacked Hypervisor Testing AMD
+- [Idov31/NovaHypervisor](https://github.com/Idov31/NovaHypervisor) — NovaHypervisor is a defensive x64 Intel host based hypervisor. The goal of this project is to protect against kernel based attacks
+- [rbmm/LockFile-Poc](https://github.com/rbmm/LockFile-Poc) — Lock File
+- [gmh5225/UltraDriver-Game-Cheat](https://github.com/gmh5225/UltraDriver-Game-Cheat) — Cheat Driver `mirror`
+- [gmh5225/Kernel-Special-APC-ReadProcessMemory](https://github.com/gmh5225/Kernel-Special-APC-ReadProcessMemory) — RPM `mirror`

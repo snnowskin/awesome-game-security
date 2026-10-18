@@ -1,0 +1,56 @@
+# Cheat › Debugging
+
+[← back to Cheat](index.md)
+
+- [stars/gmh5225](https://github.com/stars/gmh5225/lists/debugger) — List
+- [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
+- [JasonGoemaat/CheatEngineMonoHelper](https://github.com/JasonGoemaat/CheatEngineMonoHelper) — CE Mono Helper
+- [gmh5225/frida-ceserver](https://github.com/gmh5225/frida-ceserver) — CE Server For IOS `mirror`
+- [gmh5225/ceserver-ios](https://github.com/gmh5225/ceserver-ios) — Porting ceserver to iOS.Dynamic analysis `mirror`
+- [0xiuks/ceserver-ios](https://github.com/0xiuks/ceserver-ios) — An iOS port of Cheat Engine's ceserver
+- [gmh5225/cheat-engine-ceserver-pcileech](https://github.com/gmh5225/cheat-engine-ceserver-pcileech) — CE Server For Pcileech `mirror`
+- [user23333/veh](https://github.com/user23333/veh) — CE Plugin For Manualmap VEH Dll
+- [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) — A debugger for Windows x86/64
+- [marakew/syser](https://github.com/marakew/syser) — A debugger for Windows x86/64
+- [keowu/koidbg](https://github.com/keowu/koidbg) — A debugger for Windows ARM64
+- [DoranekoSystems/DynaDbg](https://github.com/DoranekoSystems/DynaDbg) — A debugger for Android/IOS
+- [Yayoi-cs/fastDbg](https://github.com/Yayoi-cs/fastDbg) — x86_64 native/qemu kernel debugger
+- [noword/GDB-Windows-Binaries](https://github.com/noword/GDB-Windows-Binaries) — GDB
+- [ajkhoury/ReClassEx](https://github.com/ajkhoury/ReClassEx)
+- [ReClassNET/ReClass.NET](https://github.com/ReClassNET/ReClass.NET)
+- [niemand-sec/ReClass.NET-DriverReader](https://github.com/niemand-sec/ReClass.NET-DriverReader) — ReClass DriverReader
+- [BeneficialCode/KReClassEx](https://github.com/BeneficialCode/KReClassEx) — Kernel ReClassEx
+- [gmh5225/ReClass-DMA](https://github.com/gmh5225/ReClass-DMA) — ReClass DMA `mirror`
+- [Metick/CheatEngine-DMA](https://github.com/Metick/CheatEngine-DMA) — CheatEngine DMA
+- [kaijia2022/Cheat-Engine-DMA-Plugin](https://github.com/kaijia2022/Cheat-Engine-DMA-Plugin) — CheatEngine DMA
+- [x64dbg/DotX64Dbg](https://github.com/x64dbg/DotX64Dbg)
+- [imugee/xdv](https://github.com/imugee/xdv)
+- [eteran/edb-debugger](https://github.com/eteran/edb-debugger) — For Linux
+- [korcankaraokcu/PINCE](https://github.com/korcankaraokcu/PINCE) — For Linux
+- [djolertrk/kLLDB](https://github.com/djolertrk/kLLDB) — LLDB based debugger for Linux Kernel
+- [mrexodia/TitanHide](https://github.com/mrexodia/TitanHide)
+- [Air14/HyperHide](https://github.com/Air14/HyperHide) — VT debuger
+- [HyperDbg/HyperDbg](https://github.com/HyperDbg/HyperDbg) — VT debuger
+- [gmh5225/vt-debuger](https://github.com/gmh5225/vt-debuger) — VT debuger `mirror`
+- [kkpwn/ErisDbg](https://github.com/kkpwn/ErisDbg) — VT debuger
+- [teemu-l/execution-trace-viewer](https://github.com/teemu-l/execution-trace-viewer)
+- [changeofpace/Force-Page-Protection](https://github.com/changeofpace/Force-Page-Protection) — Bypass Remap Memory
+- [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) — For Unity
+- [dnSpy/dnSpy](https://github.com/dnSpy/dnSpy) — For Unity
+- [HoLLy-HaCKeR/dnSpy.Extension.HoLLy](https://github.com/HoLLy-HaCKeR/dnSpy.Extension.HoLLy) — For Unity
+- [mandiant/dncil](https://github.com/mandiant/dncil) — For Unity
+- [hugsy/CFB](https://github.com/hugsy/CFB) — Monitor IRP
+- [Kharos102/IOCTLDump](https://github.com/Kharos102/IOCTLDump) — Monitor IRP
+- [https://ioninja.com/downloads.html](https://ioninja.com/downloads.html) — Protocol Analyzer
+- [wilszdev/SteamAntiAntiDebug](https://github.com/wilszdev/SteamAntiAntiDebug) — Steam
+- [H5GG/H5GG](https://github.com/H5GG/H5GG) — IOS cheat engine
+- [ri-char/pwatch](https://github.com/ri-char/pwatch) — HWBP on linux/android
+- [enenH/pwatch-c](https://github.com/enenH/pwatch-c) — HWBP on linux/android
+- [Ylarod/hardware-breakpoint](https://github.com/Ylarod/hardware-breakpoint) — HWBP on linux/android
+- [roger1337/JDBG](https://github.com/roger1337/JDBG) — Java Runtime Reverse Engineering and Debugging Tool
+- [Sh11no/eDBG](https://github.com/Sh11no/eDBG) — eBPF-based lightweight debugger for Android
+- [ShinoLeah/eHook](https://github.com/ShinoLeah/eHook) — eBPF hook
+- [SeeFlowerX/stackplz](https://github.com/SeeFlowerX/stackplz) — eBPF-based debugger for Android
+- [Satar07/edbgserver](https://github.com/Satar07/edbgserver) — eBPF-powered debugger server for Linux and Android
+- [g2wfw/qbdi-tracer-android](https://github.com/g2wfw/qbdi-tracer-android) — Android assembly instruction tracing tool
+- [LLeavesG/eBPFDexDumper](https://github.com/LLeavesG/eBPFDexDumper) — DexDumper based eBPF on Android Platform

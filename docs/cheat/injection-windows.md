@@ -1,0 +1,53 @@
+# Cheat › Injection:Windows
+
+[← back to Cheat](index.md)
+
+- [itaymigdal/awesome-injection](https://github.com/itaymigdal/awesome-injection) — awesome injection
+- [btbd/smap](https://github.com/btbd/smap) — Scatter Manual Map
+- [btbd/modmap](https://github.com/btbd/modmap) — Extend Manual Map
+- [KGB-1337/memmap](https://github.com/KGB-1337/memmap) — Extend Manual Map
+- [weak1337/ModExMap](https://github.com/weak1337/ModExMap) — Extend Manual Map
+- [mactec0/Kernelmode-manual-mapping-through-IAT](https://github.com/mactec0/Kernelmode-manual-mapping-through-IAT) — IAT Manual Map
+- [charliewolfe/Stealthy-Kernelmode-Injector](https://github.com/charliewolfe/Stealthy-Kernelmode-Injector) — PTE/VAD Manipulation Manual Map
+- [wbenny/injdrv](https://github.com/wbenny/injdrv) — APC
+- [alexkrnl/Kernel-dll-injector](https://github.com/alexkrnl/Kernel-dll-injector) — APC
+- [w1u0u1/kinject](https://github.com/w1u0u1/kinject) — Map + APC
+- [1401199262/RemoteCall](https://github.com/1401199262/RemoteCall) — APC Remote Call
+- [TheCruZ/Simple-Manual-Map-Injector](https://github.com/TheCruZ/Simple-Manual-Map-Injector) — Manual Map
+- [andrew9382/manual_mapping_dll_injector](https://github.com/andrew9382/manual_mapping_dll_injector) — Manual Map
+- [danielkrupinski/MemJect](https://github.com/danielkrupinski/MemJect) — Manual Map
+- [can1357/ThePerfectInjector](https://github.com/can1357/ThePerfectInjector) — PTE.User
+- [dumbasPL/fumo_loader](https://github.com/dumbasPL/fumo_loader) — PTE.User
+- [gmh5225/executor](https://github.com/gmh5225/executor) — PTE.User `mirror`
+- [Nou4r/PresentInjector](https://github.com/Nou4r/PresentInjector) — PTE.User
+- [JGonz1337/kernel-eac-be-injector](https://github.com/JGonz1337/kernel-eac-be-injector) — PTE.User
+- [Cr4sh/KernelForge](https://github.com/Cr4sh/KernelForge) — Hijack ROP
+- [Compiled-Code/be-injector](https://github.com/Compiled-Code/be-injector) — Attack COW
+- [ergrelet/dll-hot-reload](https://github.com/ergrelet/dll-hot-reload) — Hot Reload
+- [ExpLife0011/KeUserModeCallBack](https://github.com/ExpLife0011/KeUserModeCallBack) — KeUserModeCallBack
+- [KeUserModeCallBack Win10](https://github.com/Splitx12/eft/blob/834064aacaab7353173e36acc15933a3cf9289b3/eft/usercallback.h#L50)
+- [YouNeverKnow00/Kernelmode-DLL-Injector](https://github.com/YouNeverKnow00/Kernelmode-DLL-Injector) — Manual Map
+- [windows kernelmode driver to inject dll into each and every process and perform systemwide function hooking](https://github.com/sum-catnip/kptnhook)
+- [Broihon/GH-Injector-Library](https://github.com/Broihon/GH-Injector-Library) — inject library and tool
+- [5paceman/nightshade](https://github.com/5paceman/nightshade) — inject tool
+- [deepinstinct/Dirty-Vanity](https://github.com/deepinstinct/Dirty-Vanity) — RtlCreateProcessReflection
+- [LloydLabs/ntqueueapcthreadex-ntdll-gadget-injection](https://github.com/LloydLabs/ntqueueapcthreadex-ntdll-gadget-injection) — NtQueueApcThreadEx + gadget
+- [S12cybersecurity/FrankensteinAPCInjection](https://github.com/S12cybersecurity/FrankensteinAPCInjection) — NtQueueApcThreadEx2 + existing handles & natural RWX
+- [3xpl01tc0d3r/ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection) — Various process injection techniques
+- [dis0rder0x00/DbgNexum](https://github.com/dis0rder0x00/DbgNexum) — Shellcode via Windows Debug API + HWBP; file mapping transfer; no WPM/RPM/VirtualAllocEx
+- [zorftw/lsass-extend-mapper](https://github.com/zorftw/lsass-extend-mapper) — Manual mapper from LSASS
+- [zorftw/revert-mapper](https://github.com/zorftw/revert-mapper) — Map x64 DLLs in WoW64
+- [SDXT/MMInject](https://github.com/SDXT/MMInject) — Using NX Bit Swapping and VAD hide
+- [Fahersto/code_injection](https://github.com/Fahersto/code_injection) — Several code injection techniques
+- [gmh5225/Kernel-VAD-Injector](https://github.com/gmh5225/Kernel-VAD-Injector) — Hide VAD `mirror`
+- [nettitude/Tartarus-TpAllocInject](https://github.com/nettitude/Tartarus-TpAllocInject) — TpAllocInject
+- [SafeBreach-Labs/PoolParty](https://github.com/SafeBreach-Labs/PoolParty) — ThreadPool
+- [hasherezade/thread_namecalling](https://github.com/hasherezade/thread_namecalling) — SetThreadDescription
+- [Cracked5pider/earlycascade-injection](https://github.com/Cracked5pider/earlycascade-injection) — Early Cascade Injection
+- [0xPrimo/KMDllInjector](https://github.com/0xPrimo/KMDllInjector) — kernel-mode DLL Injector
+- [gmh5225/StealthAPCDispatcher](https://github.com/gmh5225/StealthAPCDispatcher) — Thread scheduling stealth method using APC with encrypted shellcode `mirror`
+- [isiddique2024/Page-Table-Injector](https://github.com/isiddique2024/Page-Table-Injector) — Page Table Injector (PT-Injector)
+- [xan105/Mini-Launcher](https://github.com/xan105/Mini-Launcher) — Application launcher with DLL Injection and Lua Scripting
+- [a0yark/DXInject-UC](https://github.com/a0yark/DXInject-UC) — D3D11 GPU payload transport + compute shader decode, GPU-assisted process hollowing (research)
+- [M3351AN/ZhangBing-Injector](https://github.com/M3351AN/ZhangBing-Injector) — DLL injector using WHQL-signed driver; credits kdmapper
+- [qiufuyu123/Positron](https://github.com/qiufuyu123/Positron) — Runtime JS injection toolkit for Electron (V8/Node.js) apps via manual-map DLL injection; self-unmapping payload, REPL/SDK

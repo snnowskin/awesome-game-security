@@ -1,0 +1,133 @@
+# Cheat › Vulnerable Driver
+
+[← back to Cheat](index.md)
+
+- [https://www.loldrivers.io/drivers](https://www.loldrivers.io/drivers) — Living Off The Land Drivers
+- [magicsword-io/LOLDrivers](https://github.com/magicsword-io/LOLDrivers) — Living Off The Land Drivers
+- [KeServiceDescriptorTable/vulnerable-drivers](https://github.com/KeServiceDescriptorTable/vulnerable-drivers) — Vulnerable drivers for windows machines
+- [ghostbyt3/BYOVDFinder](https://github.com/ghostbyt3/BYOVDFinder) — Identifies LOLDrivers that are not blocked by the active HVCI policy
+- [rtfmkiesel/loldrivers-client](https://github.com/rtfmkiesel/loldrivers-client) — Scan loldrivers
+- [FourCoreLabs/LolDriverScan](https://github.com/FourCoreLabs/LolDriverScan) — Scan loldrivers
+- [trailofbits/HVCI-loldrivers-check](https://github.com/trailofbits/HVCI-loldrivers-check) — HVCI loldrivers check
+- [hacksysteam/HackSysExtremeVulnerableDriver](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver) — Guide
+- [xct/windows-kernel-exploits](https://github.com/xct/windows-kernel-exploits) — Guide
+- [namazso/physmem_drivers](https://github.com/namazso/physmem_drivers) — Vulnerable Driver List
+- [alfarom256/drivers_and_shit](https://github.com/alfarom256/drivers_and_shit) — Vulnerable Driver List
+- [NullArray/WinKernel-Resources](https://github.com/NullArray/WinKernel-Resources/tree/main/Drivers) — Vulnerable Driver List
+- [CaledoniaProject/drivers-binaries](https://github.com/CaledoniaProject/drivers-binaries) — Vulnerable Driver List
+- [Xxmmy/vulnerable-driver-scanner](https://github.com/Xxmmy/vulnerable-driver-scanner) — Scans for vulnerable drivers
+- [Sentient111/VulnerableDriverScanner](https://github.com/Sentient111/VulnerableDriverScanner) — Scans for vulnerable drivers
+- [shareef12/cpuz](https://github.com/shareef12/cpuz) — CPU-Z
+- [SamLarenN/CPUZ-DSEFix](https://github.com/SamLarenN/CPUZ-DSEFix) — CPU-Z
+- [gmh5225/gdrv-loader](https://github.com/gmh5225/gdrv-loader/tree/1909_mitigation) — gdrv.sys `mirror`
+- [backengineering/VDM](https://github.com/backengineering/VDM) — gdrv enhance
+- [Compiled-Code/eac-mapper](https://github.com/Compiled-Code/eac-mapper) — gdrv.sys
+- [gmh5225/CVE-2018-19320-LPE](https://github.com/gmh5225/CVE-2018-19320-LPE) — gdrv.sys `mirror`
+- [gmh5225/CVE-2018-19320](https://github.com/gmh5225/CVE-2018-19320) — gdrv.sys `mirror`
+- [gmh5225/gdriver-lib](https://github.com/gmh5225/gdriver-lib) — gdrv.sys `mirror`
+- [holi4m/gdrv-loader-v2](https://github.com/holi4m/gdrv-loader-v2) — gdrv.sys
+- [gmh5225/KDP-compatible-driver-loader](https://github.com/gmh5225/KDP-compatible-driver-loader) — gdrv.sys `mirror`
+- [1337kenzo/gdrv-loader-updated](https://github.com/1337kenzo/gdrv-loader-updated) — gdrv.sys Win11
+- [AmitMoshel1/gdrv_sys_exploit](https://github.com/AmitMoshel1/gdrv_sys_exploit) — gdrv.sys Win11
+- [eddeeh/kdmapper](https://github.com/eddeeh/kdmapper) — iqvw64e.sys
+- [TheCruZ/kdmapper](https://github.com/TheCruZ/kdmapper) — iqvw64e.sys
+- [Brattlof/kdmapper-1909](https://github.com/Brattlof/kdmapper-1909) — iqvw64e.sys
+- [paysonism/saturn-mapper](https://github.com/paysonism/saturn-mapper) — iqvw64e.sys
+- [rmccrystal/kdmapper-rs](https://github.com/rmccrystal/kdmapper-rs) — A kdmapper library for Rust
+- [kkent030315/MsIoExploit](https://github.com/kkent030315/MsIoExploit) — MsIo64.sys
+- [gmh5225/VulnerableKernel_Driver](https://github.com/gmh5225/VulnerableKernel_Driver) — MsIo64.sys `mirror`
+- [kkent030315/evil-mhyprot-cli](https://github.com/kkent030315/evil-mhyprot-cli) — Mhyprot2.sys
+- [gmh5225/evil-mhyprot-cli](https://github.com/gmh5225/evil-mhyprot-cli) — Mhyprot2.sys `mirror`
+- [gmh5225/mhydeath](https://github.com/gmh5225/mhydeath) — Mhyprot2.sys `mirror`
+- [gmh5225/mhyprot2](https://github.com/gmh5225/mhyprot2) — Mhyprot2.sys `mirror`
+- [gmh5225/Mhyprot2DrvControl](https://github.com/gmh5225/Mhyprot2DrvControl) — Mhyprot2.sys `mirror`
+- [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603) — Mhyprot2.sys `mirror`
+- [gmh5225/AvastHV](https://github.com/gmh5225/AvastHV) — Avast `mirror`
+- [gmh5225/KasperskyHook](https://github.com/gmh5225/KasperskyHook) — Kaspersky `mirror`
+- [gmh5225/EvilKaspersky](https://github.com/gmh5225/EvilKaspersky) — Kaspersky `mirror`
+- [gmh5225/CVE-2021-21551](https://github.com/gmh5225/CVE-2021-21551) — dbutil_2_3.sys `mirror`
+- [gmh5225/Kernel-Cactus](https://github.com/gmh5225/Kernel-Cactus) — dbutil_2_3.sys `mirror`
+- [gmh5225/CVE-2021-21551-POC](https://github.com/gmh5225/CVE-2021-21551-POC) — dbutil_2_3.sys `mirror`
+- [gmh5225/TS-Fucker](https://github.com/gmh5225/TS-Fucker) — dbutil_2_3.sys `mirror`
+- [gmh5225/imxyviMapper](https://github.com/gmh5225/imxyviMapper) — AsUpIO.sys `mirror`
+- [gmh5225/vdk](https://github.com/gmh5225/vdk) — Speedfan.sys `mirror`
+- [gmh5225/SpeedFan-Exploit](https://github.com/gmh5225/SpeedFan-Exploit) — Speedfan.sys `mirror`
+- [gmh5225/CapcomLib](https://github.com/gmh5225/CapcomLib) — Capcom.sys `mirror`
+- [gmh5225/dolboeb-executor](https://github.com/gmh5225/dolboeb-executor) — Capcom.sys `mirror`
+- [gmh5225/CapcomDKOM](https://github.com/gmh5225/CapcomDKOM) — Capcom.sys `mirror`
+- [gmh5225/dbk64-vulnerability-driver](https://github.com/gmh5225/dbk64-vulnerability-driver) — dbk64.sys `mirror`
+- [gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291) — IQVW64.sys `mirror`
+- [gmh5225/AsIO-Exploit](https://github.com/gmh5225/AsIO-Exploit) — AsIO3.sys `mirror`
+- [gmh5225/AsusDrv](https://github.com/gmh5225/AsusDrv) — AsusBiosIoDrv64.sys `mirror`
+- [gmh5225/OpenHardwareMonitor-PoC](https://github.com/gmh5225/OpenHardwareMonitor-PoC) — OpenHardwareMonitorLib.sys `mirror`
+- [gmh5225/PPLKiller](https://github.com/gmh5225/PPLKiller) — RTCore64.sys `mirror`
+- [gmh5225/PsNotifRoutineUnloader](https://github.com/gmh5225/PsNotifRoutineUnloader) — RTCore64.sys `mirror`
+- [gmh5225/CYBERSEC2023-BYOVD-Demo](https://github.com/gmh5225/CYBERSEC2023-BYOVD-Demo) — RTCore64.sys `mirror`
+- [gmh5225/RTCore64_Vulnerability](https://github.com/gmh5225/RTCore64_Vulnerability) — RTCore64.sys `mirror`
+- [gmh5225/CVE-2022-42045](https://github.com/gmh5225/CVE-2022-42045) — amsdk.sys `mirror`
+- [gmh5225/WatchDogKiller](https://github.com/gmh5225/WatchDogKiller) — amsdk.sys `mirror`
+- [gmh5225/CVE-2022-3699](https://github.com/gmh5225/CVE-2022-3699) — LenovoDiagnosticsDriver.sys `mirror`
+- [gmh5225/lenovo_mapper](https://github.com/gmh5225/lenovo_mapper) — LenovoDiagnosticsDriver.sys `mirror`
+- [gmh5225/lenovo_exec](https://github.com/gmh5225/lenovo_exec) — LenovoDiagnosticsDriver.sys `mirror`
+- [gmh5225/CVE-2022-42046](https://github.com/gmh5225/CVE-2022-42046) — wfshbr64.sys `mirror`
+- [gmh5225/amd-ryzen-master-driver-v17-exploit](https://github.com/gmh5225/amd-ryzen-master-driver-v17-exploit) — AMD's Ryzen Master Driver `mirror`
+- [gmh5225/RToolZ](https://github.com/gmh5225/RToolZ) — ProcExp152.sys `mirror`
+- [gmh5225/nullmap](https://github.com/gmh5225/nullmap) — Afd.sys `mirror`
+- [gmh5225/Windows-10-22H2-Vulnerable-driver-communication](https://github.com/gmh5225/Windows-10-22H2-Vulnerable-driver-communication) — asromgdrv.sys `mirror`
+- [gmh5225/HPHardwareDiagnostics-PoC](https://github.com/gmh5225/HPHardwareDiagnostics-PoC) — etdsupp.sys `mirror`
+- [gmh5225/Blackout](https://github.com/gmh5225/Blackout) — gmer64.sys `mirror`
+- [gmh5225/Terminator](https://github.com/gmh5225/Terminator) — zam64.sys `mirror`
+- [gmh5225/zam64-zemina](https://github.com/gmh5225/zam64-zemina) — zam64.sys `mirror`
+- [EvilBytecode/EDR-XDR-AV-Killer](https://github.com/EvilBytecode/EDR-XDR-AV-Killer) — zam64.sys
+- [gmh5225/CVE-2017-9769](https://github.com/gmh5225/CVE-2017-9769) — rzpnk.sys `mirror`
+- [gmh5225/echoac-poc](https://github.com/gmh5225/echoac-poc) — echo_driver.sys `mirror`
+- [gmh5225/kur](https://github.com/gmh5225/kur) — echo_driver.sys `mirror`
+- [gmh5225/NVDrv](https://github.com/gmh5225/NVDrv) — nvaudio.sys `mirror`
+- [gmh5225/UCMapper](https://github.com/gmh5225/UCMapper) — nvaudio.sys `mirror`
+- [gmh5225/HITCON-2023-Demo-CVE-2023-20562](https://github.com/gmh5225/HITCON-2023-Demo-CVE-2023-20562) — AMDCpuProfiler.sys `mirror`
+- [gmh5225/BadRentdrv2](https://github.com/gmh5225/BadRentdrv2) — rentdrv2.sys `mirror`
+- [gmh5225/S4Mapper](https://github.com/gmh5225/S4Mapper) — SignalRgbDriver.sys `mirror`
+- [gmh5225/s4killer](https://github.com/gmh5225/s4killer) — probmon.sys `mirror`
+- [gmh5225/KExecDD](https://github.com/gmh5225/KExecDD) — KSecDD.sys `mirror`
+- [gmh5225/KexecDDPlus](https://github.com/gmh5225/KexecDDPlus) — KSecDD.sys `mirror`
+- [gmh5225/CVE-2024-26229](https://github.com/gmh5225/CVE-2024-26229) — csc.sys `mirror`
+- [gmh5225/ZeroHVCI](https://github.com/gmh5225/ZeroHVCI) — csc.sys `mirror`
+- [gmh5225/Win-Driver-EXP](https://github.com/gmh5225/Win-Driver-EXP/tree/main/CVE-2024-33218) — AsUpIO64.sys `mirror`
+- [gmh5225/Win-Driver-EXP](https://github.com/gmh5225/Win-Driver-EXP/tree/main/CVE-2024-30804) — AsInsHelp64.sys `mirror`
+- [gmh5225/CVE-2020-14974](https://github.com/gmh5225/CVE-2020-14974) — IObitUnlocker.sys `mirror`
+- [gmh5225/ProcessKiller-BYOVD](https://github.com/gmh5225/ProcessKiller-BYOVD) — viragt64.sys `mirror`
+- [CyberSecurityUP/UrekMazino-Malware](https://github.com/CyberSecurityUP/UrekMazino-Malware) — viragt64.sys
+- [gmh5225/BYOVD](https://github.com/gmh5225/BYOVD/tree/main/Viragt64-Killer) — viragt64.sys `mirror`
+- [CyberSecurityUP/ViGEmBus-Driver-Exploitation](https://github.com/CyberSecurityUP/ViGEmBus-Driver-Exploitation) — ViGEmBus.sys
+- [MrAle98/ATDCM64a-LPE](https://github.com/MrAle98/ATDCM64a-LPE) — [atdcm64a.sys](https://security.humanativaspa.it/exploiting-amd-atdcm64a.sys-arbitrary-pointer-dereference-part-1/)
+- [gmh5225/CVE-2024-35250](https://github.com/gmh5225/CVE-2024-35250) — ks.sys `mirror`
+- [gmh5225/CVE-2024-21338](https://github.com/gmh5225/CVE-2024-21338) — appid.sys `mirror`
+- [MrAle98/CVE-2024-49138-POC](https://github.com/MrAle98/CVE-2024-49138-POC) — CLFS.sys
+- [gmh5225/CVE-2025-21333-POC](https://github.com/gmh5225/CVE-2025-21333-POC) — vkrnlintvsp.sys `mirror`
+- [nu1lptr0/CVE-2025-21333](https://github.com/nu1lptr0/CVE-2025-21333) — LPE due to integer truncation in vskrnlintvsp.sys
+- [Xacone/Eneio64-Driver-Exploit](https://github.com/Xacone/Eneio64-Driver-Exploit) — eneio64.sys
+- [gmh5225/BYOVD](https://github.com/gmh5225/BYOVD/tree/main/TfSysMon-Killer) — SysMon.sys `mirror`
+- [gmh5225/BYOVD](https://github.com/gmh5225/BYOVD/tree/main/Ksapi64-Killer) — ksapi64.sys `mirror`
+- [gmh5225/BYOVD](https://github.com/gmh5225/BYOVD/tree/main/BdApiUtil-Killer) — BdApiUtil64.sys `mirror`
+- [0xJs/BYOVD_EDRKiller](https://github.com/0xJs/BYOVD_EDRKiller/tree/main/BdApiUtil) — BdApiUtil64.sys
+- [gmh5225/BYOVD](https://github.com/gmh5225/BYOVD/tree/main/Wsftprm-Killer) — wsftprm.sys `mirror`
+- [0xJs/BYOVD_EDRKiller](https://github.com/0xJs/BYOVD_EDRKiller/tree/main/Wsftprm) — wsftprm.sys
+- [xM0kht4r/AV-EDR-Killer](https://github.com/xM0kht4r/AV-EDR-Killer) — wsftprm.sys
+- [0xJs/BYOVD_EDRKiller](https://github.com/0xJs/BYOVD_EDRKiller/tree/main/truesight) — truesight.sys
+- [kyxiaxiang/360WFP_Exploit](https://github.com/kyxiaxiang/360WFP_Exploit) — BYOVD: Use 360netmon_x64.sys_wfp ​​WFP driver to block EDR/XDR network connection
+- [sai2fast/DsArk64](https://github.com/sai2fast/DsArk64) — BYOVD: DsArk64.sys (Qihoo 360) - WHQL-signed, process kill from ring 0 + kernel R/W
+- [https://blog.talosintelligence.com/decrement-by-one-to-rule-them-all](https://blog.talosintelligence.com/decrement-by-one-to-rule-them-all) — AsIO3.sys
+- [gmh5225/Killer-Exercice](https://github.com/gmh5225/Killer-Exercice) — An Exercice for Red Team to Reverse & Exploit, that's a valide BYOVD Killer, not HVCI Blocklisted, and not in LOLBIN `mirror`
+- [gmh5225/ampa.sys-exp](https://github.com/gmh5225/ampa.sys-exp) — ampa.sys `mirror`
+- [0xJs/BYOVD_read_write_primitive](https://github.com/0xJs/BYOVD_read_write_primitive) — BYOVD Read Write primitive
+- [U65535F/ThrottleStopPoC](https://github.com/U65535F/ThrottleStopPoC) — ThrottleStop.sys
+- [ANYLNK/NSecSoftBYOVD](https://github.com/ANYLNK/NSecSoftBYOVD) — NSecKrnl.sys
+- [moiz-2x/CVE-2025-24990_POC](https://github.com/moiz-2x/CVE-2025-24990_POC) — ltmdm64.sys
+- [symeonp/Lenovo-CVE-2025-8061](https://github.com/symeonp/Lenovo-CVE-2025-8061) — PoC for popping a system shell against the LnvMSRIO.sys driver
+- [gmh5225/Killer](https://github.com/gmh5225/Killer) — Non HVCI Block listed - Microsoft signed driver exploited to kill AV/EDR's processes `mirror`
+- [andreisss/KslDump](https://github.com/andreisss/KslDump) — PPL LSASS dump via Defender KslD.sys — legacy on-disk driver, IOCTL 0x222044 + MmCopyMemory read
+- [xM0kht4r/VEN0m-Ransomware](https://github.com/xM0kht4r/VEN0m-Ransomware) — IMFForceDelete.sys
+- [ZeroMemoryEx/CVE-2025-26125](https://github.com/ZeroMemoryEx/CVE-2025-26125) — IMFForceDelete.sys
+- [KeServiceDescriptorTable/cormem.sys-vulnerable-driver](https://github.com/KeServiceDescriptorTable/cormem.sys-vulnerable-driver) — cormem.sys
+- [Muz1K1zuM/PoisonKiller_bof](https://github.com/Muz1K1zuM/PoisonKiller_bof) — PoisonX.sys
+- [waryas/xign_poc_april_2026](https://github.com/waryas/xign_poc_april_2026) — xhunter64.sys

@@ -1,0 +1,103 @@
+# Cheat › RE Tools
+
+[← back to Cheat](index.md)
+
+- [https://dogbolt.org](https://dogbolt.org)
+- [msd0pe-1/cve-maker](https://github.com/msd0pe-1/cve-maker) — Tool to find CVEs and Exploits
+- [mentebinaria/retoolkit](https://github.com/mentebinaria/retoolkit) — Reverse Engineer's Toolkit
+- [stevemk14ebr/RETools](https://github.com/stevemk14ebr/RETools)
+- [smallworld-re/smallworld](https://github.com/smallworld-re/smallworld) — Environment for streamlined binary harnessing for dynamic analysis
+- [BataBo/ACEPatcher](https://github.com/BataBo/ACEPatcher) — .NET Patcher
+- [waryas/KACE](https://github.com/waryas/KACE) — Emulate Drivers in RING3 with self context mapping or unicorn
+- [Qfrost911/KACE](https://github.com/Qfrost911/KACE) — Emulate Drivers in RING3 with self context mapping or unicorn
+- [VollRagm/PTView](https://github.com/VollRagm/PTView) — Browse Page Tables on Windows
+- [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) — Apk
+- [user1342/Obfu-DE-Scate](https://github.com/user1342/Obfu-DE-Scate) — Apk
+- [AndnixSH/APKToolGUI](https://github.com/AndnixSH/APKToolGUI) — GUI for apktool, signapk, zipalign and baksmali utilities
+- [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) — Display and control your Android device
+- [guided-hacking/GH-Offset-Dumper](https://github.com/guided-hacking/GH-Offset-Dumper) — Scans for signatures and netvars and dumps their relative offsets
+- [guided-hacking/GH-Entity-List-Finder](https://github.com/guided-hacking/GH-Entity-List-Finder) — Scans game processes for most likely entity list addresses
+- [rednaga/APKiD](https://github.com/rednaga/APKiD) — PEiD for Android
+- [Col-E/Recaf](https://github.com/Col-E/Recaf) — Java
+- [tomvita/SE-tools](https://github.com/tomvita/SE-tools) — Nintendo Switch
+- [StudentBlake/XCI-Explorer](https://github.com/StudentBlake/XCI-Explorer) — XCI Explorer
+- [Anonym0ose/JitDumper](https://github.com/Anonym0ose/JitDumper) — A CIL method body dumper
+- [cfig/Android_boot_image_editor](https://github.com/cfig/Android_boot_image_editor) — A tool for reverse engineering Android ROM images
+- [hasherezade/pe-bear](https://github.com/hasherezade/pe-bear) — PE Viewer
+- [zodiacon/TotalPE2](https://github.com/zodiacon/TotalPE2) — PE Viewer
+- [APKLab/APKLab](https://github.com/APKLab/APKLab) — Android Reverse-Engineering Workbench for VS Code
+- [zboralski/unflutter](https://github.com/zboralski/unflutter) — Static analyzer for Flutter/Dart AOT snapshots
+- [evild3ad/MemProcFS-Analyzer](https://github.com/evild3ad/MemProcFS-Analyzer) — Windows Forensic Analysis
+- [eybisi/kavanoz](https://github.com/eybisi/kavanoz) — Statically unpacking common android banker malware
+- [cyberark/PipeViewer](https://github.com/cyberark/PipeViewer) — Shows detailed information about named pipes in Windows
+- [cursey/regenny](https://github.com/cursey/regenny) — Reconstruct structures and generate header files
+- [zodiacon/EtwExplorer](https://github.com/zodiacon/EtwExplorer) — View ETW Provider manifest
+- [jonny-jhnson/EtwWatcher](https://github.com/jonny-jhnson/EtwWatcher) — Browse and diff ETW provider snapshots across Windows builds; backed by ETWInspector
+- [VoidSec/ioctlpus](https://github.com/VoidSec/ioctlpus) — Be used to make DeviceIoControl requests with arbitrary inputs
+- [horsicq/Nauz-File-Detector](https://github.com/horsicq/Nauz-File-Detector) — Linker/Compiler/Tool detector
+- [gcarmix/HexWalk](https://github.com/gcarmix/HexWalk) — Hex Viewer/Editor/Analyzer
+- [RomanRybachek/ioctl_helper](https://github.com/RomanRybachek/ioctl_helper) — GUI tool for sending IOCTL to windows drivers
+- [0xDbgMan/DrvEye](https://github.com/0xDbgMan/DrvEye) — Static analysis and exploitation triage for Windows kernel drivers: discover IOCTLs, symbolic links, and certificate checks
+- [416rehman/DeepZero](https://github.com/416rehman/DeepZero) — Automated vulnerability research framework for Windows kernel drivers: parses/decompiles at scale and analyzes exploitable IOCTLs with AI agents
+- [Static-Analyzer-Factory/static-analyzer-factory](https://github.com/Static-Analyzer-Factory/static-analyzer-factory) — Rust-powered static analysis framework for C/C++ via LLVM IR graphs (pointer/value-flow/taint/IFDS) with Python SDK, CLI, and SARIF export
+- [sevaa/dwex](https://github.com/sevaa/dwex) — DWARF Explorer
+- [katahiromz/RisohEditor](https://github.com/katahiromz/RisohEditor) — Win32 resource editor
+- [Fadi002/de4py](https://github.com/Fadi002/de4py) — Toolkit for python reverse engineering
+- [skelsec/minidump](https://github.com/skelsec/minidump) — Python library to parse and read Microsoft minidump file format
+- [zodiacon/QuickAsm](https://github.com/zodiacon/QuickAsm) — x86/x86 assembler and emulator
+- [aqilc/chasm](https://github.com/aqilc/chasm) — Chasm Runtime Assembler
+- [skylot/jadx](https://github.com/skylot/jadx) — Dex to Java decompiler
+- [fatalSec/DaliVM](https://github.com/fatalSec/DaliVM) — Dalvik bytecode emulator for Android static analysis; string decryption; Multi-DEX; no Android runtime required
+- [narumii/Deobfuscator](https://github.com/narumii/Deobfuscator) — A deobfuscator for java
+- [google/android-classyshark](https://github.com/google/android-classyshark) — Android and Java bytecode viewer
+- [marin-m/vmlinux-to-elf](https://github.com/marin-m/vmlinux-to-elf) — vmlinux to elf
+- [emlinhax/DbgViewEx](https://github.com/emlinhax/DbgViewEx) — A tool to log ETW Events and system debug logs
+- [amosshi/binaryinternals](https://github.com/amosshi/binaryinternals) — View Internals of Binary File
+- [WerWolv/ImHex](https://github.com/WerWolv/ImHex) — A Hex Editor for Reverse Engineers
+- [microsoft/pdblister](https://github.com/microsoft/pdblister) — Faster version of `symchk /om` for generating PDB manifests
+- [yaxinsn/vermagic](https://github.com/yaxinsn/vermagic) — Change vermagic and CRCs of a Linux Kernel Module
+- [rhboot/pesign](https://github.com/rhboot/pesign) — Linux tools for signed PE-COFF binaries
+- [SV-Foster/UnSign](https://github.com/SV-Foster/UnSign) — Remove all digital signatures from PE/COFF executable
+- [colinsenner/PECleaner](https://github.com/colinsenner/PECleaner) — Strips all RICH header information from x86/x64 binaries
+- [kouzhudong/AntiHook](https://github.com/kouzhudong/AntiHook) — Enum and Remove Hook in Windows
+- [jixiaoyong/ApkSigner](https://github.com/jixiaoyong/ApkSigner) — Android Apk Sign Tool
+- [4d61726b/VirtualKD-Redux](https://github.com/4d61726b/VirtualKD-Redux) — A revival and modernization of VirtualKD
+- [ax/apk.sh](https://github.com/ax/apk.sh) — A Bash script that makes reverse engineering Android apps easier
+- [vm03/payload_dumper](https://github.com/vm03/payload_dumper) — Android OTA payload dumper
+- [ssut/payload-dumper-go](https://github.com/ssut/payload-dumper-go) — Android OTA payload dumper
+- [MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass](https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass) — Xiaomi HyperOS BootLoader Bypass
+- [null-luo/btrace](https://github.com/null-luo/btrace) — Android App Dynamic Behavior Tracking Tool using eBPF
+- [michaelmsonne/SignToolGUI](https://github.com/michaelmsonne/SignToolGUI) — signtool GUI
+- [https://disasm.pro/](https://disasm.pro/) — A realtime assembler/disassembler
+- [iofomo/abyss](https://github.com/iofomo/abyss) — Android system call hook
+- [uuksu/RPGMakerDecrypter](https://github.com/uuksu/RPGMakerDecrypter) — Tool for extracting RPG Maker XP, VX and VX Ace encrypted archives
+- [gmh5225/compiler-binary-richprint](https://github.com/gmh5225/compiler-binary-richprint) — Print compiler information stored in Rich Header of PE executable `mirror`
+- [mandiant/GoReSym](https://github.com/mandiant/GoReSym) — Go symbol recovery tool
+- [PartialVolume/shredos.x86_64](https://github.com/PartialVolume/shredos.x86_64) — Disk Eraser
+- [ssnob/hidden_syscall_monitoring](https://github.com/ssnob/hidden_syscall_monitoring) — monitors hidden syscalls called from call of duty anticheat
+- [xaitax/NTSleuth](https://github.com/xaitax/NTSleuth) — Comprehensive Windows syscall extraction and analysis framework
+- [cansarigol/pdbr](https://github.com/cansarigol/pdbr) — pdb + Rich library
+- [microsoft/pdb-rs](https://github.com/microsoft/pdb-rs) — Tools and documents for working with Microsoft PDB files, in Rust
+- [atrexus/vulkan](https://github.com/atrexus/vulkan) — A PE dumper for processes protected by user mode anti-tamper solutions (hyperion, theia, etc.)
+- [linuxboot/fiano](https://github.com/linuxboot/fiano) — Go-based tools for modifying UEFI firmware
+- [leeqwind/PESignAnalyzer](https://github.com/leeqwind/PESignAnalyzer) — A Simple PE File Signature information Extracting Tool
+- [microsoft/SDCM](https://github.com/microsoft/SDCM) — Surface Dev Center Manager tool to automate WHQL/Attestation submissions
+- [MxIris-Reverse-Engineering/RuntimeViewer](https://github.com/MxIris-Reverse-Engineering/RuntimeViewer) — Objective-C Runtime Viewer for macOS and iOS
+- [skylot/raung](https://github.com/skylot/raung) — Assembler/disassembler for java bytecode
+- [hx1997/dayu](https://github.com/hx1997/dayu) — Open/HarmonyOS abc file parser and decompiler
+- [jd-opensource/arkdecompiler](https://github.com/jd-opensource/arkdecompiler) — HarmonyOS NEXT decompilation tool
+- [loerting/dalvikus](https://github.com/loerting/dalvikus) — Android reverse-engineering tool / smali editor
+- [poppopjmp/VMDragonSlayer](https://github.com/poppopjmp/VMDragonSlayer) — Advanced Virtual Machine Detection and Analysis Framework
+- [Byrom90/XenonDumper](https://github.com/Byrom90/XenonDumper) — Dumps files & data required to use the Xenon Xbox 360 Low Level Emulator
+- [WenzWenzWenz/DelphiReSym](https://github.com/WenzWenzWenz/DelphiReSym) — A Delphi symbol name recovery tool for reverse engineers
+- [Hexorg/Ouroboros](https://github.com/Hexorg/Ouroboros) — A Symbolic-Execution Decompiler written in Rust
+- [pandaadir05/re-architect](https://github.com/pandaadir05/re-architect) — RE-Architect is an advanced automated reverse engineering platform that utilizes binary analysis techniques and machine learning to understand binary files and extract meaningful information
+- [gmh5225/js-debugger-bypass-script](https://github.com/gmh5225/js-debugger-bypass-script) — JS Debugger Bypass UserScript `mirror`
+- [diversenok/DiaSymbolView](https://github.com/diversenok/DiaSymbolView) — PDB file inspection tool
+- [CheckPointSW/Nodejs-Tracer](https://github.com/CheckPointSW/Nodejs-Tracer) — Simple Node.jstracer that logs calls to analyze heavily obfuscated Node.js malware
+- [jsacco/ntoskrnlwalker](https://github.com/jsacco/ntoskrnlwalker) — Resolve offsets, gadgets and symbols from NTKernel
+- [glmcdona/strings2](https://github.com/glmcdona/strings2) — strings2 - Extract strings from binary files and process memory
+- [nico/demumble](https://github.com/nico/demumble) — Itanium + MSVC symbol demangler; D/Rust/Swift; cross-platform replacement for c++filt / undname.exe
+- [amruth-sn/kong](https://github.com/amruth-sn/kong) — Kong - agentic reverse engineer, LLM-orchestrated binary RE via in-process Ghidra, call-graph analysis, agentic deobfuscation
+- [LaurieWired/Malimite](https://github.com/LaurieWired/Malimite) — iOS and macOS Decompiler
+- [0xbigshaq/apatchy](https://github.com/0xbigshaq/apatchy) — Fuzzing Framework for Apache HTTPD Server

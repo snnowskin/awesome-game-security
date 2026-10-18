@@ -1,0 +1,49 @@
+# Cheat › Game Engine Explorer:Unity
+
+[← back to Cheat](index.md)
+
+- [mono/mono](https://github.com/mono/mono) — mono
+- [dnSpy/dnSpy-Unity-mono](https://github.com/dnSpy/dnSpy-Unity-mono) — mono
+- [Misaka-Mikoto-Tech/MonoHook](https://github.com/Misaka-Mikoto-Tech/MonoHook) — mono hook
+- [dnSpy/Mono.Debugger.Soft](https://github.com/dnSpy/Mono.Debugger.Soft) — Mono Debugger
+- [gmh5225/unispectDMAPlugin](https://github.com/gmh5225/unispectDMAPlugin) — Mono Dump + DMA `mirror`
+- [Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper) — Il2Cpp Dump
+- [khang06/Il2CppDumper-YuanShen](https://github.com/khang06/Il2CppDumper-YuanShen) — Il2Cpp Dump for Genshin Impact
+- [Poko-Apps/Il2cppDumpDroidGUI](https://github.com/Poko-Apps/Il2cppDumpDroidGUI) — Il2Cpp Dump GUI
+- [shalzuth/Il2CppRuntimeDumper](https://github.com/shalzuth/Il2CppRuntimeDumper) — Il2Cpp Dump Runtime
+- [Perfare/Zygisk-Il2CppDumper](https://github.com/Perfare/Zygisk-Il2CppDumper) — Il2Cpp Dump for Android Platform
+- [kp7742/IL2CPPDumper](https://github.com/kp7742/IL2CPPDumper) — Il2Cpp Dump for Android Platform
+- [yukiarrr/Il2cppSpy](https://github.com/yukiarrr/Il2cppSpy) — Unity IL2CPP Disassembler (for apk)
+- [djkaty/Il2CppInspector](https://github.com/djkaty/Il2CppInspector) — Il2Cpp Dump
+- [oobbb/android-il2cpp-modspeed](https://github.com/oobbb/android-il2cpp-modspeed) — Il2Cpp hack speed
+- [gmh5225/qiling-il2cpp-dump](https://github.com/gmh5225/qiling-il2cpp-dump) — Il2Cpp Dump using qiling `mirror`
+- [sinai-dev/UnityExplorer](https://github.com/sinai-dev/UnityExplorer)
+- [4ch12dy/il2cpp](https://github.com/4ch12dy/il2cpp) — Il2Cpp Version
+- [nneonneo/Il2CppVersions](https://github.com/nneonneo/Il2CppVersions) — Il2Cpp Version
+- [sneakyevilSK/IL2CPP_Resolver](https://github.com/sneakyevilSK/IL2CPP_Resolver) — IL2CPP resolver
+- [extremeblackliu/IL2CPP_Resolver_External](https://github.com/extremeblackliu/IL2CPP_Resolver_External) — IL2CPP resolver
+- [knah/Il2CppAssemblyUnhollower](https://github.com/knah/Il2CppAssemblyUnhollower)
+- [reahly/mono-external-lib](https://github.com/reahly/mono-external-lib) — External Mono Example
+- [Compiled-Code/external-il2cpp](https://github.com/Compiled-Code/external-il2cpp) — Il2Cpp
+- [Octowolve/Il2CppSDKGenerator](https://github.com/Octowolve/Il2CppSDKGenerator) — Il2Cpp SDK generator for Android
+- [00christian00/UnityDecompiled](https://github.com/00christian00/UnityDecompiled) — An unofficial repo of decompiled Unity dll files
+- [CodeCracker-Tools/MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper) — Dump native and .NET assemblies
+- [SeriousCache/UABE](https://github.com/SeriousCache/UABE) — Extracting assets
+- [https://devxdevelopment.com/Unpacker](https://devxdevelopment.com/Unpacker) — Extracting assets
+- [AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper) — Extracting assets
+- [Perfare/AssetStudio](https://github.com/Perfare/AssetStudio) — Extracting assets
+- [Razviar/assetstudio](https://github.com/Razviar/assetstudio) — Extracting assets/2025 updated
+- [axhlzy/Il2CppHookScripts](https://github.com/axhlzy/Il2CppHookScripts) — Il2Cpp Hook Scripts
+- [gmh5225/Il2Cpp-HookScripts](https://github.com/gmh5225/Il2Cpp-HookScripts) — Il2Cpp/Mono Hook Scripts `mirror`
+- [A tool translate a apk file to common android project and support so hook include il2cpp c++ scaffolding](https://github.com/gmh5225/FakerAndroid) `mirror`
+- [xxzzddxzd/unitySpeedTools](https://github.com/xxzzddxzd/unitySpeedTools) — IOS Speed Tools
+- [gmh5225/il2cpp-finder](https://github.com/gmh5225/il2cpp-finder) — Il2Cpp Finder `mirror`
+- [BepInEx/BepInEx](https://github.com/BepInEx/BepInEx) — plugin/modding framework
+- [gmh5225/IL22CPP](https://github.com/gmh5225/IL22CPP) — ReMake of Il2cpp internal reflection system in C++ `mirror`
+- [sunnamed434/UnityVulnerableEntryPoint](https://github.com/sunnamed434/UnityVulnerableEntryPoint) — Looks for a vulnerable entry point
+- [gmh5225/MatScan](https://github.com/gmh5225/MatScan) — A multi-threaded rust material scanner `mirror`
+- [vfsfitvnm/frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) — Frida dump Il2Cpp
+- [issuimo/UnityResolve.hpp](https://github.com/issuimo/UnityResolve.hpp) — Unity cheat framwork
+- [ByNameModding/BNM-Android](https://github.com/ByNameModding/BNM-Android) — Modding il2cpp games
+- [SsageParuders/CheatUnityGames](https://github.com/SsageParuders/CheatUnityGames) — Unity cheat framwork
+- [sanqiuu/AndroidCheatTemplate](https://github.com/sanqiuu/AndroidCheatTemplate) — Unity cheat framwork

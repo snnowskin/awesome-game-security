@@ -1,0 +1,44 @@
+# Cheat › QEMU/KVM/PVE/VBOX
+
+[← back to Cheat](index.md)
+
+- [david942j/kvm-kernel-example](https://github.com/david942j/kvm-kernel-example) — Guide
+- [airbus-seclab/qemu_blog](https://github.com/airbus-seclab/qemu_blog) — Guide
+- [quickemu-project/quickemu](https://github.com/quickemu-project/quickemu) — Quickly create and run optimized QEMU VMs for Windows/macOS/Linux
+- [VirtualBox/virtualbox](https://github.com/VirtualBox/virtualbox) — VirtualBox Git mirror
+- [BigAnteater/KVM-GPU-Passthrough](https://github.com/BigAnteater/KVM-GPU-Passthrough) — GPU Passthrough
+- [dmaivel/ntoseye](https://github.com/dmaivel/ntoseye) — Kernel Debugger
+- [ispras/qemu](https://github.com/ispras/qemu/tree/windbg) — Windbg
+- [cyberus-technology/virtualbox-kvm](https://github.com/cyberus-technology/virtualbox-kvm) — VirtualBox with KVM Backend
+- [quic/gunyah-hypervisor](https://github.com/quic/gunyah-hypervisor) — Type-1 hypervisor for ARM64
+- [https://github.com/Qemu-Gang](https://github.com/Qemu-Gang)
+- [memflow/memflow-kvm](https://github.com/memflow/memflow-kvm)
+- [IntroVirt/IntroVirt](https://github.com/IntroVirt/IntroVirt) — Guest introspection library
+- [MisterY52/apex_dma_kvm_pub](https://github.com/MisterY52/apex_dma_kvm_pub)
+- [SamuelTulach/BetterTiming](https://github.com/SamuelTulach/BetterTiming) — Bypass CPU Timing
+- [WCharacter/RDTSC-KVM-Handler](https://github.com/WCharacter/RDTSC-KVM-Handler) — Bypass RDTSC
+- [batusan/Hardened-qemu](https://github.com/batusan/Hardened-qemu) — Hidden QEMU
+- [zhaodice/qemu-anti-detection](https://github.com/zhaodice/qemu-anti-detection) — Hidden QEMU
+- [https://wbenny.github.io/2025/06/29/i-made-my-vm-think-it-has-a-cpu-fan.html](https://wbenny.github.io/2025/06/29/i-made-my-vm-think-it-has-a-cpu-fan.html) — I made my VM think it has a CPU fan
+- [kila58/qemu-patched](https://github.com/kila58/qemu-patched) — Hidden QEMU
+- [Scrut1ny/Hypervisor-Phantom](https://github.com/Scrut1ny/Hypervisor-Phantom) — Hidden QEMU
+- [zhaodice/proxmox-ve-anti-detection](https://github.com/zhaodice/proxmox-ve-anti-detection) — Hidden PVE
+- [tteck/Proxmox](https://github.com/tteck/Proxmox) — PVE Helper Scripts
+- [nyx-fuzz/QEMU-Nyx](https://github.com/nyx-fuzz/QEMU-Nyx) — Intel-PT
+- [doomedraven/Tools](https://github.com/doomedraven/Tools/blob/master/Virtualization/kvm-qemu.sh) — QEMU Script
+- [GlacierW/MBA](https://github.com/GlacierW/MBA) — QEMU Malware Behavior Analyzer
+- [Qemu-Gang/Escape-from-TuxKov](https://github.com/Qemu-Gang/Escape-from-TuxKov) — EFT
+- [LWSS/Ape-ex-Abominations](https://github.com/LWSS/Ape-ex-Abominations) — Apex
+- [Qemu-Gang/QemuUnrealDumper-4.25](https://github.com/Qemu-Gang/QemuUnrealDumper-4.25) — UE SDK Dump By QEMU
+- [panda-re/panda](https://github.com/panda-re/panda) — Platform for Architecture-Neutral Dynamic Analysis
+- [cs1ime/blacksun-framework](https://github.com/cs1ime/blacksun-framework) — Framework for game cheat development
+- [cs1ime/ceserver-rawmem](https://github.com/cs1ime/ceserver-rawmem) — CE
+- [gmh5225/kvm-csgo-cheat](https://github.com/gmh5225/kvm-csgo-cheat) — CSGO `mirror`
+- [atombottle/cs2_kvm_dma](https://github.com/atombottle/cs2_kvm_dma) — CS2
+- [gmh5225/cs16-trigger-kvm](https://github.com/gmh5225/cs16-trigger-kvm) — CS1.6 `mirror`
+- [tenclass/mvisor](https://github.com/tenclass/mvisor) — C++ remake
+- [k3v1n1990s/docker-win](https://github.com/k3v1n1990s/docker-win) — wsl2
+- [SingularityCloud/KVM.Performance](https://github.com/SingularityCloud/KVM.Performance) — ioapic
+- [xqemu/xqemu](https://github.com/xqemu/xqemu) — Play original Xbox games
+- [alephsecurity/xnu-qemu-arm64](https://github.com/alephsecurity/xnu-qemu-arm64) — xnu
+- [ktock/qemu-wasm](https://github.com/ktock/qemu-wasm) — QEMU on browser

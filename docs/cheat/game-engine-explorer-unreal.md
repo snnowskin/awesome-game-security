@@ -1,0 +1,43 @@
+# Cheat › Game Engine Explorer:Unreal
+
+[← back to Cheat](index.md)
+
+- [https://github.com/UE4SS-RE](https://github.com/UE4SS-RE) — UE RE
+- [praydog/UEVR](https://github.com/praydog/UEVR) — Universal Unreal Engine VR Mod (4.8 - 5.4)
+- [gmh5225/shootergame-Hack](https://github.com/gmh5225/shootergame-Hack) — ShooterGame Demo `mirror`
+- [cqcallaw/shootergame](https://github.com/cqcallaw/shootergame) — ShooterGame Demo
+- [CorrM/CleanCheat](https://github.com/CorrM/CleanCheat) — Game cheat base
+- [trumank/patternsleuth](https://github.com/trumank/patternsleuth) — Unreal Engine address scanner and test suite
+- [trumank/jmap](https://github.com/trumank/jmap) — Unreal Engine reflection data format and extractor
+- [Encryqed/Dumper-7](https://github.com/Encryqed/Dumper-7) — SDK Dump for all of UE4 and UE5
+- [Spuckwaffel/UEDumper](https://github.com/Spuckwaffel/UEDumper) — SDK Dump for UE 4.19 - 5.2
+- [BadBrojo/UEDumper-MemProcFS](https://github.com/BadBrojo/UEDumper-MemProcFS) — UEDumper+MemProcFS 4.19 - 5.2
+- [BobHUnrealTech/UnrealSDKDumper-4.25](https://github.com/BobHUnrealTech/UnrealSDKDumper-4.25) — SDK Dump for UE 4.23 - 4.27
+- [Shhoya/Shh0yaUEDumper](https://github.com/Shhoya/Shh0yaUEDumper) — SDK Dump
+- [guttir14/UnrealDumper-4.25](https://github.com/guttir14/UnrealDumper-4.25) — SDK Dump
+- [EZFNDEV/UEDumper](https://github.com/EZFNDEV/UEDumper) — SDK Dump
+- [MJx0/AndUE4Dumper](https://github.com/MJx0/AndUE4Dumper) — SDK Dump For Android
+- [kp7742/UE4Dumper](https://github.com/kp7742/UE4Dumper) — SDK Dump For Android
+- [gmh5225/UE4-Apk-Dumper](https://github.com/gmh5225/UE4-Apk-Dumper) — SDK Dump For Android `mirror`
+- [gmh5225/UE4Dumper_Emulator](https://github.com/gmh5225/UE4Dumper_Emulator) — SDK Dump For Android `mirror`
+- [BigWhite666/BigWhiteTool](https://github.com/BigWhite666/BigWhiteTool) — SDK Dump For Android
+- [MJx0/iOS_UE4Dumper](https://github.com/MJx0/iOS_UE4Dumper) — SDK Dump For IOS
+- [yring-me/ts-ue4dumper](https://github.com/yring-me/ts-ue4dumper) — TypeScript and Frida UE4dumper
+- [CorrM/Unreal-Finder-Tool](https://github.com/CorrM/Unreal-Finder-Tool) — SDK View
+- [spudgy/UnrealEngine4-SwissKnife](https://github.com/spudgy/UnrealEngine4-SwissKnife) — SDK View
+- [shalzuth/UnrealSharp](https://github.com/shalzuth/UnrealSharp) — SDK View
+- [https://fearlessrevolution.com/viewtopic.php?f=23&t=14414](https://fearlessrevolution.com/viewtopic.php?f=23&t=14414) — UE4 CE Table
+- [cursey/ue4genny](https://github.com/cursey/ue4genny) — SDK Generator
+- [Zebratic/UE4Injector](https://github.com/Zebratic/UE4Injector) — Inject
+- [N-T33/UE4-Silent-Aim](https://github.com/N-T33/UE4-Silent-Aim) — Aimbot
+- [YMY1666527646/ue4_base](https://github.com/YMY1666527646/ue4_base) — SDK Template
+- [percpopper/UE4-Freecam](https://github.com/percpopper/UE4-Freecam) — FOV Changer
+- [RussellJerome/UnrealModLoader](https://github.com/RussellJerome/UnrealModLoader) — Mod Loader
+- [Intercept ProcessEvent calls on any game object (Unreal Engine 4)](https://github.com/Skengdo/ue4-processevent-intercept)
+- [UE4 Cheat Source Code](https://github.com/1hAck-0/UE4-Cheat-Source-Code)
+- [gmh5225/ue4_cheat_engine](https://github.com/gmh5225/ue4_cheat_engine) — UE4 Cheat For Android `mirror`
+- [unpack, pack, list, check and mount Unreal Engine 4 .pak archives](https://github.com/panzi/rust-u4pak)
+- [gmh5225/UE-UnrealEngineSDK](https://github.com/gmh5225/UE-UnrealEngineSDK) — Universal Cheat development kit `mirror`
+- [UE-Explorer/UE-Explorer](https://github.com/UE-Explorer/UE-Explorer) — Browser and decompiler for UE packages
+- [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) — Re-Host of Unreal Engine 4/5 Scripting System
+- [gmh5225/Unreal-Engine-5-PDB](https://github.com/gmh5225/Unreal-Engine-5-PDB) — UE5 PDB `mirror`
