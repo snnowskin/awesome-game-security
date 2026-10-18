@@ -8,9 +8,11 @@ Output: data/entries.jsonl   one record per unique entry
 
 Why this script exists
 ----------------------
-Upstream declares no scripts/ directory, yet all four of its GitHub Actions
-invoke scripts/*.py, so every workflow is dead on arrival. This file is new
-code, written against the README's actual bytes rather than an assumed format.
+Upstream commits a scripts/ directory that contains only an empty __pycache__,
+yet all four of its GitHub Actions invoke scripts/archive-repos.py,
+scripts/check-and-fix-links.py and scripts/generate-descriptions.py, so every
+workflow is dead on arrival. This file is new code, written against the
+README's actual bytes rather than an assumed format.
 
 The README mixes three entry shapes, so a single regex is not enough:
 
