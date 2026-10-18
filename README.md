@@ -19,9 +19,9 @@ A machine-readable index derived from [gmh5225/awesome-game-security](https://gi
 | Metric | Value |
 |---|---|
 | Unique URL entries | 3434 |
-| Sections | 35 with entries |
-| Subsections | 293 |
-| Mirror entries (`gmh5225/*`) | 726 (21.1%) |
+| Sections | 35 |
+| Subsections | 267 |
+| Mirror entries (`gmh5225/*`, after dedupe) | 726 (21.1%) |
 | Duplicate entries removed | 249 |
 | Malformed lines left upstream | 5 |
 

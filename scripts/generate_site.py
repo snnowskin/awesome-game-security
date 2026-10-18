@@ -353,11 +353,15 @@ def build_readme(root: Path, entries, sections, grp, report_text: str):
     lines.append("| Metric | Value |")
     lines.append("|---|---|")
     lines.append(f"| Unique URL entries | {len(live)} |")
-    lines.append(f"| Sections | {sum(1 for s in sections['sections'] if grp.get(s['name']))} with entries |")
     lines.append(
-        f"| Subsections | {sum(len(grp.get(s['name'], {})) for s in sections['sections'])} |"
+        f"| Sections | {sum(1 for s in sections['sections'] if grp.get(s['name']))} |"
     )
-    lines.append(f"| Mirror entries (`gmh5225/*`) | {mirrors} ({100.0 * mirrors / max(len(live), 1):.1f}%) |")
+    lines.append(
+        f"| Subsections | {sum(len([k for k in grp.get(s['name'], {}) if k]) for s in sections['sections'])} |"
+    )
+    lines.append(
+        f"| Mirror entries (`gmh5225/*`, after dedupe) | {mirrors} ({100.0 * mirrors / max(len(live), 1):.1f}%) |"
+    )
     lines.append(f"| Duplicate entries removed | {dup} |")
     lines.append(f"| Malformed lines left upstream | {malformed} |")
     lines.append("")
